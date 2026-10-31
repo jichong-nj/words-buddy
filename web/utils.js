@@ -22,6 +22,43 @@ export const POS_OPTIONS = [
   'art.', 'det.', 'phr.',
 ];
 
+// 练习模式（practice_session.mode）
+export const MODE_LABELS = {
+  definition_fill: '释义填空',
+  form_fill: '变形填空',
+  reading: '阅读理解',
+  shadowing: '跟读练习',
+};
+
+export const MODE_TAGS = {
+  definition_fill: 'primary',
+  form_fill: 'warning',
+  reading: 'success',
+  shadowing: 'info',
+};
+
+export function modeLabel(m) {
+  return MODE_LABELS[m] || '释义填空';
+}
+
+export function modeTag(m) {
+  return MODE_TAGS[m] || 'primary';
+}
+
+// 跟读评分失败原因（后端 shadow_reason）→ 中文提示
+const SHADOW_FAIL_TEXT = {
+  no_speech: '没听到声音',
+  too_short: '录音太短',
+  decode_failed: '录音格式不支持',
+  ref_failed: '参考音频生成失败',
+  upload_failed: '上传失败',
+  failed: '评分失败',
+};
+
+export function shadowFailText(r) {
+  return SHADOW_FAIL_TEXT[r] || r || '未打分';
+}
+
 // 导入列映射的字段清单（对应 wordbank-requirements §3.1）
 export const IMPORT_FIELDS = [
   { key: 'word', label: '单词（必填）' },

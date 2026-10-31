@@ -10,6 +10,7 @@
         <el-menu-item index="/practice">释义填空</el-menu-item>
         <el-menu-item index="/transform">变形填空</el-menu-item>
         <el-menu-item index="/reading">阅读理解</el-menu-item>
+        <el-menu-item index="/shadow">跟读练习</el-menu-item>
         <el-menu-item v-if="auth.isAdmin" index="/transform/bank">变形题库</el-menu-item>
         <el-menu-item v-if="auth.isAdmin" index="/reading/bank">阅读理解题库</el-menu-item>
         <el-menu-item index="/records">练习记录</el-menu-item>
@@ -80,7 +81,7 @@ const router = useRouter();
 
 const activeMenu = computed(() => {
   const p = route.path;
-  for (const m of ['/banks', '/batches', '/practice', '/transform/bank', '/transform', '/reading/bank', '/reading', '/mistakes', '/records', '/stats', '/users']) {
+  for (const m of ['/banks', '/batches', '/practice', '/transform/bank', '/transform', '/reading/bank', '/reading', '/shadow', '/mistakes', '/records', '/stats', '/users']) {
     if (p === m || p.startsWith(m + '/')) return m;
   }
   return p;

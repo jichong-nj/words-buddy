@@ -21,6 +21,7 @@
       <div class="stat-card"><div class="num" style="color:#67c23a">{{ fmtPct(ov.accuracy) }}</div><div class="label">总正确率</div></div>
       <div class="stat-card"><div class="num">{{ ov.todayAnswered }}<span class="sub">/ {{ fmtPct(ov.todayAccuracy) }}</span></div><div class="label">今日答题 / 正确率</div></div>
       <div class="stat-card"><div class="num">{{ fmtSec(ov.studyMs) }}</div><div class="label">学习时长</div></div>
+      <div class="stat-card"><div class="num">{{ ov.shadowSessions }}<span class="sub" v-if="ov.shadowSessions">/ {{ ov.shadowAvgScore }} 分</span></div><div class="label">跟读场次 / 平均分</div></div>
       <div class="stat-card"><div class="num">{{ ov.activeDays }}</div><div class="label">活跃天数</div></div>
     </div>
 
@@ -59,9 +60,11 @@
           <template #default="{ row }">{{ row.bankName || modeLabel(row.mode) }}</template>
         </el-table-column>
         <el-table-column prop="total" label="题数" width="80" />
-        <el-table-column label="正确率" width="100">
+        <el-table-column label="得分" width="100">
           <template #default="{ row }">
-            <span :style="{ color: accColor(row.score) }">{{ fmtPct(row.score) }}</span>
+            <span :style="{ color: accColor(row.score) }">
+              {{ row.mode === 'shadowing' ? `${row.score} 分` : fmtPct(row.score) }}
+            </span>
           </template>
         </el-table-column>
         <el-table-column prop="startedAt" label="时间" width="170" />
@@ -185,7 +188,7 @@ import { ref, computed, onMounted } from 'vue';
 import { ElMessage } from 'element-plus';
 import { api } from '../api.js';
 import { useAuth } from '../store.js';
-import { BAND_LABELS, BAND_COLORS, fmtPct, fmtSec, qs } from '../utils.js';
+import { BAND_LABELS, BAND_COLORS, fmtPct, fmtSec, qs, modeLabel, modeTag } from '../utils.js';
 
 const auth = useAuth();
 const loading = ref(false);
@@ -237,13 +240,6 @@ function accWidth(acc) {
   const a = acc > 0 && acc < 1 ? acc * 100 : acc;
   return Math.max(0, Math.min(100, a));
 }
-function modeLabel(m) {
-  return m === 'form_fill' ? '变形填空' : m === 'reading' ? '阅读理解' : '释义填空';
-}
-function modeTag(m) {
-  return m === 'form_fill' ? 'warning' : m === 'reading' ? 'success' : 'primary';
-}
-
 const bankQs = () => qs({ bank: bankFilter.value });
 
 async function loadOverview() {

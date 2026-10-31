@@ -3,10 +3,16 @@ import { notFound } from '../lib/errors.js';
 import { BANDS } from './mastery.js';
 
 export function overview(db, userId) {
+  // 跟读练习没有对错：计入练习次数与时长，但不计入题数与正确率
   const sess = db.prepare(`
-    SELECT COUNT(*) AS sessions, COALESCE(SUM(total),0) AS items,
-           COALESCE(SUM(correct),0) AS correct, COALESCE(SUM(duration_ms),0) AS ms
+    SELECT COUNT(*) AS sessions, COALESCE(SUM(duration_ms),0) AS ms
     FROM practice_session WHERE user_id=? AND status='finished'`).get(userId);
+  const scored = db.prepare(`
+    SELECT COALESCE(SUM(total),0) AS items, COALESCE(SUM(correct),0) AS correct
+    FROM practice_session WHERE user_id=? AND status='finished' AND mode<>'shadowing'`).get(userId);
+  const shadow = db.prepare(`
+    SELECT COUNT(*) AS sessions, COALESCE(AVG(score),0) AS avg
+    FROM practice_session WHERE user_id=? AND status='finished' AND mode='shadowing'`).get(userId);
   const today = db.prepare(`
     SELECT COUNT(*) AS answered, COALESCE(SUM(pi.is_correct),0) AS correct
     FROM practice_item pi JOIN practice_session ps ON ps.id=pi.session_id
@@ -25,9 +31,11 @@ export function overview(db, userId) {
 
   return {
     sessions: sess.sessions,
-    itemsAnswered: sess.items,
-    accuracy: sess.items ? Math.round((sess.correct / sess.items) * 100) : 0,
+    itemsAnswered: scored.items,
+    accuracy: scored.items ? Math.round((scored.correct / scored.items) * 100) : 0,
     studyMs: sess.ms,
+    shadowSessions: shadow.sessions,
+    shadowAvgScore: shadow.sessions ? Math.round(shadow.avg) : 0,
     todayAnswered: today.answered,
     todayAccuracy: today.answered ? Math.round((today.correct / today.answered) * 100) : 0,
     wordsPracticed: learned,

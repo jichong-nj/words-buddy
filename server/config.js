@@ -17,6 +17,8 @@ export const config = {
   get dbFile() { return process.env.DB_FILE || path.join(this.dataDir, 'words.db'); },
   get uploadDir() { return path.join(this.dataDir, 'uploads'); },
   get backupDir() { return path.join(this.dataDir, 'backups'); },
+  // 跟读练习：TTS 合成的参考音频 + 学生录音
+  get audioDir() { return path.join(this.dataDir, 'audio'); },
   webDist: path.join(ROOT, 'dist', 'web'),
 
   seedDemo: process.env.SEED_DEMO !== '0',
@@ -41,10 +43,20 @@ export const config = {
     maxLen: num(process.env.PRAC_MAX_LEN, 12),  // 上限，environment 太难
     maxPerSession: 200,
   },
+  shadow: {
+    // 学生录音上限：跟读一句通常 3–8 秒，opus 约 20–40KB/s
+    maxAudioBytes: num(process.env.SHADOW_MAX_BYTES, 5 * 1024 * 1024),
+    // 例句长度过滤（词数），太长的句子不适合跟读
+    minWords: num(process.env.SHADOW_MIN_WORDS, 4),
+    maxWords: num(process.env.SHADOW_MAX_WORDS, 18),
+    maxPerSession: num(process.env.SHADOW_MAX_PER_SESSION, 50),
+    keepAudioDays: num(process.env.SHADOW_KEEP_DAYS, 30),  // 学生录音保留天数
+  },
 };
 
 export function ensureDirs() {
-  for (const d of [config.dataDir, config.uploadDir, config.backupDir]) {
+  for (const d of [config.dataDir, config.uploadDir, config.backupDir,
+                   path.join(config.audioDir, 'shadow'), path.join(config.audioDir, 'student')]) {
     fs.mkdirSync(d, { recursive: true });
   }
 }

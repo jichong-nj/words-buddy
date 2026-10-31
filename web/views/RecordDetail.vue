@@ -4,10 +4,14 @@
       <div>
         <h2 class="page-title">练习记录 #{{ id }}</h2>
         <div class="meta" v-if="session">
-          {{ session.bankName || (session.mode === 'form_fill' ? '变形题库' : session.mode === 'reading' ? '阅读理解题库' : '') }}
+          {{ session.bankName || (session.mode === 'form_fill' ? '变形题库'
+            : session.mode === 'reading' ? '阅读理解题库'
+            : session.mode === 'shadowing' ? '跟读题库' : '') }}
           <template v-if="session.mode === 'form_fill'">[变形填空] </template>
           <template v-else-if="session.mode === 'reading'">[阅读理解] </template>
-          · 得分 <b>{{ session.score }}</b>（{{ session.correct }}/{{ session.total }}）
+          <template v-else-if="session.mode === 'shadowing'">[跟读练习] </template>
+          <template v-if="session.mode === 'shadowing'">· 平均分 <b>{{ session.score }}</b>（已录音 {{ session.correct }}/{{ session.total }} 句）</template>
+          <template v-else>· 得分 <b>{{ session.score }}</b>（{{ session.correct }}/{{ session.total }}）</template>
           · {{ session.startedAt }}
           <template v-if="session.durationMs"> · 用时 {{ fmtSec(session.durationMs) }}</template>
           · {{ session.status === 'finished' ? '已完成' : '进行中' }}
@@ -80,6 +84,43 @@
           </template>
         </el-table-column>
       </el-table>
+      <el-table v-else-if="session && session.mode === 'shadowing'" :data="items" :row-class-name="rowClass"
+                empty-text="本次练习没有录音">
+        <el-table-column prop="seq" label="#" width="55" />
+        <el-table-column prop="sentence" label="原句" min-width="260" show-overflow-tooltip />
+        <el-table-column label="中文意思" min-width="170" show-overflow-tooltip>
+          <template #default="{ row }">{{ row.sentenceCn || '—' }}</template>
+        </el-table-column>
+        <el-table-column label="得分" width="110">
+          <template #default="{ row }">
+            <template v-if="row.score !== null && row.score !== undefined">
+              <b :class="scoreClass(row.score)">{{ row.score }}</b>
+              <el-tag v-if="row.offTarget" type="warning" size="small" class="ml6">跑题</el-tag>
+            </template>
+            <el-tag v-else type="info" size="small">{{ shadowFailText(row.reason) }}</el-tag>
+          </template>
+        </el-table-column>
+        <el-table-column label="分项" min-width="240">
+          <template #default="{ row }">
+            <span v-if="row.score !== null && row.score !== undefined" class="subs">
+              音准 {{ row.pitch }} · 节奏 {{ row.rhythm }} · 流利 {{ row.fluency }} · 完整 {{ row.completeness }}
+            </span>
+            <span v-else>—</span>
+          </template>
+        </el-table-column>
+        <el-table-column label="时长" width="160">
+          <template #default="{ row }">
+            <span v-if="row.refMs" class="subs">原句 {{ fmtSec(row.refMs) }} / 我 {{ fmtSec(row.stuMs) }}</span>
+            <span v-else>—</span>
+          </template>
+        </el-table-column>
+        <el-table-column label="回听" width="250">
+          <template #default="{ row }">
+            <audio v-if="row.audioPath" :src="audioUrl(row.seq)" controls preload="none" class="player" />
+            <span v-else>—</span>
+          </template>
+        </el-table-column>
+      </el-table>
       <el-table v-else :data="items" :row-class-name="rowClass" empty-text="本次练习没有作答记录">
         <el-table-column prop="seq" label="#" width="55" />
         <el-table-column prop="stem" label="题干" min-width="220" show-overflow-tooltip />
@@ -121,7 +162,7 @@
 import { ref, computed, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { api } from '../api.js';
-import { fmtSec } from '../utils.js';
+import { fmtSec, shadowFailText } from '../utils.js';
 
 const route = useRoute();
 const id = route.params.id;
@@ -157,7 +198,17 @@ function correctText(row) {
   return l ? `${l}. ${row.answerText}` : row.answerText;
 }
 
+function scoreClass(v) {
+  return v >= 85 ? 'ok' : v >= 70 ? 'warn' : 'bad';
+}
+
+// 跟读录音回听（走鉴权接口，浏览器自带 cookie）
+function audioUrl(seq) {
+  return `/api/shadow/sessions/${id}/audio/${seq}`;
+}
+
 function rowClass({ row }) {
+  if (session.value?.mode === 'shadowing') return row.score === null ? 'row-bad' : '';
   return row.isCorrect ? '' : 'row-bad';
 }
 
@@ -177,7 +228,11 @@ onMounted(load);
 
 <style scoped>
 .ok { color: #67c23a; font-weight: 600; }
+.warn { color: #e6a23c; font-weight: 600; }
 .bad { color: #f56c6c; font-weight: 600; }
+.subs { font-size: 12px; color: #909399; }
+.ml6 { margin-left: 6px; }
+.player { height: 30px; width: 230px; vertical-align: middle; }
 :deep(.row-bad) { background: #fef0f0; }
 .p-group { margin-bottom: 22px; }
 .p-group:last-child { margin-bottom: 0; }

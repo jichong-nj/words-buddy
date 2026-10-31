@@ -6,6 +6,7 @@ import { config, ensureDirs } from './config.js';
 import { hashPassword } from './lib/password.js';
 import { cleanupSessions } from './lib/session.js';
 import { seedDemoData, seedDemoUsers, seedFormData, seedReadingData } from '../scripts/seed-demo.js';
+import { pruneShadowAudio } from './services/shadowpractice.js';
 
 async function main() {
   ensureDirs();
@@ -42,6 +43,10 @@ async function main() {
   }
 
   cleanupSessions(app.db);
+  try {
+    const pruned = pruneShadowAudio(app.db);
+    if (pruned.files) app.log.info(pruned, `已清理 ${pruned.files} 个过期跟读录音`);
+  } catch (e) { app.log.warn({ err: e }, '清理跟读录音失败'); }
 
   await app.listen({ host: config.host, port: config.port });
   const lanIps = Object.values(os.networkInterfaces())

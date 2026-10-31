@@ -79,7 +79,7 @@ test('接口全流程：初始化 → 导入 → 练习 → 统计 → 权限', 
   let res = await call('GET', '/api/health');
   assert.equal(res.statusCode, 200);
   assert.equal(json(res).ok, true);
-  assert.equal(json(res).schema, '4');
+  assert.equal(json(res).schema, '5');
 
   res = await call('GET', '/api/auth/status');
   assert.equal(json(res).needsSetup, true);
@@ -321,7 +321,7 @@ test('数据库迁移可重复执行且版本正确', () => {
     const second = migrate(db);
     assert.equal(second.length, 0, '第二次迁移不应重复执行');
     const ver = db.prepare(`SELECT value FROM app_meta WHERE key='schema_version'`).get().value;
-    assert.equal(ver, '4');
+    assert.equal(ver, '5');
     db.close();
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });

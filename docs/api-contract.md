@@ -185,7 +185,36 @@
 `GET /api/practice/sessions/:id` 在 `mode==='reading'` 时 `items` 为：
 `{seq,stem,options[],chosenIndex,isCorrect,answerText,answerIndex,explain,passageTitle,passageText,latencyMs,answeredAt,questionId}`
 
-## 9 错题集
+## 9 跟读练习（shadowing）
+
+从单词例句中抽句：学生先听标准发音，再录音跟读，服务端用 ffmpeg 解码后比对音高 / 节奏 / 流利度 / 完整度打分 0–100。
+会话写入 `practice_session(mode='shadowing', bank_id=可选)`，每题一行 `practice_item`。
+跟读**没有对错**：`is_correct` 恒为 NULL，不进错题集、不进正确率统计；会话 `score` = 各题平均分，`correct` = 已录音题数。
+
+浏览器优先用 `speechSynthesis` 播原句；服务端 `espeak-ng` 合成的 WAV 只作评分基准（确定性合成，分析结果缓存进 `shadow_audio`），不下发给学生。
+
+| 方法 | 路径 | 说明 |
+|---|---|---|
+| GET | `/api/shadow/pools` | `{mode,total,maxPerSession,voice,wpm,wordRange:[min,max],byLevel:[{level,count}]}` |
+| POST | `/api/shadow/sessions` | `{count=10,levels?[],bankId?,excludeRecentDays?}` → `{sessionId,mode:"shadowing",total,questions:[{seq,sentence,word,pos,defCn,sentenceCn,phoneticUk,level}]}` |
+| POST | `/api/shadow/sessions/:id/attempt` | multipart：`file`=录音(webm/ogg/wav)、`seq`=题号。成功 `{ok:true,seq,total,pitch,rhythm,fluency,completeness,offTarget,durationRatio,refDurMs,stuDurMs,curves,sentence,sentenceCn}`；失败 `{ok:false,reason,seq}` |
+| POST | `/api/shadow/sessions/:id/finish` | `{}` → `{sessionId,total,correct(已录音题数),score(平均分),durationMs}` |
+| GET | `/api/shadow/sessions/:id/audio/:seq` | 回听本人录音（admin 可听全部），按扩展名回 `audio/wav\|ogg\|webm`；无录音 / 已清理 404 |
+| GET | `/api/shadow/ref?text=` | 服务端合成的参考音 `audio/wav`，浏览器没有英文语音时的兜底 |
+
+失败 `reason`：`decode_failed`（解码失败）、`no_speech`（没听到声音）、`too_short`、`ref_failed`（参考音合成失败）、
+`upload_failed`、`failed`；请求层面的 `no_audio` / `audio_too_large` / `no_seq` 直接 400。
+失败同样落盘录音并写 `shadow_reason`，学生可重录覆盖（同题重复提交 409 只针对已打分题）。
+
+`curves` 是逐帧序列 `{pitch[],env[],refPitch[],refEnv[]}`，前端据此画音高 / 能量对比曲线。
+
+### 9.1 记录
+
+`GET /api/practice/sessions/:id` 在 `mode==='shadowing'` 时 `items` 为：
+`{seq,sentence,target,word,sentenceCn,score,pitch,rhythm,fluency,completeness,offTarget,reason,refMs,stuMs,audioPath,answeredAt}`，
+未打分题 `score=null` 且带 `reason`。学生录音保留 `shadow.keepAudioDays` 天，过期由 `pruneShadowAudio` 清理并置空 `audioPath`。
+
+## 10 错题集
 
 答错自动入集；答对只累加 `right_count`（不会把没错过的题加进来）；人工可移出/恢复。
 
@@ -203,11 +232,11 @@
 - form：`{prompt,base,answer,point,explain,sentenceCn,wordCn}`
 - reading：`{passageTitle,passageText,stem,options,answerIndex,answerText,explain}`
 
-## 10 统计与掌握度
+## 11 统计与掌握度
 
 | 方法 | 路径 | 角色 | 说明 |
 |---|---|---|---|
-| GET | `/api/stats/overview` | 全部 | `{sessions,itemsAnswered,accuracy,studyMs,todayAnswered,todayAccuracy,wordsPracticed,totalWords,coverage,activeDays,byBand:{new,weak,fuzzy,known,mastered}}` |
+| GET | `/api/stats/overview` | 全部 | `{sessions,itemsAnswered,accuracy,studyMs,shadowSessions,shadowAvgScore,todayAnswered,todayAccuracy,wordsPracticed,totalWords,coverage,activeDays,byBand:{new,weak,fuzzy,known,mastered}}`；跟读只计场次与时长，`itemsAnswered`/`accuracy` 不含跟读 |
 | GET | `/api/stats/mastery?bank=&band=&q=&page=&size=` | 全部 | 分页单词列表 `{total,page,size,items:[{wordId,word,topic,defCn,defEn,attempts,correct,score,band,streak,lastAt}]}`（不是档位计数，档位计数在 overview.byBand） |
 | GET | `/api/stats/weak-words?bank=&limit=20` | 全部 | `{items:[同上字段]}`，只含 `weak`/`fuzzy` |
 | GET | `/api/stats/topic?bank=` | 全部 | `{items:[{topic,words,practiced,avgScore}]}` |
@@ -216,15 +245,16 @@
 | POST | `/api/stats/recompute` | admin | 全量重算掌握度 → `{updated}` |
 | GET | `/api/stats/by-type` | 全部 | 分题型统计 `{items:[{type,label,sessions,items,correct,accuracy,lastAt,mistakes}],total:{items,correct,accuracy,mistakes}}`；type 为 definition_fill / form_fill / reading |
 
-`GET /api/practice/sessions` 支持 `?mode=`（definition_fill / form_fill / reading）过滤，返回项含 `mode`。
+`GET /api/practice/sessions` 支持 `?mode=`（definition_fill / form_fill / reading / shadowing）过滤，返回项含 `mode`。
+跟读场次在列表里 `correct` 表示已录音题数、`score` 表示平均分。
 
 查询参数统一叫 `bank`（词库 id），不是 `bankId`。
 掌握度档位：`new`(未接触) < `weak` < `fuzzy` < `known` < `mastered`；分值 0–100，指数加权。
 
-## 11 前端路由
+## 12 前端路由
 
 `/login` `/setup` `/banks` `/banks/:id` `/banks/:id/import` `/batches`
-`/practice` `/transform` `/reading` `/records` `/records/:id` `/stats` `/mistakes` `/users`
+`/practice` `/transform` `/reading` `/shadow` `/records` `/records/:id` `/stats` `/mistakes` `/users`
 `/transform/bank` `/reading/bank`（仅管理员：变形题库 / 阅读理解题库维护）
 
 未登录只能进 `/login` `/setup`。侧边栏按角色裁剪。

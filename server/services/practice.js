@@ -4,6 +4,7 @@ import { badRequest, notFound, forbidden, conflict } from '../lib/errors.js';
 import { applyMastery, masterySummary } from './mastery.js';
 import { recordAttempt } from './mistakes.js';
 import { readingSessionDetail } from './readingpractice.js';
+import { shadowSessionItems } from './shadowpractice.js';
 
 const escapeRe = s => String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
@@ -228,14 +229,14 @@ export function finishSession(db, user, sessionId) {
 export function getSessionDetail(db, user, sessionId) {
   const s = loadSession(db, user, sessionId);
   const bank = s.bank_id ? db.prepare(`SELECT name FROM word_bank WHERE id=?`).get(s.bank_id) : null;
-  if (s.mode === 'reading') {
+  if (s.mode === 'reading' || s.mode === 'shadowing') {
     return {
       session: {
         id: s.id, bankId: s.bank_id, bankName: bank?.name || null, mode: s.mode, total: s.total,
         correct: s.correct, score: s.score, startedAt: s.started_at, finishedAt: s.finished_at,
         durationMs: s.duration_ms, status: s.status, userId: s.user_id,
       },
-      items: readingSessionDetail(db, sessionId),
+      items: s.mode === 'reading' ? readingSessionDetail(db, sessionId) : shadowSessionItems(db, sessionId),
     };
   }
   const isForm = s.mode === 'form_fill';

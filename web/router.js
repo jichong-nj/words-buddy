@@ -15,6 +15,7 @@ const routes = [
   { path: '/transform/bank', component: () => import('./views/TransformBank.vue'), meta: { admin: true } },
   { path: '/reading', component: () => import('./views/Reading.vue') },
   { path: '/reading/bank', component: () => import('./views/ReadingBank.vue'), meta: { admin: true } },
+  { path: '/shadow', component: () => import('./views/Shadow.vue') },
   { path: '/mistakes', component: () => import('./views/Mistakes.vue') },
   { path: '/records', component: () => import('./views/Records.vue') },
   { path: '/records/:id', component: () => import('./views/RecordDetail.vue') },

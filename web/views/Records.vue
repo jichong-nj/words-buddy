@@ -24,7 +24,9 @@
         </el-table-column>
         <el-table-column label="词库" min-width="140">
           <template #default="{ row }">
-            {{ row.bankName || (row.mode === 'form_fill' ? '变形题库' : row.mode === 'reading' ? '阅读理解题库' : '—') }}
+            {{ row.bankName || (row.mode === 'form_fill' ? '变形题库'
+              : row.mode === 'reading' ? '阅读理解题库'
+              : row.mode === 'shadowing' ? '跟读题库' : '—') }}
           </template>
         </el-table-column>
         <el-table-column v-if="auth.isAdmin" prop="username" label="用户" width="110" />
@@ -64,7 +66,7 @@
 import { ref, onMounted } from 'vue';
 import { api } from '../api.js';
 import { useAuth } from '../store.js';
-import { qs } from '../utils.js';
+import { qs, modeLabel, modeTag } from '../utils.js';
 
 const auth = useAuth();
 const loading = ref(false);
@@ -74,13 +76,6 @@ const bankFilter = ref(null);
 const page = ref(1);
 const size = 20;
 const total = ref(0);
-
-function modeLabel(m) {
-  return m === 'form_fill' ? '变形填空' : m === 'reading' ? '阅读理解' : '释义填空';
-}
-function modeTag(m) {
-  return m === 'form_fill' ? 'warning' : m === 'reading' ? 'success' : 'primary';
-}
 
 async function load() {
   loading.value = true;

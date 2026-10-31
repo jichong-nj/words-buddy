@@ -19,13 +19,15 @@
     "defs:fill": "node scripts/fill-defs.js",
     "bank:check": "node scripts/check-pet-coverage.js",
     "form:generate": "node scripts/build-form-items.js",
-    "reading:generate": "node scripts/build-reading-bank.js"
+    "reading:generate": "node scripts/build-reading-bank.js",
+    "shadow:probe": "node scripts/probe-shadow-score.js"
   },
   "dependencies": {
     "@fastify/cookie": "^11.1.5",
     "@fastify/multipart": "^10.1.6",
     "@fastify/static": "^10.1.8",
     "better-sqlite3": "^13.0.3",
+    "espeak-ng": "^1.0.2",
     "exceljs": "^4.4.0",
     "fastify": "^5.12.7",
     "iconv-lite": "^0.6.3",
