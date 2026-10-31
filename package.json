@@ -1,0 +1,42 @@
+{
+  "name": "words-buddy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "英语学习应用（B/S + 本地 SQLite）：词库管理 · 英文释义填空 · 练习记录与掌握度评价",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "vite build",
+    "dev:server": "node --watch server/index.js",
+    "dev:web": "vite",
+    "test": "node --test test/*.test.js",
+    "db:init": "node scripts/db-init.js",
+    "seed:demo": "node scripts/seed-demo.js",
+    "bank:pet": "node scripts/build-pet-bank.js",
+    "defs:fill": "node scripts/fill-defs.js",
+    "bank:check": "node scripts/check-pet-coverage.js",
+    "form:generate": "node scripts/build-form-items.js",
+    "reading:generate": "node scripts/build-reading-bank.js"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.1.5",
+    "@fastify/multipart": "^10.1.6",
+    "@fastify/static": "^10.1.8",
+    "better-sqlite3": "^13.0.3",
+    "exceljs": "^4.4.0",
+    "fastify": "^5.12.7",
+    "iconv-lite": "^0.6.3",
+    "wordnet-db": "^3.1.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "element-plus": "^2.14.7",
+    "pinia": "^3.0.4",
+    "vite": "^6.4.5",
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
+  }
+}

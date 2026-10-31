@@ -1,0 +1,16851 @@
+[
+{
+"word": "adult",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "advance",
+"pos": [
+"n"
+]
+},
+{
+"word": "a",
+"pos": [
+"det"
+]
+},
+{
+"word": "advanced",
+"pos": [
+"adj"
+]
+},
+{
+"word": "ability",
+"pos": [
+"n"
+]
+},
+{
+"word": "advantage",
+"pos": [
+"n"
+]
+},
+{
+"word": "able",
+"pos": [
+"adj"
+]
+},
+{
+"word": "adventure",
+"pos": [
+"n"
+]
+},
+{
+"word": "about",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "advertise",
+"pos": [
+"v"
+]
+},
+{
+"word": "above",
+"pos": [
+"adj",
+"adv",
+"prep"
+]
+},
+{
+"word": "advise",
+"pos": [
+"v"
+]
+},
+{
+"word": "abroad",
+"pos": [
+"adv"
+]
+},
+{
+"word": "aeroplane",
+"pos": [
+"n"
+]
+},
+{
+"word": "absent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "affect",
+"pos": [
+"v"
+]
+},
+{
+"word": "absolutely",
+"pos": [
+"adv"
+]
+},
+{
+"word": "afford",
+"pos": [
+"v"
+]
+},
+{
+"word": "accent",
+"pos": [
+"n"
+]
+},
+{
+"word": "after",
+"pos": [
+"adv",
+"conj",
+"prep"
+]
+},
+{
+"word": "accept",
+"pos": [
+"v"
+]
+},
+{
+"word": "afterwards",
+"pos": [
+"adv"
+]
+},
+{
+"word": "acceptable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "again",
+"pos": [
+"adv"
+]
+},
+{
+"word": "access",
+"pos": [
+"n"
+]
+},
+{
+"word": "against",
+"pos": [
+"prep"
+]
+},
+{
+"word": "aged",
+"pos": [
+"adj"
+]
+},
+{
+"word": "agency",
+"pos": [
+"n"
+]
+},
+{
+"word": "accident",
+"pos": [
+"n"
+]
+},
+{
+"word": "ages",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "accommodation",
+"pos": [
+"n"
+]
+},
+{
+"word": "accompany",
+"pos": [
+"v"
+]
+},
+{
+"word": "ago",
+"pos": [
+"adv"
+]
+},
+{
+"word": "according to",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "agree",
+"pos": [
+"v"
+]
+},
+{
+"word": "account",
+"pos": [
+"n"
+]
+},
+{
+"word": "ahead",
+"pos": [
+"adv"
+]
+},
+{
+"word": "aim",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "accountant",
+"pos": [
+"n"
+]
+},
+{
+"word": "air",
+"pos": [
+"n"
+]
+},
+{
+"word": "accurate",
+"pos": [
+"adj"
+]
+},
+{
+"word": "air conditioning",
+"pos": [
+"n"
+]
+},
+{
+"word": "ache",
+"pos": [
+"n"
+]
+},
+{
+"word": "air force",
+"pos": [
+"n"
+]
+},
+{
+"word": "achieve",
+"pos": [
+"v"
+]
+},
+{
+"word": "airline",
+"pos": [
+"n"
+]
+},
+{
+"word": "achievement",
+"pos": [
+"n"
+]
+},
+{
+"word": "airport",
+"pos": [
+"n"
+]
+},
+{
+"word": "across",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "alarm",
+"pos": [
+"n"
+]
+},
+{
+"word": "act",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "alarm clock",
+"pos": [
+"n"
+]
+},
+{
+"word": "action",
+"pos": [
+"n"
+]
+},
+{
+"word": "all",
+"pos": [
+"adj",
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "active",
+"pos": [
+"adj"
+]
+},
+{
+"word": "all right",
+"pos": [
+"adj",
+"adv",
+"exclam"
+]
+},
+{
+"word": "activity",
+"pos": [
+"n"
+]
+},
+{
+"word": "allow",
+"pos": [
+"v"
+]
+},
+{
+"word": "actor",
+"pos": [
+"n"
+]
+},
+{
+"word": "almost",
+"pos": [
+"adv"
+]
+},
+{
+"word": "actress",
+"pos": [
+"n"
+]
+},
+{
+"word": "alone",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "actually",
+"pos": [
+"adv"
+]
+},
+{
+"word": "along",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "alphabet",
+"pos": [
+"n"
+]
+},
+{
+"word": "also",
+"pos": [
+"adv"
+]
+},
+{
+"word": "add",
+"pos": [
+"v"
+]
+},
+{
+"word": "although",
+"pos": [
+"conj"
+]
+},
+{
+"word": "addition",
+"pos": [
+"n"
+]
+},
+{
+"word": "altogether",
+"pos": [
+"adv"
+]
+},
+{
+"word": "address",
+"pos": [
+"n"
+]
+},
+{
+"word": "a.m",
+"pos": [
+"adv"
+]
+},
+{
+"word": "admire",
+"pos": [
+"v"
+]
+},
+{
+"word": "amazed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "admission",
+"pos": [
+"n"
+]
+},
+{
+"word": "amazing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "admit",
+"pos": [
+"v"
+]
+},
+{
+"word": "ambulance",
+"pos": [
+"n"
+]
+},
+{
+"word": "arrange",
+"pos": [
+"v"
+]
+},
+{
+"word": "amount",
+"pos": [
+"n"
+]
+},
+{
+"word": "arrangement",
+"pos": [
+"n"
+]
+},
+{
+"word": "amusing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "arrest",
+"pos": [
+"v"
+]
+},
+{
+"word": "an",
+"pos": [
+"det"
+]
+},
+{
+"word": "arrival",
+"pos": [
+"n"
+]
+},
+{
+"word": "ancient",
+"pos": [
+"adj"
+]
+},
+{
+"word": "arrive",
+"pos": [
+"v"
+]
+},
+{
+"word": "and",
+"pos": [
+"conj"
+]
+},
+{
+"word": "art",
+"pos": [
+"n"
+]
+},
+{
+"word": "angry",
+"pos": [
+"adj"
+]
+},
+{
+"word": "article",
+"pos": [
+"n"
+]
+},
+{
+"word": "animal",
+"pos": [
+"n"
+]
+},
+{
+"word": "artist",
+"pos": [
+"n"
+]
+},
+{
+"word": "ankle",
+"pos": [
+"n"
+]
+},
+{
+"word": "as",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "anniversary",
+"pos": [
+"n"
+]
+},
+{
+"word": "ashamed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "announce",
+"pos": [
+"v"
+]
+},
+{
+"word": "ask",
+"pos": [
+"v"
+]
+},
+{
+"word": "announcement",
+"pos": [
+"n"
+]
+},
+{
+"word": "asleep",
+"pos": [
+"adj"
+]
+},
+{
+"word": "annoy",
+"pos": [
+"v"
+]
+},
+{
+"word": "as long as",
+"pos": [
+"phr"
+]
+},
+{
+"word": "annoyed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "aspirin",
+"pos": [
+"n"
+]
+},
+{
+"word": "annual",
+"pos": [
+"adj"
+]
+},
+{
+"word": "assist",
+"pos": [
+"v"
+]
+},
+{
+"word": "another",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "assistant",
+"pos": [
+"n"
+]
+},
+{
+"word": "answer",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "astronaut",
+"pos": [
+"n"
+]
+},
+{
+"word": "answerphone",
+"pos": [
+"n"
+]
+},
+{
+"word": "ant",
+"pos": [
+"n"
+]
+},
+{
+"word": "at",
+"pos": [
+"n",
+"prep"
+]
+},
+{
+"word": "antique",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "anxious",
+"pos": [
+"adj"
+]
+},
+{
+"word": "any",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "anybody",
+"pos": [
+"pron"
+]
+},
+{
+"word": "at all",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "anymore",
+"pos": [
+"adv"
+]
+},
+{
+"word": "at first",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "anyone",
+"pos": [
+"pron"
+]
+},
+{
+"word": "athlete",
+"pos": [
+"n"
+]
+},
+{
+"word": "anything",
+"pos": [
+"pron"
+]
+},
+{
+"word": "athletics",
+"pos": [
+"n"
+]
+},
+{
+"word": "anyway",
+"pos": [
+"adv"
+]
+},
+{
+"word": "at last",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "anywhere",
+"pos": [
+"adv"
+]
+},
+{
+"word": "at least",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "apart",
+"pos": [
+"adv"
+]
+},
+{
+"word": "atmosphere",
+"pos": [
+"n"
+]
+},
+{
+"word": "apart from",
+"pos": [
+"adv"
+]
+},
+{
+"word": "at once",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "apartment",
+"pos": [
+"n"
+]
+},
+{
+"word": "at present",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "apartment building",
+"pos": [
+"n"
+]
+},
+{
+"word": "attach",
+"pos": [
+"v"
+]
+},
+{
+"word": "apologise",
+"pos": [
+"v"
+]
+},
+{
+"word": "attack",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "apology",
+"pos": [
+"n"
+]
+},
+{
+"word": "attempt",
+"pos": [
+"v"
+]
+},
+{
+"word": "app",
+"pos": [
+"n"
+]
+},
+{
+"word": "attend",
+"pos": [
+"v"
+]
+},
+{
+"word": "appear",
+"pos": [
+"v"
+]
+},
+{
+"word": "at the same time",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "appearance",
+"pos": [
+"n"
+]
+},
+{
+"word": "attitude",
+"pos": [
+"n"
+]
+},
+{
+"word": "apple",
+"pos": [
+"n"
+]
+},
+{
+"word": "attract",
+"pos": [
+"v"
+]
+},
+{
+"word": "application",
+"pos": [
+"n"
+]
+},
+{
+"word": "attraction",
+"pos": [
+"n"
+]
+},
+{
+"word": "apply",
+"pos": [
+"v"
+]
+},
+{
+"word": "aunt",
+"pos": [
+"n"
+]
+},
+{
+"word": "appointment",
+"pos": [
+"n"
+]
+},
+{
+"word": "author",
+"pos": [
+"n"
+]
+},
+{
+"word": "approach",
+"pos": [
+"v"
+]
+},
+{
+"word": "approve",
+"pos": [
+"v"
+]
+},
+{
+"word": "available",
+"pos": [
+"adj"
+]
+},
+{
+"word": "approximately",
+"pos": [
+"adv"
+]
+},
+{
+"word": "average",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "architect",
+"pos": [
+"n"
+]
+},
+{
+"word": "avoid",
+"pos": [
+"v"
+]
+},
+{
+"word": "architecture",
+"pos": [
+"n"
+]
+},
+{
+"word": "awake",
+"pos": [
+"adj"
+]
+},
+{
+"word": "area",
+"pos": [
+"n"
+]
+},
+{
+"word": "away",
+"pos": [
+"adv"
+]
+},
+{
+"word": "argue",
+"pos": [
+"v"
+]
+},
+{
+"word": "awesome",
+"pos": [
+"adj"
+]
+},
+{
+"word": "argument",
+"pos": [
+"n"
+]
+},
+{
+"word": "awful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "Arithmetic",
+"pos": [
+"n"
+]
+},
+{
+"word": "arm",
+"pos": [
+"n"
+]
+},
+{
+"word": "armchair",
+"pos": [
+"n"
+]
+},
+{
+"word": "army",
+"pos": [
+"n"
+]
+},
+{
+"word": "around",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "baby",
+"pos": [
+"n"
+]
+},
+{
+"word": "babysit",
+"pos": [
+"v"
+]
+},
+{
+"word": "babysitter",
+"pos": [
+"n"
+]
+},
+{
+"word": "bee",
+"pos": [
+"n"
+]
+},
+{
+"word": "back",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "beef",
+"pos": [
+"n"
+]
+},
+{
+"word": "background",
+"pos": [
+"n"
+]
+},
+{
+"word": "before",
+"pos": [
+"adv",
+"conj",
+"prep"
+]
+},
+{
+"word": "begin",
+"pos": [
+"v"
+]
+},
+{
+"word": "backpack",
+"pos": [
+"n"
+]
+},
+{
+"word": "beginner",
+"pos": [
+"n"
+]
+},
+{
+"word": "backpacker",
+"pos": [
+"n"
+]
+},
+{
+"word": "beginning",
+"pos": [
+"n"
+]
+},
+{
+"word": "backpacking",
+"pos": [
+"n"
+]
+},
+{
+"word": "behave",
+"pos": [
+"v"
+]
+},
+{
+"word": "backwards",
+"pos": [
+"adv"
+]
+},
+{
+"word": "behaviour",
+"pos": [
+"n"
+]
+},
+{
+"word": "bad",
+"pos": [
+"adj"
+]
+},
+{
+"word": "behind",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "badly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "believe",
+"pos": [
+"v"
+]
+},
+{
+"word": "badminton",
+"pos": [
+"n"
+]
+},
+{
+"word": "bell",
+"pos": [
+"n"
+]
+},
+{
+"word": "bag",
+"pos": [
+"n"
+]
+},
+{
+"word": "belong",
+"pos": [
+"v"
+]
+},
+{
+"word": "baggage",
+"pos": [
+"n"
+]
+},
+{
+"word": "below",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "bake",
+"pos": [
+"v"
+]
+},
+{
+"word": "belt",
+"pos": [
+"n"
+]
+},
+{
+"word": "baker",
+"pos": [
+"n"
+]
+},
+{
+"word": "beneath",
+"pos": [
+"prep"
+]
+},
+{
+"word": "balcony",
+"pos": [
+"n"
+]
+},
+{
+"word": "benefit",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "bald",
+"pos": [
+"adj"
+]
+},
+{
+"word": "be over",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "ball",
+"pos": [
+"n"
+]
+},
+{
+"word": "ballet",
+"pos": [
+"n"
+]
+},
+{
+"word": "beside",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "balloon",
+"pos": [
+"n"
+]
+},
+{
+"word": "besides",
+"pos": [
+"prep"
+]
+},
+{
+"word": "banana",
+"pos": [
+"n"
+]
+},
+{
+"word": "best",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "band",
+"pos": [
+"n"
+]
+},
+{
+"word": "bestseller",
+"pos": [
+"n"
+]
+},
+{
+"word": "bandage",
+"pos": [
+"n"
+]
+},
+{
+"word": "better",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "bank",
+"pos": [
+"n"
+]
+},
+{
+"word": "bank account",
+"pos": [
+"n"
+]
+},
+{
+"word": "banker",
+"pos": [
+"n"
+]
+},
+{
+"word": "between",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "banking",
+"pos": [
+"n"
+]
+},
+{
+"word": "beyond",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "bar",
+"pos": [
+"n"
+]
+},
+{
+"word": "bicycle",
+"pos": [
+"n"
+]
+},
+{
+"word": "barbecue",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "big",
+"pos": [
+"adj"
+]
+},
+{
+"word": "barber",
+"pos": [
+"n"
+]
+},
+{
+"word": "bike",
+"pos": [
+"n"
+]
+},
+{
+"word": "bargain",
+"pos": [
+"n"
+]
+},
+{
+"word": "bill",
+"pos": [
+"n"
+]
+},
+{
+"word": "baseball",
+"pos": [
+"n"
+]
+},
+{
+"word": "base on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "bin",
+"pos": [
+"n"
+]
+},
+{
+"word": "basic",
+"pos": [
+"adj"
+]
+},
+{
+"word": "biography",
+"pos": [
+"n"
+]
+},
+{
+"word": "basin",
+"pos": [
+"n"
+]
+},
+{
+"word": "biology",
+"pos": [
+"n"
+]
+},
+{
+"word": "basket",
+"pos": [
+"n"
+]
+},
+{
+"word": "bird",
+"pos": [
+"n"
+]
+},
+{
+"word": "basketball",
+"pos": [
+"n"
+]
+},
+{
+"word": "birth",
+"pos": [
+"n"
+]
+},
+{
+"word": "bat",
+"pos": [
+"n"
+]
+},
+{
+"word": "birthday",
+"pos": [
+"n"
+]
+},
+{
+"word": "bath",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "biscuit",
+"pos": [
+"n"
+]
+},
+{
+"word": "bathing suit",
+"pos": [
+"n"
+]
+},
+{
+"word": "bit",
+"pos": [
+"n"
+]
+},
+{
+"word": "bathroom",
+"pos": [
+"n"
+]
+},
+{
+"word": "bite",
+"pos": [
+"v"
+]
+},
+{
+"word": "bathtub",
+"pos": [
+"n"
+]
+},
+{
+"word": "bitter",
+"pos": [
+"adj"
+]
+},
+{
+"word": "battery",
+"pos": [
+"n"
+]
+},
+{
+"word": "black",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "battle",
+"pos": [
+"n"
+]
+},
+{
+"word": "blackboard",
+"pos": [
+"n"
+]
+},
+{
+"word": "bay",
+"pos": [
+"n"
+]
+},
+{
+"word": "blame",
+"pos": [
+"v"
+]
+},
+{
+"word": "be",
+"pos": [
+"av",
+"v"
+]
+},
+{
+"word": "blank",
+"pos": [
+"adj"
+]
+},
+{
+"word": "beach",
+"pos": [
+"n"
+]
+},
+{
+"word": "bean",
+"pos": [
+"n"
+]
+},
+{
+"word": "blanket",
+"pos": [
+"n"
+]
+},
+{
+"word": "bear",
+"pos": [
+"n"
+]
+},
+{
+"word": "bleed",
+"pos": [
+"v"
+]
+},
+{
+"word": "beard",
+"pos": [
+"n"
+]
+},
+{
+"word": "blind",
+"pos": [
+"adj"
+]
+},
+{
+"word": "beat",
+"pos": [
+"v"
+]
+},
+{
+"word": "block",
+"pos": [
+"n"
+]
+},
+{
+"word": "beautiful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "beauty",
+"pos": [
+"n"
+]
+},
+{
+"word": "because",
+"pos": [
+"conj"
+]
+},
+{
+"word": "blog",
+"pos": [
+"n"
+]
+},
+{
+"word": "because of",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "blogger",
+"pos": [
+"n"
+]
+},
+{
+"word": "become",
+"pos": [
+"v"
+]
+},
+{
+"word": "bed",
+"pos": [
+"n"
+]
+},
+{
+"word": "blood",
+"pos": [
+"n"
+]
+},
+{
+"word": "bedroom",
+"pos": [
+"n"
+]
+},
+{
+"word": "blouse",
+"pos": [
+"n"
+]
+},
+{
+"word": "break down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "blow",
+"pos": [
+"v"
+]
+},
+{
+"word": "blue",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "breakfast",
+"pos": [
+"n"
+]
+},
+{
+"word": "board",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "break in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "board game",
+"pos": [
+"n"
+]
+},
+{
+"word": "boarding pass",
+"pos": [
+"n"
+]
+},
+{
+"word": "boat",
+"pos": [
+"n"
+]
+},
+{
+"word": "break up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "body",
+"pos": [
+"n"
+]
+},
+{
+"word": "boil",
+"pos": [
+"v"
+]
+},
+{
+"word": "boiled",
+"pos": [
+"adj"
+]
+},
+{
+"word": "breath",
+"pos": [
+"n"
+]
+},
+{
+"word": "bold",
+"pos": [
+"adj"
+]
+},
+{
+"word": "breathe",
+"pos": [
+"v"
+]
+},
+{
+"word": "bomb",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "breeze",
+"pos": [
+"n"
+]
+},
+{
+"word": "bone",
+"pos": [
+"n"
+]
+},
+{
+"word": "bride",
+"pos": [
+"n"
+]
+},
+{
+"word": "book",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "bridge",
+"pos": [
+"n"
+]
+},
+{
+"word": "bookcase",
+"pos": [
+"n"
+]
+},
+{
+"word": "brief",
+"pos": [
+"adj"
+]
+},
+{
+"word": "booking",
+"pos": [
+"n"
+]
+},
+{
+"word": "bright",
+"pos": [
+"adj"
+]
+},
+{
+"word": "booking office",
+"pos": [
+"n"
+]
+},
+{
+"word": "bring",
+"pos": [
+"v"
+]
+},
+{
+"word": "bookshelf",
+"pos": [
+"n"
+]
+},
+{
+"word": "bring up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "broad",
+"pos": [
+"adj"
+]
+},
+{
+"word": "boot",
+"pos": [
+"n"
+]
+},
+{
+"word": "broccoli",
+"pos": [
+"n"
+]
+},
+{
+"word": "border",
+"pos": [
+"n"
+]
+},
+{
+"word": "brother",
+"pos": [
+"n"
+]
+},
+{
+"word": "bored",
+"pos": [
+"adj"
+]
+},
+{
+"word": "brown",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "boring",
+"pos": [
+"adj"
+]
+},
+{
+"word": "brush",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "born",
+"pos": [
+"adj"
+]
+},
+{
+"word": "bucket",
+"pos": [
+"n"
+]
+},
+{
+"word": "borrow",
+"pos": [
+"v"
+]
+},
+{
+"word": "bug",
+"pos": [
+"n"
+]
+},
+{
+"word": "boss",
+"pos": [
+"n"
+]
+},
+{
+"word": "bossy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "build",
+"pos": [
+"v"
+]
+},
+{
+"word": "both",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "building",
+"pos": [
+"n"
+]
+},
+{
+"word": "bulb",
+"pos": [
+"n"
+]
+},
+{
+"word": "bother",
+"pos": [
+"v"
+]
+},
+{
+"word": "bull",
+"pos": [
+"n"
+]
+},
+{
+"word": "burger",
+"pos": [
+"n"
+]
+},
+{
+"word": "burning",
+"pos": [
+"adj"
+]
+},
+{
+"word": "bottle",
+"pos": [
+"n"
+]
+},
+{
+"word": "bury",
+"pos": [
+"v"
+]
+},
+{
+"word": "bottle bank",
+"pos": [
+"n"
+]
+},
+{
+"word": "bus",
+"pos": [
+"n"
+]
+},
+{
+"word": "bottom",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "bush",
+"pos": [
+"n"
+]
+},
+{
+"word": "bowl",
+"pos": [
+"n"
+]
+},
+{
+"word": "business",
+"pos": [
+"n"
+]
+},
+{
+"word": "box",
+"pos": [
+"n"
+]
+},
+{
+"word": "businessman",
+"pos": [
+"n"
+]
+},
+{
+"word": "boxing",
+"pos": [
+"n"
+]
+},
+{
+"word": "businesswoman",
+"pos": [
+"n"
+]
+},
+{
+"word": "boy",
+"pos": [
+"n"
+]
+},
+{
+"word": "bus station",
+"pos": [
+"n"
+]
+},
+{
+"word": "boyfriend",
+"pos": [
+"n"
+]
+},
+{
+"word": "bus stop",
+"pos": [
+"n"
+]
+},
+{
+"word": "bracelet",
+"pos": [
+"n"
+]
+},
+{
+"word": "busy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "brain",
+"pos": [
+"n"
+]
+},
+{
+"word": "but",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "brake",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "butcher",
+"pos": [
+"n"
+]
+},
+{
+"word": "branch",
+"pos": [
+"n"
+]
+},
+{
+"word": "butter",
+"pos": [
+"n"
+]
+},
+{
+"word": "brand new",
+"pos": [
+"adj"
+]
+},
+{
+"word": "butterfly",
+"pos": [
+"n"
+]
+},
+{
+"word": "brave",
+"pos": [
+"adj"
+]
+},
+{
+"word": "button",
+"pos": [
+"n"
+]
+},
+{
+"word": "bread",
+"pos": [
+"n"
+]
+},
+{
+"word": "buy",
+"pos": [
+"v"
+]
+},
+{
+"word": "break",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "buyer",
+"pos": [
+"n"
+]
+},
+{
+"word": "by",
+"pos": [
+"prep"
+]
+},
+{
+"word": "careless",
+"pos": [
+"adj"
+]
+},
+{
+"word": "by accident",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "by hand",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "carpet",
+"pos": [
+"n"
+]
+},
+{
+"word": "by mistake",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "carrot",
+"pos": [
+"n"
+]
+},
+{
+"word": "by name",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "carry",
+"pos": [
+"v"
+]
+},
+{
+"word": "bye",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "carry on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "carry out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "cab",
+"pos": [
+"n"
+]
+},
+{
+"word": "cabbage",
+"pos": [
+"n"
+]
+},
+{
+"word": "cartoon",
+"pos": [
+"n"
+]
+},
+{
+"word": "cabin",
+"pos": [
+"n"
+]
+},
+{
+"word": "case",
+"pos": [
+"n"
+]
+},
+{
+"word": "cabinet",
+"pos": [
+"n"
+]
+},
+{
+"word": "cable",
+"pos": [
+"n"
+]
+},
+{
+"word": "café",
+"pos": [
+"n"
+]
+},
+{
+"word": "cash",
+"pos": [
+"n"
+]
+},
+{
+"word": "cafeteria",
+"pos": [
+"n"
+]
+},
+{
+"word": "cash machine",
+"pos": [
+"n"
+]
+},
+{
+"word": "cake",
+"pos": [
+"n"
+]
+},
+{
+"word": "cashpoint",
+"pos": [
+"n"
+]
+},
+{
+"word": "calculator",
+"pos": [
+"n"
+]
+},
+{
+"word": "castle",
+"pos": [
+"n"
+]
+},
+{
+"word": "calendar",
+"pos": [
+"n"
+]
+},
+{
+"word": "casual",
+"pos": [
+"adj"
+]
+},
+{
+"word": "calf",
+"pos": [
+"n"
+]
+},
+{
+"word": "call",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "cat",
+"pos": [
+"n"
+]
+},
+{
+"word": "call for",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "catch",
+"pos": [
+"v"
+]
+},
+{
+"word": "call in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "cattle",
+"pos": [
+"n"
+]
+},
+{
+"word": "calm",
+"pos": [
+"adj"
+]
+},
+{
+"word": "CD",
+"pos": [
+"n"
+]
+},
+{
+"word": "camel",
+"pos": [
+"n"
+]
+},
+{
+"word": "CD player",
+"pos": [
+"n"
+]
+},
+{
+"word": "camera",
+"pos": [
+"n"
+]
+},
+{
+"word": "ceiling",
+"pos": [
+"n"
+]
+},
+{
+"word": "camp",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "celebrate",
+"pos": [
+"v"
+]
+},
+{
+"word": "camping",
+"pos": [
+"n"
+]
+},
+{
+"word": "celebration",
+"pos": [
+"n"
+]
+},
+{
+"word": "campsite",
+"pos": [
+"n"
+]
+},
+{
+"word": "celebrity",
+"pos": [
+"n"
+]
+},
+{
+"word": "can",
+"pos": [
+"mv",
+"n"
+]
+},
+{
+"word": "cell phone",
+"pos": [
+"n"
+]
+},
+{
+"word": "canal",
+"pos": [
+"n"
+]
+},
+{
+"word": "cent",
+"pos": [
+"n"
+]
+},
+{
+"word": "cancel",
+"pos": [
+"v"
+]
+},
+{
+"word": "candidate",
+"pos": [
+"n"
+]
+},
+{
+"word": "candle",
+"pos": [
+"n"
+]
+},
+{
+"word": "central",
+"pos": [
+"adj"
+]
+},
+{
+"word": "candy",
+"pos": [
+"n"
+]
+},
+{
+"word": "central heating",
+"pos": [
+"n"
+]
+},
+{
+"word": "canteen",
+"pos": [
+"n"
+]
+},
+{
+"word": "centre",
+"pos": [
+"n"
+]
+},
+{
+"word": "cap",
+"pos": [
+"n"
+]
+},
+{
+"word": "century",
+"pos": [
+"n"
+]
+},
+{
+"word": "capital",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "cereal",
+"pos": [
+"n"
+]
+},
+{
+"word": "captain",
+"pos": [
+"n"
+]
+},
+{
+"word": "certificate",
+"pos": [
+"n"
+]
+},
+{
+"word": "car",
+"pos": [
+"n"
+]
+},
+{
+"word": "chain",
+"pos": [
+"n"
+]
+},
+{
+"word": "card",
+"pos": [
+"n"
+]
+},
+{
+"word": "chair",
+"pos": [
+"n"
+]
+},
+{
+"word": "cardboard",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "championship",
+"pos": [
+"n"
+]
+},
+{
+"word": "care",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "chance",
+"pos": [
+"n"
+]
+},
+{
+"word": "channel",
+"pos": [
+"n"
+]
+},
+{
+"word": "something",
+"pos": [
+"pron",
+"v"
+]
+},
+{
+"word": "chapter",
+"pos": [
+"n"
+]
+},
+{
+"word": "career",
+"pos": [
+"n"
+]
+},
+{
+"word": "character",
+"pos": [
+"n"
+]
+},
+{
+"word": "careful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "charge",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "carefully",
+"pos": [
+"ad"
+]
+},
+{
+"word": "charity",
+"pos": [
+"n"
+]
+},
+{
+"word": "charming",
+"pos": [
+"adj"
+]
+},
+{
+"word": "climate change",
+"pos": [
+"n"
+]
+},
+{
+"word": "chat",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "climb",
+"pos": [
+"v"
+]
+},
+{
+"word": "chatroom",
+"pos": [
+"n"
+]
+},
+{
+"word": "clinic",
+"pos": [
+"n"
+]
+},
+{
+"word": "clock",
+"pos": [
+"n"
+]
+},
+{
+"word": "cheap",
+"pos": [
+"adj"
+]
+},
+{
+"word": "close",
+"pos": [
+"adj",
+"adv",
+"v"
+]
+},
+{
+"word": "cheat",
+"pos": [
+"v"
+]
+},
+{
+"word": "closed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "check",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "clothes",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "check in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "clothing",
+"pos": [
+"n"
+]
+},
+{
+"word": "check-in",
+"pos": [
+"n"
+]
+},
+{
+"word": "cloudy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "check out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "club",
+"pos": [
+"n"
+]
+},
+{
+"word": "coach",
+"pos": [
+"n"
+]
+},
+{
+"word": "checkout",
+"pos": [
+"n"
+]
+},
+{
+"word": "coast",
+"pos": [
+"n"
+]
+},
+{
+"word": "cheek",
+"pos": [
+"n"
+]
+},
+{
+"word": "coat",
+"pos": [
+"n"
+]
+},
+{
+"word": "cheerful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "coconut",
+"pos": [
+"n"
+]
+},
+{
+"word": "cheers",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "cod",
+"pos": [
+"n"
+]
+},
+{
+"word": "cheese",
+"pos": [
+"n"
+]
+},
+{
+"word": "coffee",
+"pos": [
+"n"
+]
+},
+{
+"word": "chef",
+"pos": [
+"n"
+]
+},
+{
+"word": "coin",
+"pos": [
+"n"
+]
+},
+{
+"word": "chemist",
+"pos": [
+"n"
+]
+},
+{
+"word": "cola",
+"pos": [
+"n"
+]
+},
+{
+"word": "chemistry",
+"pos": [
+"n"
+]
+},
+{
+"word": "cold",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "cheque",
+"pos": [
+"n"
+]
+},
+{
+"word": "collar",
+"pos": [
+"n"
+]
+},
+{
+"word": "chess",
+"pos": [
+"n"
+]
+},
+{
+"word": "colleague",
+"pos": [
+"n"
+]
+},
+{
+"word": "chest of drawers",
+"pos": [
+"n"
+]
+},
+{
+"word": "collect",
+"pos": [
+"v"
+]
+},
+{
+"word": "chicken",
+"pos": [
+"n"
+]
+},
+{
+"word": "collection",
+"pos": [
+"n"
+]
+},
+{
+"word": "child",
+"pos": [
+"n"
+]
+},
+{
+"word": "college",
+"pos": [
+"n"
+]
+},
+{
+"word": "childhood",
+"pos": [
+"n"
+]
+},
+{
+"word": "colour",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "chill out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "colourful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "chilli",
+"pos": [
+"n"
+]
+},
+{
+"word": "comb",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "chin",
+"pos": [
+"n"
+]
+},
+{
+"word": "come",
+"pos": [
+"v"
+]
+},
+{
+"word": "chip",
+"pos": [
+"n"
+]
+},
+{
+"word": "comedy",
+"pos": [
+"n"
+]
+},
+{
+"word": "come on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "chocolate",
+"pos": [
+"n"
+]
+},
+{
+"word": "comfort",
+"pos": [
+"n"
+]
+},
+{
+"word": "choice",
+"pos": [
+"n"
+]
+},
+{
+"word": "comfortable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "choose",
+"pos": [
+"v"
+]
+},
+{
+"word": "comment",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "cinema",
+"pos": [
+"n"
+]
+},
+{
+"word": "circle",
+"pos": [
+"n"
+]
+},
+{
+"word": "circus",
+"pos": [
+"n"
+]
+},
+{
+"word": "comic",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "comma",
+"pos": [
+"n"
+]
+},
+{
+"word": "city",
+"pos": [
+"n"
+]
+},
+{
+"word": "clap",
+"pos": [
+"v"
+]
+},
+{
+"word": "class",
+"pos": [
+"n"
+]
+},
+{
+"word": "classical",
+"pos": [
+"adj"
+]
+},
+{
+"word": "classmate",
+"pos": [
+"n"
+]
+},
+{
+"word": "communication",
+"pos": [
+"n"
+]
+},
+{
+"word": "classroom",
+"pos": [
+"n"
+]
+},
+{
+"word": "company",
+"pos": [
+"n"
+]
+},
+{
+"word": "clean",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "compare",
+"pos": [
+"v"
+]
+},
+{
+"word": "cleaner",
+"pos": [
+"n"
+]
+},
+{
+"word": "compete",
+"pos": [
+"v"
+]
+},
+{
+"word": "clear",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "competition",
+"pos": [
+"n"
+]
+},
+{
+"word": "clearly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "competitor",
+"pos": [
+"n"
+]
+},
+{
+"word": "clever",
+"pos": [
+"adj"
+]
+},
+{
+"word": "complain",
+"pos": [
+"v"
+]
+},
+{
+"word": "click",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "complaint",
+"pos": [
+"n"
+]
+},
+{
+"word": "cliff",
+"pos": [
+"n"
+]
+},
+{
+"word": "complete",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "completely",
+"pos": [
+"adv"
+]
+},
+{
+"word": "complicated",
+"pos": [
+"adj"
+]
+},
+{
+"word": "courage",
+"pos": [
+"n"
+]
+},
+{
+"word": "composition",
+"pos": [
+"n"
+]
+},
+{
+"word": "course",
+"pos": [
+"n"
+]
+},
+{
+"word": "computer",
+"pos": [
+"n"
+]
+},
+{
+"word": "concentrate",
+"pos": [
+"v"
+]
+},
+{
+"word": "concert",
+"pos": [
+"n"
+]
+},
+{
+"word": "conclusion",
+"pos": [
+"n"
+]
+},
+{
+"word": "court",
+"pos": [
+"n"
+]
+},
+{
+"word": "condition",
+"pos": [
+"n"
+]
+},
+{
+"word": "conference",
+"pos": [
+"n"
+]
+},
+{
+"word": "cousin",
+"pos": [
+"n"
+]
+},
+{
+"word": "confident",
+"pos": [
+"adj"
+]
+},
+{
+"word": "cover",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "confirm",
+"pos": [
+"v"
+]
+},
+{
+"word": "cow",
+"pos": [
+"n"
+]
+},
+{
+"word": "confused",
+"pos": [
+"adj"
+]
+},
+{
+"word": "crash",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "confusing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "cream",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "congratulations",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "create",
+"pos": [
+"v"
+]
+},
+{
+"word": "connect",
+"pos": [
+"v"
+]
+},
+{
+"word": "creative",
+"pos": [
+"adj"
+]
+},
+{
+"word": "connection",
+"pos": [
+"n"
+]
+},
+{
+"word": "creature",
+"pos": [
+"n"
+]
+},
+{
+"word": "consider",
+"pos": [
+"v"
+]
+},
+{
+"word": "credit",
+"pos": [
+"n"
+]
+},
+{
+"word": "consist",
+"pos": [
+"v"
+]
+},
+{
+"word": "credit card",
+"pos": [
+"n"
+]
+},
+{
+"word": "consonant",
+"pos": [
+"n"
+]
+},
+{
+"word": "crew",
+"pos": [
+"n"
+]
+},
+{
+"word": "contact",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "contain",
+"pos": [
+"v"
+]
+},
+{
+"word": "cricket",
+"pos": [
+"n"
+]
+},
+{
+"word": "contents",
+"pos": [
+"n"
+]
+},
+{
+"word": "crime",
+"pos": [
+"n"
+]
+},
+{
+"word": "contest",
+"pos": [
+"n"
+]
+},
+{
+"word": "criminal",
+"pos": [
+"n"
+]
+},
+{
+"word": "continent",
+"pos": [
+"n"
+]
+},
+{
+"word": "crop",
+"pos": [
+"n"
+]
+},
+{
+"word": "continue",
+"pos": [
+"v"
+]
+},
+{
+"word": "cross",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "contract",
+"pos": [
+"n"
+]
+},
+{
+"word": "crossing",
+"pos": [
+"n"
+]
+},
+{
+"word": "control",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "cross out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "convenient",
+"pos": [
+"adj"
+]
+},
+{
+"word": "crossroads",
+"pos": [
+"n"
+]
+},
+{
+"word": "conversation",
+"pos": [
+"n"
+]
+},
+{
+"word": "crowd",
+"pos": [
+"n"
+]
+},
+{
+"word": "convince",
+"pos": [
+"v"
+]
+},
+{
+"word": "crowded",
+"pos": [
+"adj"
+]
+},
+{
+"word": "cook",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "cruel",
+"pos": [
+"adj"
+]
+},
+{
+"word": "cooker",
+"pos": [
+"n"
+]
+},
+{
+"word": "cruise",
+"pos": [
+"n"
+]
+},
+{
+"word": "cookery",
+"pos": [
+"n"
+]
+},
+{
+"word": "cry",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "cucumber",
+"pos": [
+"n"
+]
+},
+{
+"word": "cooking",
+"pos": [
+"n"
+]
+},
+{
+"word": "cultural",
+"pos": [
+"adj"
+]
+},
+{
+"word": "cool",
+"pos": [
+"adj",
+"exclam",
+"v"
+]
+},
+{
+"word": "culture",
+"pos": [
+"n"
+]
+},
+{
+"word": "copy",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "cup",
+"pos": [
+"n"
+]
+},
+{
+"word": "corn",
+"pos": [
+"n"
+]
+},
+{
+"word": "cupboard",
+"pos": [
+"n"
+]
+},
+{
+"word": "corner",
+"pos": [
+"n"
+]
+},
+{
+"word": "cure",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "correct",
+"pos": [
+"adj"
+]
+},
+{
+"word": "curious",
+"pos": [
+"adj"
+]
+},
+{
+"word": "correction",
+"pos": [
+"n"
+]
+},
+{
+"word": "curiously",
+"pos": [
+"adv"
+]
+},
+{
+"word": "cost",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "costume",
+"pos": [
+"n"
+]
+},
+{
+"word": "curly",
+"pos": [
+"adj"
+]
+},
+{
+"word": "cosy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "curtain",
+"pos": [
+"n"
+]
+},
+{
+"word": "cottage",
+"pos": [
+"n"
+]
+},
+{
+"word": "cushion",
+"pos": [
+"n"
+]
+},
+{
+"word": "cotton",
+"pos": [
+"n"
+]
+},
+{
+"word": "custom",
+"pos": [
+"n"
+]
+},
+{
+"word": "cough",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "customer",
+"pos": [
+"n"
+]
+},
+{
+"word": "could",
+"pos": [
+"mv"
+]
+},
+{
+"word": "customs",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "count",
+"pos": [
+"v"
+]
+},
+{
+"word": "country",
+"pos": [
+"n"
+]
+},
+{
+"word": "cut",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "countryside",
+"pos": [
+"n"
+]
+},
+{
+"word": "cute",
+"pos": [
+"adj"
+]
+},
+{
+"word": "couple",
+"pos": [
+"n"
+]
+},
+{
+"word": "cut up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "department store",
+"pos": [
+"n"
+]
+},
+{
+"word": "cycle",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "departure",
+"pos": [
+"n"
+]
+},
+{
+"word": "cycling",
+"pos": [
+"n"
+]
+},
+{
+"word": "cyclist",
+"pos": [
+"n"
+]
+},
+{
+"word": "deposit",
+"pos": [
+"n"
+]
+},
+{
+"word": "depressed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "dad",
+"pos": [
+"n"
+]
+},
+{
+"word": "depth",
+"pos": [
+"n"
+]
+},
+{
+"word": "daily",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "damage",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "describe",
+"pos": [
+"v"
+]
+},
+{
+"word": "damaged",
+"pos": [
+"adj"
+]
+},
+{
+"word": "description",
+"pos": [
+"n"
+]
+},
+{
+"word": "dance",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "desert",
+"pos": [
+"n"
+]
+},
+{
+"word": "dancer",
+"pos": [
+"n"
+]
+},
+{
+"word": "deserve",
+"pos": [
+"v"
+]
+},
+{
+"word": "dancing",
+"pos": [
+"n"
+]
+},
+{
+"word": "design",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "danger",
+"pos": [
+"n"
+]
+},
+{
+"word": "designer",
+"pos": [
+"n"
+]
+},
+{
+"word": "dangerous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "desk",
+"pos": [
+"n"
+]
+},
+{
+"word": "dark",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "despite",
+"pos": [
+"prep"
+]
+},
+{
+"word": "data",
+"pos": [
+"n"
+]
+},
+{
+"word": "dessert",
+"pos": [
+"n"
+]
+},
+{
+"word": "date",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "destination",
+"pos": [
+"n"
+]
+},
+{
+"word": "daughter",
+"pos": [
+"n"
+]
+},
+{
+"word": "detail",
+"pos": [
+"n"
+]
+},
+{
+"word": "day",
+"pos": [
+"n"
+]
+},
+{
+"word": "detective",
+"pos": [
+"n"
+]
+},
+{
+"word": "dead",
+"pos": [
+"adj"
+]
+},
+{
+"word": "develop",
+"pos": [
+"v"
+]
+},
+{
+"word": "deaf",
+"pos": [
+"adj"
+]
+},
+{
+"word": "development",
+"pos": [
+"n"
+]
+},
+{
+"word": "deal",
+"pos": [
+"v"
+]
+},
+{
+"word": "diagram",
+"pos": [
+"n"
+]
+},
+{
+"word": "dial",
+"pos": [
+"v"
+]
+},
+{
+"word": "dear",
+"pos": [
+"adj",
+"exclam"
+]
+},
+{
+"word": "dictionary",
+"pos": [
+"n"
+]
+},
+{
+"word": "death",
+"pos": [
+"n"
+]
+},
+{
+"word": "different",
+"pos": [
+"adj"
+]
+},
+{
+"word": "decide",
+"pos": [
+"v"
+]
+},
+{
+"word": "difficult",
+"pos": [
+"adj"
+]
+},
+{
+"word": "decision",
+"pos": [
+"n"
+]
+},
+{
+"word": "difficulty",
+"pos": [
+"n"
+]
+},
+{
+"word": "declare",
+"pos": [
+"v"
+]
+},
+{
+"word": "dig",
+"pos": [
+"v"
+]
+},
+{
+"word": "decorate",
+"pos": [
+"v"
+]
+},
+{
+"word": "decrease",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "deep",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "dining room",
+"pos": [
+"n"
+]
+},
+{
+"word": "defeat",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "defence",
+"pos": [
+"n"
+]
+},
+{
+"word": "defend",
+"pos": [
+"v"
+]
+},
+{
+"word": "direct",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "definitely",
+"pos": [
+"adv"
+]
+},
+{
+"word": "degree",
+"pos": [
+"n"
+]
+},
+{
+"word": "director",
+"pos": [
+"n"
+]
+},
+{
+"word": "dirt",
+"pos": [
+"n"
+]
+},
+{
+"word": "dirty",
+"pos": [
+"adj"
+]
+},
+{
+"word": "delay",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "disabled",
+"pos": [
+"adj"
+]
+},
+{
+"word": "delayed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "disadvantage",
+"pos": [
+"n"
+]
+},
+{
+"word": "delete",
+"pos": [
+"v"
+]
+},
+{
+"word": "disagree",
+"pos": [
+"v"
+]
+},
+{
+"word": "delicious",
+"pos": [
+"adj"
+]
+},
+{
+"word": "disappear",
+"pos": [
+"v"
+]
+},
+{
+"word": "delighted",
+"pos": [
+"adj"
+]
+},
+{
+"word": "disappoint",
+"pos": [
+"v"
+]
+},
+{
+"word": "deliver",
+"pos": [
+"v"
+]
+},
+{
+"word": "disappointed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "delivery",
+"pos": [
+"n"
+]
+},
+{
+"word": "disappointing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "demand",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "disappointment",
+"pos": [
+"n"
+]
+},
+{
+"word": "dentist",
+"pos": [
+"n"
+]
+},
+{
+"word": "disc",
+"pos": [
+"n"
+]
+},
+{
+"word": "depart",
+"pos": [
+"v"
+]
+},
+{
+"word": "dress",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "dressed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "discount",
+"pos": [
+"n"
+]
+},
+{
+"word": "discover",
+"pos": [
+"v"
+]
+},
+{
+"word": "drink",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "discovery",
+"pos": [
+"n"
+]
+},
+{
+"word": "drive",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "discuss",
+"pos": [
+"v"
+]
+},
+{
+"word": "driver",
+"pos": [
+"n"
+]
+},
+{
+"word": "discussion",
+"pos": [
+"n"
+]
+},
+{
+"word": "disease",
+"pos": [
+"n"
+]
+},
+{
+"word": "disgusting",
+"pos": [
+"adj"
+]
+},
+{
+"word": "driving licence",
+"pos": [
+"n"
+]
+},
+{
+"word": "dish",
+"pos": [
+"n"
+]
+},
+{
+"word": "drop",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "dishwasher",
+"pos": [
+"n"
+]
+},
+{
+"word": "disk",
+"pos": [
+"n"
+]
+},
+{
+"word": "recently",
+"pos": [
+"n"
+]
+},
+{
+"word": "dislike",
+"pos": [
+"v"
+]
+},
+{
+"word": "display",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "distance",
+"pos": [
+"n"
+]
+},
+{
+"word": "drum",
+"pos": [
+"n"
+]
+},
+{
+"word": "district",
+"pos": [
+"n"
+]
+},
+{
+"word": "dry",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "disturb",
+"pos": [
+"v"
+]
+},
+{
+"word": "duck",
+"pos": [
+"n"
+]
+},
+{
+"word": "dive",
+"pos": [
+"v"
+]
+},
+{
+"word": "due",
+"pos": [
+"adj"
+]
+},
+{
+"word": "diver",
+"pos": [
+"n"
+]
+},
+{
+"word": "divide",
+"pos": [
+"v"
+]
+},
+{
+"word": "due to",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "diving",
+"pos": [
+"n"
+]
+},
+{
+"word": "dull",
+"pos": [
+"adj"
+]
+},
+{
+"word": "DJ",
+"pos": [
+"disc jockey"
+]
+},
+{
+"word": "during",
+"pos": [
+"prep"
+]
+},
+{
+"word": "dust",
+"pos": [
+"n"
+]
+},
+{
+"word": "do",
+"pos": [
+"av",
+"v"
+]
+},
+{
+"word": "doctor",
+"pos": [
+"n"
+]
+},
+{
+"word": "dusty",
+"pos": [
+"adj"
+]
+},
+{
+"word": "document",
+"pos": [
+"n"
+]
+},
+{
+"word": "duty",
+"pos": [
+"n"
+]
+},
+{
+"word": "documentary",
+"pos": [
+"n"
+]
+},
+{
+"word": "duty-free",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "dog",
+"pos": [
+"n"
+]
+},
+{
+"word": "duvet",
+"pos": [
+"n"
+]
+},
+{
+"word": "doll",
+"pos": [
+"n"
+]
+},
+{
+"word": "DVD",
+"pos": [
+"n"
+]
+},
+{
+"word": "dollar",
+"pos": [
+"n"
+]
+},
+{
+"word": "DVD player",
+"pos": [
+"n"
+]
+},
+{
+"word": "dolphin",
+"pos": [
+"n"
+]
+},
+{
+"word": "donkey",
+"pos": [
+"n"
+]
+},
+{
+"word": "door",
+"pos": [
+"n"
+]
+},
+{
+"word": "dot",
+"pos": [
+"n"
+]
+},
+{
+"word": "double",
+"pos": [
+"adj",
+"det"
+]
+},
+{
+"word": "ear",
+"pos": [
+"n"
+]
+},
+{
+"word": "doubt",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "earache",
+"pos": [
+"n"
+]
+},
+{
+"word": "down",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "earn",
+"pos": [
+"v"
+]
+},
+{
+"word": "download",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "earring",
+"pos": [
+"n"
+]
+},
+{
+"word": "downstairs",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "earth",
+"pos": [
+"n"
+]
+},
+{
+"word": "dozen",
+"pos": [
+"det",
+"n"
+]
+},
+{
+"word": "east",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "Dr",
+"pos": [
+"n"
+]
+},
+{
+"word": "eastern",
+"pos": [
+"adj"
+]
+},
+{
+"word": "drag",
+"pos": [
+"v"
+]
+},
+{
+"word": "easily",
+"pos": [
+"adv"
+]
+},
+{
+"word": "easygoing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "drama",
+"pos": [
+"n"
+]
+},
+{
+"word": "eat",
+"pos": [
+"v"
+]
+},
+{
+"word": "economics",
+"pos": [
+"n"
+]
+},
+{
+"word": "edge",
+"pos": [
+"n"
+]
+},
+{
+"word": "draw",
+"pos": [
+"v"
+]
+},
+{
+"word": "education",
+"pos": [
+"n"
+]
+},
+{
+"word": "efficient",
+"pos": [
+"adj"
+]
+},
+{
+"word": "drawer",
+"pos": [
+"n"
+]
+},
+{
+"word": "either",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "drawing",
+"pos": [
+"n"
+]
+},
+{
+"word": "elbow",
+"pos": [
+"n"
+]
+},
+{
+"word": "elder",
+"pos": [
+"adj"
+]
+},
+{
+"word": "elderly",
+"pos": [
+"adj"
+]
+},
+{
+"word": "escape",
+"pos": [
+"v"
+]
+},
+{
+"word": "election",
+"pos": [
+"n"
+]
+},
+{
+"word": "especially",
+"pos": [
+"adv"
+]
+},
+{
+"word": "electric",
+"pos": [
+"adj"
+]
+},
+{
+"word": "essay",
+"pos": [
+"n"
+]
+},
+{
+"word": "electrical",
+"pos": [
+"adj"
+]
+},
+{
+"word": "essential",
+"pos": [
+"adj"
+]
+},
+{
+"word": "electricity",
+"pos": [
+"n"
+]
+},
+{
+"word": "euro",
+"pos": [
+"n"
+]
+},
+{
+"word": "electronic",
+"pos": [
+"adj"
+]
+},
+{
+"word": "even",
+"pos": [
+"adv"
+]
+},
+{
+"word": "elementary",
+"pos": [
+"adj"
+]
+},
+{
+"word": "elephant",
+"pos": [
+"n"
+]
+},
+{
+"word": "event",
+"pos": [
+"n"
+]
+},
+{
+"word": "even though",
+"pos": [
+"conj"
+]
+},
+{
+"word": "else",
+"pos": [
+"adv"
+]
+},
+{
+"word": "ever",
+"pos": [
+"adv"
+]
+},
+{
+"word": "email",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "every",
+"pos": [
+"det"
+]
+},
+{
+"word": "embarrassed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "everybody",
+"pos": [
+"pron"
+]
+},
+{
+"word": "embarrassing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "everyone",
+"pos": [
+"pron"
+]
+},
+{
+"word": "embassy",
+"pos": [
+"n"
+]
+},
+{
+"word": "everything",
+"pos": [
+"pron"
+]
+},
+{
+"word": "emergency",
+"pos": [
+"n"
+]
+},
+{
+"word": "everywhere",
+"pos": [
+"adv"
+]
+},
+{
+"word": "employ",
+"pos": [
+"v"
+]
+},
+{
+"word": "exact",
+"pos": [
+"adj"
+]
+},
+{
+"word": "employee",
+"pos": [
+"n"
+]
+},
+{
+"word": "exactly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "employer",
+"pos": [
+"n"
+]
+},
+{
+"word": "examination",
+"pos": [
+"n"
+]
+},
+{
+"word": "employment",
+"pos": [
+"n"
+]
+},
+{
+"word": "examiner",
+"pos": [
+"n"
+]
+},
+{
+"word": "empty",
+"pos": [
+"adj"
+]
+},
+{
+"word": "example",
+"pos": [
+"n"
+]
+},
+{
+"word": "encourage",
+"pos": [
+"v"
+]
+},
+{
+"word": "excellent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "end",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "except",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "ending",
+"pos": [
+"n"
+]
+},
+{
+"word": "exchange",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "end up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "enemy",
+"pos": [
+"n"
+]
+},
+{
+"word": "energy",
+"pos": [
+"n"
+]
+},
+{
+"word": "excited",
+"pos": [
+"adj"
+]
+},
+{
+"word": "engaged",
+"pos": [
+"adj"
+]
+},
+{
+"word": "exciting",
+"pos": [
+"adj"
+]
+},
+{
+"word": "engine",
+"pos": [
+"n"
+]
+},
+{
+"word": "exhausted",
+"pos": [
+"adj"
+]
+},
+{
+"word": "engineer",
+"pos": [
+"n"
+]
+},
+{
+"word": "exhibition",
+"pos": [
+"n"
+]
+},
+{
+"word": "engineering",
+"pos": [
+"n"
+]
+},
+{
+"word": "exist",
+"pos": [
+"v"
+]
+},
+{
+"word": "enjoy",
+"pos": [
+"v"
+]
+},
+{
+"word": "exit",
+"pos": [
+"n"
+]
+},
+{
+"word": "enjoyable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "expect",
+"pos": [
+"v"
+]
+},
+{
+"word": "enormous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "expedition",
+"pos": [
+"n"
+]
+},
+{
+"word": "enough",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "expensive",
+"pos": [
+"adj"
+]
+},
+{
+"word": "enquire",
+"pos": [
+"v"
+]
+},
+{
+"word": "experience",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "enquiry",
+"pos": [
+"n"
+]
+},
+{
+"word": "enter",
+"pos": [
+"v"
+]
+},
+{
+"word": "entertain",
+"pos": [
+"v"
+]
+},
+{
+"word": "expert",
+"pos": [
+"n"
+]
+},
+{
+"word": "entertainment",
+"pos": [
+"n"
+]
+},
+{
+"word": "explain",
+"pos": [
+"v"
+]
+},
+{
+"word": "entrance",
+"pos": [
+"n"
+]
+},
+{
+"word": "explanation",
+"pos": [
+"n"
+]
+},
+{
+"word": "entry",
+"pos": [
+"n"
+]
+},
+{
+"word": "explode",
+"pos": [
+"v"
+]
+},
+{
+"word": "envelope",
+"pos": [
+"n"
+]
+},
+{
+"word": "explore",
+"pos": [
+"v"
+]
+},
+{
+"word": "environment",
+"pos": [
+"n"
+]
+},
+{
+"word": "explorer",
+"pos": [
+"n"
+]
+},
+{
+"word": "environmental",
+"pos": [
+"adj"
+]
+},
+{
+"word": "episode",
+"pos": [
+"n"
+]
+},
+{
+"word": "extra",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "equal",
+"pos": [
+"adj"
+]
+},
+{
+"word": "extraordinary",
+"pos": [
+"adj"
+]
+},
+{
+"word": "equipment",
+"pos": [
+"n"
+]
+},
+{
+"word": "extremely",
+"pos": [
+"adv"
+]
+},
+{
+"word": "extreme sport",
+"pos": [
+"n"
+]
+},
+{
+"word": "festival",
+"pos": [
+"n"
+]
+},
+{
+"word": "eye",
+"pos": [
+"n"
+]
+},
+{
+"word": "fetch",
+"pos": [
+"v"
+]
+},
+{
+"word": "fever",
+"pos": [
+"n"
+]
+},
+{
+"word": "few",
+"pos": [
+"adj",
+"det",
+"pron"
+]
+},
+{
+"word": "fiction",
+"pos": [
+"n"
+]
+},
+{
+"word": "field",
+"pos": [
+"n"
+]
+},
+{
+"word": "face",
+"pos": [
+"n"
+]
+},
+{
+"word": "fight",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "face to face",
+"pos": [
+"adv"
+]
+},
+{
+"word": "file",
+"pos": [
+"n"
+]
+},
+{
+"word": "face-to-face",
+"pos": [
+"adj"
+]
+},
+{
+"word": "facilities",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "fact",
+"pos": [
+"n"
+]
+},
+{
+"word": "fill in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "factory",
+"pos": [
+"n"
+]
+},
+{
+"word": "fail",
+"pos": [
+"v"
+]
+},
+{
+"word": "fill up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "fair",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "fairly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "film",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "fall",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "film maker",
+"pos": [
+"n"
+]
+},
+{
+"word": "final",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "false",
+"pos": [
+"adj"
+]
+},
+{
+"word": "find",
+"pos": [
+"v"
+]
+},
+{
+"word": "find out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "family",
+"pos": [
+"n"
+]
+},
+{
+"word": "famous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "fine",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "fan",
+"pos": [
+"n"
+]
+},
+{
+"word": "finger",
+"pos": [
+"n"
+]
+},
+{
+"word": "fancy",
+"pos": [
+"v"
+]
+},
+{
+"word": "finish",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "fantastic",
+"pos": [
+"adj"
+]
+},
+{
+"word": "firefighter",
+"pos": [
+"n"
+]
+},
+{
+"word": "far",
+"pos": [
+"adv"
+]
+},
+{
+"word": "firework",
+"pos": [
+"n"
+]
+},
+{
+"word": "fare",
+"pos": [
+"n"
+]
+},
+{
+"word": "farm",
+"pos": [
+"n"
+]
+},
+{
+"word": "farmer",
+"pos": [
+"n"
+]
+},
+{
+"word": "first",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "farming",
+"pos": [
+"n"
+]
+},
+{
+"word": "farmland",
+"pos": [
+"n"
+]
+},
+{
+"word": "fashion",
+"pos": [
+"n"
+]
+},
+{
+"word": "first name",
+"pos": [
+"n"
+]
+},
+{
+"word": "fashionable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "fish",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "fast",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "fishing",
+"pos": [
+"n"
+]
+},
+{
+"word": "fasten",
+"pos": [
+"v"
+]
+},
+{
+"word": "fit",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "fast food",
+"pos": [
+"n"
+]
+},
+{
+"word": "fat",
+"pos": [
+"adj"
+]
+},
+{
+"word": "father",
+"pos": [
+"n"
+]
+},
+{
+"word": "fitness",
+"pos": [
+"n"
+]
+},
+{
+"word": "fault",
+"pos": [
+"n"
+]
+},
+{
+"word": "fix",
+"pos": [
+"v"
+]
+},
+{
+"word": "favour",
+"pos": [
+"n"
+]
+},
+{
+"word": "flag",
+"pos": [
+"n"
+]
+},
+{
+"word": "favourite",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "flat",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "fax",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "flavour",
+"pos": [
+"n"
+]
+},
+{
+"word": "fear",
+"pos": [
+"n"
+]
+},
+{
+"word": "flight",
+"pos": [
+"n"
+]
+},
+{
+"word": "fee",
+"pos": [
+"n"
+]
+},
+{
+"word": "float",
+"pos": [
+"v"
+]
+},
+{
+"word": "feed",
+"pos": [
+"v"
+]
+},
+{
+"word": "flood",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "feel",
+"pos": [
+"v"
+]
+},
+{
+"word": "floor",
+"pos": [
+"n"
+]
+},
+{
+"word": "feeling",
+"pos": [
+"n"
+]
+},
+{
+"word": "flour",
+"pos": [
+"n"
+]
+},
+{
+"word": "feel like",
+"pos": [
+"v"
+]
+},
+{
+"word": "flow",
+"pos": [
+"v"
+]
+},
+{
+"word": "female",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "flu",
+"pos": [
+"n"
+]
+},
+{
+"word": "ferry",
+"pos": [
+"n"
+]
+},
+{
+"word": "flute",
+"pos": [
+"n"
+]
+},
+{
+"word": "fly",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "fry",
+"pos": [
+"v"
+]
+},
+{
+"word": "frying pan",
+"pos": [
+"n"
+]
+},
+{
+"word": "fog",
+"pos": [
+"n"
+]
+},
+{
+"word": "fuel",
+"pos": [
+"n"
+]
+},
+{
+"word": "foggy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "full",
+"pos": [
+"adj"
+]
+},
+{
+"word": "fold",
+"pos": [
+"v"
+]
+},
+{
+"word": "full stop",
+"pos": [
+"n"
+]
+},
+{
+"word": "full time",
+"pos": [
+"adv"
+]
+},
+{
+"word": "folk",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "full-time",
+"pos": [
+"adj"
+]
+},
+{
+"word": "follow",
+"pos": [
+"v"
+]
+},
+{
+"word": "fully",
+"pos": [
+"adv"
+]
+},
+{
+"word": "following",
+"pos": [
+"adj"
+]
+},
+{
+"word": "fun",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "fond",
+"pos": [
+"adj"
+]
+},
+{
+"word": "funny",
+"pos": [
+"adj"
+]
+},
+{
+"word": "food",
+"pos": [
+"n"
+]
+},
+{
+"word": "fool",
+"pos": [
+"n"
+]
+},
+{
+"word": "fur",
+"pos": [
+"n"
+]
+},
+{
+"word": "foot",
+"pos": [
+"n"
+]
+},
+{
+"word": "furniture",
+"pos": [
+"n"
+]
+},
+{
+"word": "football",
+"pos": [
+"n"
+]
+},
+{
+"word": "further",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "footballer",
+"pos": [
+"n"
+]
+},
+{
+"word": "furthest",
+"pos": [
+"adj"
+]
+},
+{
+"word": "football player",
+"pos": [
+"n"
+]
+},
+{
+"word": "future",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "for",
+"pos": [
+"prep"
+]
+},
+{
+"word": "forbidden",
+"pos": [
+"adj"
+]
+},
+{
+"word": "forecast",
+"pos": [
+"n"
+]
+},
+{
+"word": "foreign",
+"pos": [
+"adj"
+]
+},
+{
+"word": "foreigner",
+"pos": [
+"n"
+]
+},
+{
+"word": "gain",
+"pos": [
+"v"
+]
+},
+{
+"word": "forest",
+"pos": [
+"n"
+]
+},
+{
+"word": "forever",
+"pos": [
+"adv"
+]
+},
+{
+"word": "gale",
+"pos": [
+"n"
+]
+},
+{
+"word": "forget",
+"pos": [
+"v"
+]
+},
+{
+"word": "gallery",
+"pos": [
+"n"
+]
+},
+{
+"word": "forgive",
+"pos": [
+"v"
+]
+},
+{
+"word": "fork",
+"pos": [
+"n"
+]
+},
+{
+"word": "game",
+"pos": [
+"n"
+]
+},
+{
+"word": "form",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "gap",
+"pos": [
+"n"
+]
+},
+{
+"word": "garden",
+"pos": [
+"n"
+]
+},
+{
+"word": "former",
+"pos": [
+"adj"
+]
+},
+{
+"word": "garlic",
+"pos": [
+"n"
+]
+},
+{
+"word": "for sale",
+"pos": [
+"phr"
+]
+},
+{
+"word": "fortnight",
+"pos": [
+"n"
+]
+},
+{
+"word": "fortunately",
+"pos": [
+"adv"
+]
+},
+{
+"word": "gate",
+"pos": [
+"n"
+]
+},
+{
+"word": "fountain",
+"pos": [
+"n"
+]
+},
+{
+"word": "general",
+"pos": [
+"adj"
+]
+},
+{
+"word": "frame",
+"pos": [
+"n"
+]
+},
+{
+"word": "generally",
+"pos": [
+"adv"
+]
+},
+{
+"word": "free",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "freeze",
+"pos": [
+"v"
+]
+},
+{
+"word": "generation",
+"pos": [
+"n"
+]
+},
+{
+"word": "freezer",
+"pos": [
+"n"
+]
+},
+{
+"word": "generous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "freezing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "gentle",
+"pos": [
+"adj"
+]
+},
+{
+"word": "geography",
+"pos": [
+"n"
+]
+},
+{
+"word": "frequent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "get",
+"pos": [
+"v"
+]
+},
+{
+"word": "frequently",
+"pos": [
+"adv"
+]
+},
+{
+"word": "fresh",
+"pos": [
+"adj"
+]
+},
+{
+"word": "fridge",
+"pos": [
+"n"
+]
+},
+{
+"word": "get back",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "fried",
+"pos": [
+"adj"
+]
+},
+{
+"word": "friend",
+"pos": [
+"n"
+]
+},
+{
+"word": "friendly",
+"pos": [
+"adj"
+]
+},
+{
+"word": "get down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "friendship",
+"pos": [
+"n"
+]
+},
+{
+"word": "frighten",
+"pos": [
+"v"
+]
+},
+{
+"word": "frightened",
+"pos": [
+"adj"
+]
+},
+{
+"word": "get fit",
+"pos": [
+"v"
+]
+},
+{
+"word": "frightening",
+"pos": [
+"adj"
+]
+},
+{
+"word": "frog",
+"pos": [
+"n"
+]
+},
+{
+"word": "get in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "from",
+"pos": [
+"prep"
+]
+},
+{
+"word": "front",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "get off",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "frozen",
+"pos": [
+"adj"
+]
+},
+{
+"word": "fruit",
+"pos": [
+"n"
+]
+},
+{
+"word": "get on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "good evening",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "good morning",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "get rid of",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "get up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "giant",
+"pos": [
+"adj"
+]
+},
+{
+"word": "gift",
+"pos": [
+"n"
+]
+},
+{
+"word": "giraffe",
+"pos": [
+"n"
+]
+},
+{
+"word": "girl",
+"pos": [
+"n"
+]
+},
+{
+"word": "gorgeous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "girlfriend",
+"pos": [
+"n"
+]
+},
+{
+"word": "government",
+"pos": [
+"n"
+]
+},
+{
+"word": "give",
+"pos": [
+"v"
+]
+},
+{
+"word": "give back",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "grab",
+"pos": [
+"v"
+]
+},
+{
+"word": "give in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "graduation",
+"pos": [
+"n"
+]
+},
+{
+"word": "give out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "grandchild",
+"pos": [
+"n"
+]
+},
+{
+"word": "give up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "give way",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "grandfather",
+"pos": [
+"n"
+]
+},
+{
+"word": "grandmother",
+"pos": [
+"n"
+]
+},
+{
+"word": "glad",
+"pos": [
+"adj"
+]
+},
+{
+"word": "grandpa",
+"pos": [
+"n"
+]
+},
+{
+"word": "glance",
+"pos": [
+"v"
+]
+},
+{
+"word": "grandparent",
+"pos": [
+"n"
+]
+},
+{
+"word": "glass",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "grandson",
+"pos": [
+"n"
+]
+},
+{
+"word": "glasses",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "granny",
+"pos": [
+"n"
+]
+},
+{
+"word": "global warming",
+"pos": [
+"n"
+]
+},
+{
+"word": "grant",
+"pos": [
+"n"
+]
+},
+{
+"word": "glove",
+"pos": [
+"n"
+]
+},
+{
+"word": "go",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "Australia",
+"pos": [
+"n"
+]
+},
+{
+"word": "goalkeeper",
+"pos": [
+"n"
+]
+},
+{
+"word": "grass",
+"pos": [
+"n"
+]
+},
+{
+"word": "goat",
+"pos": [
+"n"
+]
+},
+{
+"word": "grateful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "go for",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "great",
+"pos": [
+"adj"
+]
+},
+{
+"word": "greet",
+"pos": [
+"v"
+]
+},
+{
+"word": "greeting",
+"pos": [
+"n"
+]
+},
+{
+"word": "golden",
+"pos": [
+"adj"
+]
+},
+{
+"word": "grill",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "golf",
+"pos": [
+"n"
+]
+},
+{
+"word": "grilled",
+"pos": [
+"adj"
+]
+},
+{
+"word": "good",
+"pos": [
+"adj"
+]
+},
+{
+"word": "good afternoon",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "group",
+"pos": [
+"n"
+]
+},
+{
+"word": "happiness",
+"pos": [
+"n"
+]
+},
+{
+"word": "grow",
+"pos": [
+"v"
+]
+},
+{
+"word": "harbour",
+"pos": [
+"n"
+]
+},
+{
+"word": "grow up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "hard",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "guard",
+"pos": [
+"n"
+]
+},
+{
+"word": "guess",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "guest",
+"pos": [
+"n"
+]
+},
+{
+"word": "hardware",
+"pos": [
+"n"
+]
+},
+{
+"word": "guest-house",
+"pos": [
+"n"
+]
+},
+{
+"word": "hat",
+"pos": [
+"n"
+]
+},
+{
+"word": "guide",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "hate",
+"pos": [
+"v"
+]
+},
+{
+"word": "guided",
+"pos": [
+"adj"
+]
+},
+{
+"word": "have",
+"pos": [
+"av",
+"v"
+]
+},
+{
+"word": "guidebook",
+"pos": [
+"n"
+]
+},
+{
+"word": "have to",
+"pos": [
+"mv"
+]
+},
+{
+"word": "guilty",
+"pos": [
+"adj"
+]
+},
+{
+"word": "he",
+"pos": [
+"pron"
+]
+},
+{
+"word": "guitar",
+"pos": [
+"n"
+]
+},
+{
+"word": "head",
+"pos": [
+"n"
+]
+},
+{
+"word": "guitarist",
+"pos": [
+"n"
+]
+},
+{
+"word": "gum",
+"pos": [
+"n"
+]
+},
+{
+"word": "gun",
+"pos": [
+"n"
+]
+},
+{
+"word": "headache",
+"pos": [
+"n"
+]
+},
+{
+"word": "guy",
+"pos": [
+"n"
+]
+},
+{
+"word": "headline",
+"pos": [
+"n"
+]
+},
+{
+"word": "gym",
+"pos": [
+"n"
+]
+},
+{
+"word": "headphones",
+"pos": [
+"n"
+]
+},
+{
+"word": "gymnastics",
+"pos": [
+"n"
+]
+},
+{
+"word": "headteacher",
+"pos": [
+"n"
+]
+},
+{
+"word": "health",
+"pos": [
+"n"
+]
+},
+{
+"word": "healthy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "hear",
+"pos": [
+"v"
+]
+},
+{
+"word": "heart",
+"pos": [
+"n"
+]
+},
+{
+"word": "habit",
+"pos": [
+"n"
+]
+},
+{
+"word": "heat",
+"pos": [
+"n"
+]
+},
+{
+"word": "hair",
+"pos": [
+"n"
+]
+},
+{
+"word": "heater",
+"pos": [
+"n"
+]
+},
+{
+"word": "haircut",
+"pos": [
+"n"
+]
+},
+{
+"word": "heating",
+"pos": [
+"n"
+]
+},
+{
+"word": "hairdresser",
+"pos": [
+"n"
+]
+},
+{
+"word": "heavy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "hairdryer",
+"pos": [
+"n"
+]
+},
+{
+"word": "heel",
+"pos": [
+"n"
+]
+},
+{
+"word": "half",
+"pos": [
+"adv",
+"det",
+"n",
+"pron"
+]
+},
+{
+"word": "half-price",
+"pos": [
+"adj"
+]
+},
+{
+"word": "height",
+"pos": [
+"n"
+]
+},
+{
+"word": "hall",
+"pos": [
+"n"
+]
+},
+{
+"word": "helicopter",
+"pos": [
+"n"
+]
+},
+{
+"word": "hand",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "hello",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "handbag",
+"pos": [
+"n"
+]
+},
+{
+"word": "helmet",
+"pos": [
+"n"
+]
+},
+{
+"word": "hand-held",
+"pos": [
+"adj"
+]
+},
+{
+"word": "help",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "hand in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "her",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "here",
+"pos": [
+"adv"
+]
+},
+{
+"word": "handkerchief",
+"pos": [
+"n"
+]
+},
+{
+"word": "hero",
+"pos": [
+"n"
+]
+},
+{
+"word": "handle",
+"pos": [
+"v"
+]
+},
+{
+"word": "heroine",
+"pos": [
+"n"
+]
+},
+{
+"word": "handlebars",
+"pos": [
+"n"
+]
+},
+{
+"word": "hand out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "handsome",
+"pos": [
+"adj"
+]
+},
+{
+"word": "herself",
+"pos": [
+"pron"
+]
+},
+{
+"word": "handwriting",
+"pos": [
+"n"
+]
+},
+{
+"word": "hey",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "hang",
+"pos": [
+"v"
+]
+},
+{
+"word": "hi",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "hang out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "high",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "hang up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "hike",
+"pos": [
+"v"
+]
+},
+{
+"word": "him",
+"pos": [
+"pron"
+]
+},
+{
+"word": "happen",
+"pos": [
+"v"
+]
+},
+{
+"word": "himself",
+"pos": [
+"pron"
+]
+},
+{
+"word": "happy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "hip hop",
+"pos": [
+"n"
+]
+},
+{
+"word": "happily",
+"pos": [
+"adv"
+]
+},
+{
+"word": "hire",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "his",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "husband",
+"pos": [
+"n"
+]
+},
+{
+"word": "historic",
+"pos": [
+"adj"
+]
+},
+{
+"word": "hut",
+"pos": [
+"n"
+]
+},
+{
+"word": "historical",
+"pos": [
+"adj"
+]
+},
+{
+"word": "history",
+"pos": [
+"n"
+]
+},
+{
+"word": "hit",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "hitchhike",
+"pos": [
+"v"
+]
+},
+{
+"word": "ice",
+"pos": [
+"n"
+]
+},
+{
+"word": "hobby",
+"pos": [
+"n"
+]
+},
+{
+"word": "ice cream",
+"pos": [
+"n"
+]
+},
+{
+"word": "hockey",
+"pos": [
+"n"
+]
+},
+{
+"word": "ice hockey",
+"pos": [
+"n"
+]
+},
+{
+"word": "hold",
+"pos": [
+"v"
+]
+},
+{
+"word": "ice skates",
+"pos": [
+"n"
+]
+},
+{
+"word": "hold up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "ice skating",
+"pos": [
+"n"
+]
+},
+{
+"word": "ID",
+"pos": [
+"n"
+]
+},
+{
+"word": "hole",
+"pos": [
+"n"
+]
+},
+{
+"word": "ID card",
+"pos": [
+"n"
+]
+},
+{
+"word": "holiday",
+"pos": [
+"n"
+]
+},
+{
+"word": "idea",
+"pos": [
+"n"
+]
+},
+{
+"word": "home",
+"pos": [
+"adv",
+"n"
+]
+},
+{
+"word": "identification",
+"pos": [
+"n"
+]
+},
+{
+"word": "homepage",
+"pos": [
+"n"
+]
+},
+{
+"word": "identify",
+"pos": [
+"v"
+]
+},
+{
+"word": "homework",
+"pos": [
+"n"
+]
+},
+{
+"word": "honest",
+"pos": [
+"adj"
+]
+},
+{
+"word": "honestly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "if",
+"pos": [
+"conj"
+]
+},
+{
+"word": "honey",
+"pos": [
+"n"
+]
+},
+{
+"word": "ill",
+"pos": [
+"adj"
+]
+},
+{
+"word": "honeymoon",
+"pos": [
+"n"
+]
+},
+{
+"word": "illness",
+"pos": [
+"n"
+]
+},
+{
+"word": "hoodie",
+"pos": [
+"n"
+]
+},
+{
+"word": "imagination",
+"pos": [
+"n"
+]
+},
+{
+"word": "hope",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "imagine",
+"pos": [
+"v"
+]
+},
+{
+"word": "hopeful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "immediately",
+"pos": [
+"adv"
+]
+},
+{
+"word": "hopefully",
+"pos": [
+"adv"
+]
+},
+{
+"word": "immigration",
+"pos": [
+"n"
+]
+},
+{
+"word": "important",
+"pos": [
+"adj"
+]
+},
+{
+"word": "hopeless",
+"pos": [
+"adj"
+]
+},
+{
+"word": "impossible",
+"pos": [
+"adj"
+]
+},
+{
+"word": "horrible",
+"pos": [
+"adj"
+]
+},
+{
+"word": "improve",
+"pos": [
+"v"
+]
+},
+{
+"word": "horror",
+"pos": [
+"adj"
+]
+},
+{
+"word": "improvement",
+"pos": [
+"n"
+]
+},
+{
+"word": "in",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "horse",
+"pos": [
+"n"
+]
+},
+{
+"word": "in advance",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "horse-riding",
+"pos": [
+"n"
+]
+},
+{
+"word": "in case",
+"pos": [
+"adv",
+"conj"
+]
+},
+{
+"word": "hospital",
+"pos": [
+"n"
+]
+},
+{
+"word": "inch",
+"pos": [
+"n"
+]
+},
+{
+"word": "hostel",
+"pos": [
+"n"
+]
+},
+{
+"word": "include",
+"pos": [
+"v"
+]
+},
+{
+"word": "hot",
+"pos": [
+"adj"
+]
+},
+{
+"word": "including",
+"pos": [
+"prep"
+]
+},
+{
+"word": "hotel",
+"pos": [
+"n"
+]
+},
+{
+"word": "incorrect",
+"pos": [
+"adj"
+]
+},
+{
+"word": "hour",
+"pos": [
+"n"
+]
+},
+{
+"word": "increase",
+"pos": [
+"v"
+]
+},
+{
+"word": "house",
+"pos": [
+"n"
+]
+},
+{
+"word": "incredible",
+"pos": [
+"adj"
+]
+},
+{
+"word": "housewife",
+"pos": [
+"n"
+]
+},
+{
+"word": "incredibly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "housework",
+"pos": [
+"n"
+]
+},
+{
+"word": "how",
+"pos": [
+"adv"
+]
+},
+{
+"word": "indeed",
+"pos": [
+"adv"
+]
+},
+{
+"word": "however",
+"pos": [
+"adv"
+]
+},
+{
+"word": "independent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "how much",
+"pos": [
+"adv"
+]
+},
+{
+"word": "individual",
+"pos": [
+"adj"
+]
+},
+{
+"word": "hug",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "huge",
+"pos": [
+"adj"
+]
+},
+{
+"word": "indoor",
+"pos": [
+"adj"
+]
+},
+{
+"word": "indoors",
+"pos": [
+"adv"
+]
+},
+{
+"word": "human",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "industry",
+"pos": [
+"n"
+]
+},
+{
+"word": "humid",
+"pos": [
+"adj"
+]
+},
+{
+"word": "inexpensive",
+"pos": [
+"adj"
+]
+},
+{
+"word": "humour",
+"pos": [
+"n"
+]
+},
+{
+"word": "in fact",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "hunger",
+"pos": [
+"n"
+]
+},
+{
+"word": "hungry",
+"pos": [
+"adj"
+]
+},
+{
+"word": "influence",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "hunt",
+"pos": [
+"v"
+]
+},
+{
+"word": "inform",
+"pos": [
+"v"
+]
+},
+{
+"word": "information",
+"pos": [
+"n"
+]
+},
+{
+"word": "in front of",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "iron",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "ingredient",
+"pos": [
+"n"
+]
+},
+{
+"word": "ironing",
+"pos": [
+"n"
+]
+},
+{
+"word": "in half",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "issue",
+"pos": [
+"n"
+]
+},
+{
+"word": "in ink",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "initial",
+"pos": [
+"n"
+]
+},
+{
+"word": "it",
+"pos": [
+"pron"
+]
+},
+{
+"word": "injure",
+"pos": [
+"v"
+]
+},
+{
+"word": "its",
+"pos": [
+"det"
+]
+},
+{
+"word": "ink",
+"pos": [
+"n"
+]
+},
+{
+"word": "itself",
+"pos": [
+"pron"
+]
+},
+{
+"word": "in love",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "in pencil",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "in order",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "in order to",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "inquiry",
+"pos": [
+"n"
+]
+},
+{
+"word": "jacket",
+"pos": [
+"n"
+]
+},
+{
+"word": "insect",
+"pos": [
+"n"
+]
+},
+{
+"word": "inside",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "jam",
+"pos": [
+"n"
+]
+},
+{
+"word": "insist",
+"pos": [
+"v"
+]
+},
+{
+"word": "inspire",
+"pos": [
+"v"
+]
+},
+{
+"word": "install",
+"pos": [
+"v"
+]
+},
+{
+"word": "jazz",
+"pos": [
+"n"
+]
+},
+{
+"word": "instance",
+"pos": [
+"n"
+]
+},
+{
+"word": "jealous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "jet",
+"pos": [
+"n"
+]
+},
+{
+"word": "jog",
+"pos": [
+"v"
+]
+},
+{
+"word": "instructions",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "jogging",
+"pos": [
+"n"
+]
+},
+{
+"word": "instructor",
+"pos": [
+"n"
+]
+},
+{
+"word": "join",
+"pos": [
+"v"
+]
+},
+{
+"word": "instrument",
+"pos": [
+"n"
+]
+},
+{
+"word": "intelligent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "intend",
+"pos": [
+"v"
+]
+},
+{
+"word": "joke",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "interest",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "journey",
+"pos": [
+"n"
+]
+},
+{
+"word": "interested",
+"pos": [
+"adj"
+]
+},
+{
+"word": "judge",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "interesting",
+"pos": [
+"adj"
+]
+},
+{
+"word": "jug",
+"pos": [
+"n"
+]
+},
+{
+"word": "intermediate",
+"pos": [
+"adj"
+]
+},
+{
+"word": "juice",
+"pos": [
+"n"
+]
+},
+{
+"word": "international",
+"pos": [
+"adj"
+]
+},
+{
+"word": "jump",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "internet",
+"pos": [
+"n"
+]
+},
+{
+"word": "jumper",
+"pos": [
+"n"
+]
+},
+{
+"word": "interrupt",
+"pos": [
+"v"
+]
+},
+{
+"word": "jungle",
+"pos": [
+"n"
+]
+},
+{
+"word": "interval",
+"pos": [
+"n"
+]
+},
+{
+"word": "just",
+"pos": [
+"adv"
+]
+},
+{
+"word": "interview",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "interviewer",
+"pos": [
+"n"
+]
+},
+{
+"word": "in the end",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "in time",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "kangaroo",
+"pos": [
+"n"
+]
+},
+{
+"word": "into",
+"pos": [
+"prep"
+]
+},
+{
+"word": "keen",
+"pos": [
+"adj"
+]
+},
+{
+"word": "introduce",
+"pos": [
+"v"
+]
+},
+{
+"word": "introduction",
+"pos": [
+"n"
+]
+},
+{
+"word": "in two",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "keep",
+"pos": [
+"v"
+]
+},
+{
+"word": "invent",
+"pos": [
+"v"
+]
+},
+{
+"word": "keeper",
+"pos": [
+"n"
+]
+},
+{
+"word": "inventor",
+"pos": [
+"n"
+]
+},
+{
+"word": "keep in",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "invention",
+"pos": [
+"n"
+]
+},
+{
+"word": "invitation",
+"pos": [
+"n"
+]
+},
+{
+"word": "invite",
+"pos": [
+"v"
+]
+},
+{
+"word": "keep on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "involve",
+"pos": [
+"v"
+]
+},
+{
+"word": "keep up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "lawyer",
+"pos": [
+"n"
+]
+},
+{
+"word": "kettle",
+"pos": [
+"n"
+]
+},
+{
+"word": "key",
+"pos": [
+"n"
+]
+},
+{
+"word": "lazy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "keyboard",
+"pos": [
+"n"
+]
+},
+{
+"word": "kick",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "league",
+"pos": [
+"n"
+]
+},
+{
+"word": "kid",
+"pos": [
+"n"
+]
+},
+{
+"word": "learn",
+"pos": [
+"v"
+]
+},
+{
+"word": "kill",
+"pos": [
+"v"
+]
+},
+{
+"word": "leather",
+"pos": [
+"n"
+]
+},
+{
+"word": "leave",
+"pos": [
+"v"
+]
+},
+{
+"word": "lecture",
+"pos": [
+"n"
+]
+},
+{
+"word": "kind",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "lecturer",
+"pos": [
+"n"
+]
+},
+{
+"word": "king",
+"pos": [
+"n"
+]
+},
+{
+"word": "left",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "kiss",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "left-hand",
+"pos": [
+"adj"
+]
+},
+{
+"word": "kit",
+"pos": [
+"n"
+]
+},
+{
+"word": "leg",
+"pos": [
+"n"
+]
+},
+{
+"word": "kitchen",
+"pos": [
+"n"
+]
+},
+{
+"word": "leisure",
+"pos": [
+"n"
+]
+},
+{
+"word": "kite",
+"pos": [
+"n"
+]
+},
+{
+"word": "lemon",
+"pos": [
+"n"
+]
+},
+{
+"word": "kitten",
+"pos": [
+"n"
+]
+},
+{
+"word": "lemonade",
+"pos": [
+"n"
+]
+},
+{
+"word": "knee",
+"pos": [
+"n"
+]
+},
+{
+"word": "lend",
+"pos": [
+"v"
+]
+},
+{
+"word": "knife",
+"pos": [
+"n"
+]
+},
+{
+"word": "length",
+"pos": [
+"n"
+]
+},
+{
+"word": "knit",
+"pos": [
+"v"
+]
+},
+{
+"word": "less",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "knock",
+"pos": [
+"v"
+]
+},
+{
+"word": "lesson",
+"pos": [
+"n"
+]
+},
+{
+"word": "knock down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "let",
+"pos": [
+"v"
+]
+},
+{
+"word": "know",
+"pos": [
+"v"
+]
+},
+{
+"word": "knowledge",
+"pos": [
+"n"
+]
+},
+{
+"word": "letter",
+"pos": [
+"n"
+]
+},
+{
+"word": "lettuce",
+"pos": [
+"n"
+]
+},
+{
+"word": "level",
+"pos": [
+"n"
+]
+},
+{
+"word": "library",
+"pos": [
+"n"
+]
+},
+{
+"word": "label",
+"pos": [
+"n"
+]
+},
+{
+"word": "librarian",
+"pos": [
+"n"
+]
+},
+{
+"word": "licence",
+"pos": [
+"n"
+]
+},
+{
+"word": "lack",
+"pos": [
+"n"
+]
+},
+{
+"word": "ladder",
+"pos": [
+"n"
+]
+},
+{
+"word": "lie",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "lady",
+"pos": [
+"n"
+]
+},
+{
+"word": "lie down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "lake",
+"pos": [
+"n"
+]
+},
+{
+"word": "life",
+"pos": [
+"n"
+]
+},
+{
+"word": "lamb",
+"pos": [
+"n"
+]
+},
+{
+"word": "lift",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "lamp",
+"pos": [
+"n"
+]
+},
+{
+"word": "land",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "landscape",
+"pos": [
+"n"
+]
+},
+{
+"word": "language",
+"pos": [
+"n"
+]
+},
+{
+"word": "light",
+"pos": [
+"adj",
+"n",
+"v"
+]
+},
+{
+"word": "lighter",
+"pos": [
+"n"
+]
+},
+{
+"word": "large",
+"pos": [
+"adj"
+]
+},
+{
+"word": "last",
+"pos": [
+"adj",
+"adv",
+"det",
+"v"
+]
+},
+{
+"word": "lightning",
+"pos": [
+"n"
+]
+},
+{
+"word": "late",
+"pos": [
+"adj",
+"adv",
+"det"
+]
+},
+{
+"word": "like",
+"pos": [
+"prep",
+"v"
+]
+},
+{
+"word": "lately",
+"pos": [
+"adv"
+]
+},
+{
+"word": "likely",
+"pos": [
+"adj"
+]
+},
+{
+"word": "later",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "limit",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "latest",
+"pos": [
+"adj"
+]
+},
+{
+"word": "limited",
+"pos": [
+"adj"
+]
+},
+{
+"word": "laugh",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "laundry",
+"pos": [
+"n"
+]
+},
+{
+"word": "line",
+"pos": [
+"n"
+]
+},
+{
+"word": "law",
+"pos": [
+"n"
+]
+},
+{
+"word": "link",
+"pos": [
+"n"
+]
+},
+{
+"word": "luggage",
+"pos": [
+"n"
+]
+},
+{
+"word": "lion",
+"pos": [
+"n"
+]
+},
+{
+"word": "lunchtime",
+"pos": [
+"n"
+]
+},
+{
+"word": "lip",
+"pos": [
+"n"
+]
+},
+{
+"word": "luxury",
+"pos": [
+"n"
+]
+},
+{
+"word": "liquid",
+"pos": [
+"n"
+]
+},
+{
+"word": "list",
+"pos": [
+"n"
+]
+},
+{
+"word": "listen",
+"pos": [
+"v"
+]
+},
+{
+"word": "literature",
+"pos": [
+"n"
+]
+},
+{
+"word": "machine",
+"pos": [
+"n"
+]
+},
+{
+"word": "litter",
+"pos": [
+"n"
+]
+},
+{
+"word": "mad",
+"pos": [
+"adj"
+]
+},
+{
+"word": "little",
+"pos": [
+"adj",
+"det",
+"pron"
+]
+},
+{
+"word": "Madam",
+"pos": [
+"n"
+]
+},
+{
+"word": "live",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "made of",
+"pos": [
+"v"
+]
+},
+{
+"word": "lively",
+"pos": [
+"adj"
+]
+},
+{
+"word": "magic",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "living room",
+"pos": [
+"n"
+]
+},
+{
+"word": "magnificent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "load",
+"pos": [
+"n"
+]
+},
+{
+"word": "mail",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "loan",
+"pos": [
+"n"
+]
+},
+{
+"word": "main",
+"pos": [
+"adj"
+]
+},
+{
+"word": "local",
+"pos": [
+"adj"
+]
+},
+{
+"word": "main course",
+"pos": [
+"n"
+]
+},
+{
+"word": "locate",
+"pos": [
+"v"
+]
+},
+{
+"word": "mainly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "location",
+"pos": [
+"n"
+]
+},
+{
+"word": "make sure",
+"pos": [
+"v"
+]
+},
+{
+"word": "lock",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "make-up",
+"pos": [
+"n"
+]
+},
+{
+"word": "locker",
+"pos": [
+"n"
+]
+},
+{
+"word": "male",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "logo",
+"pos": [
+"n"
+]
+},
+{
+"word": "mall",
+"pos": [
+"n"
+]
+},
+{
+"word": "lonely",
+"pos": [
+"adj"
+]
+},
+{
+"word": "long",
+"pos": [
+"adj"
+]
+},
+{
+"word": "man",
+"pos": [
+"n"
+]
+},
+{
+"word": "long jump",
+"pos": [
+"n"
+]
+},
+{
+"word": "manage",
+"pos": [
+"v"
+]
+},
+{
+"word": "look",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "look after",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "manager",
+"pos": [
+"n"
+]
+},
+{
+"word": "look at",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "mango",
+"pos": [
+"n"
+]
+},
+{
+"word": "look for",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "many",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "look forward to",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "map",
+"pos": [
+"n"
+]
+},
+{
+"word": "look like",
+"pos": [
+"v"
+]
+},
+{
+"word": "market",
+"pos": [
+"n"
+]
+},
+{
+"word": "look out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "marriage",
+"pos": [
+"n"
+]
+},
+{
+"word": "married",
+"pos": [
+"adj"
+]
+},
+{
+"word": "look up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "marry",
+"pos": [
+"v"
+]
+},
+{
+"word": "match",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "loose",
+"pos": [
+"adj"
+]
+},
+{
+"word": "lorry",
+"pos": [
+"n"
+]
+},
+{
+"word": "lose",
+"pos": [
+"v"
+]
+},
+{
+"word": "lost",
+"pos": [
+"adj"
+]
+},
+{
+"word": "mate",
+"pos": [
+"n"
+]
+},
+{
+"word": "lots",
+"pos": [
+"n"
+]
+},
+{
+"word": "material",
+"pos": [
+"n"
+]
+},
+{
+"word": "lottery",
+"pos": [
+"n"
+]
+},
+{
+"word": "loud",
+"pos": [
+"adj"
+]
+},
+{
+"word": "loudly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "love",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "lovely",
+"pos": [
+"adj"
+]
+},
+{
+"word": "low",
+"pos": [
+"adj"
+]
+},
+{
+"word": "matter",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "luck",
+"pos": [
+"n"
+]
+},
+{
+"word": "maximum",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "minimum",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "may",
+"pos": [
+"mv"
+]
+},
+{
+"word": "minus",
+"pos": [
+"prep"
+]
+},
+{
+"word": "maybe",
+"pos": [
+"adv"
+]
+},
+{
+"word": "minute",
+"pos": [
+"n"
+]
+},
+{
+"word": "me",
+"pos": [
+"pron"
+]
+},
+{
+"word": "mirror",
+"pos": [
+"n"
+]
+},
+{
+"word": "meal",
+"pos": [
+"n"
+]
+},
+{
+"word": "miserable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "mean",
+"pos": [
+"v"
+]
+},
+{
+"word": "miss",
+"pos": [
+"v"
+]
+},
+{
+"word": "meaning",
+"pos": [
+"n"
+]
+},
+{
+"word": "mistake",
+"pos": [
+"n"
+]
+},
+{
+"word": "meanwhile",
+"pos": [
+"adv"
+]
+},
+{
+"word": "mix",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "measure",
+"pos": [
+"v"
+]
+},
+{
+"word": "meat",
+"pos": [
+"n"
+]
+},
+{
+"word": "model",
+"pos": [
+"n"
+]
+},
+{
+"word": "mechanic",
+"pos": [
+"n"
+]
+},
+{
+"word": "medicine",
+"pos": [
+"n"
+]
+},
+{
+"word": "medium",
+"pos": [
+"adj"
+]
+},
+{
+"word": "meet",
+"pos": [
+"v"
+]
+},
+{
+"word": "modern",
+"pos": [
+"adj"
+]
+},
+{
+"word": "meeting",
+"pos": [
+"n"
+]
+},
+{
+"word": "moment",
+"pos": [
+"n"
+]
+},
+{
+"word": "melon",
+"pos": [
+"n"
+]
+},
+{
+"word": "money",
+"pos": [
+"n"
+]
+},
+{
+"word": "member",
+"pos": [
+"n"
+]
+},
+{
+"word": "monkey",
+"pos": [
+"n"
+]
+},
+{
+"word": "membership",
+"pos": [
+"n"
+]
+},
+{
+"word": "monster",
+"pos": [
+"n"
+]
+},
+{
+"word": "memory",
+"pos": [
+"n"
+]
+},
+{
+"word": "month",
+"pos": [
+"n"
+]
+},
+{
+"word": "mend",
+"pos": [
+"v"
+]
+},
+{
+"word": "moon",
+"pos": [
+"n"
+]
+},
+{
+"word": "mention",
+"pos": [
+"v"
+]
+},
+{
+"word": "more",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "menu",
+"pos": [
+"n"
+]
+},
+{
+"word": "morning",
+"pos": [
+"n"
+]
+},
+{
+"word": "mess",
+"pos": [
+"n"
+]
+},
+{
+"word": "mosquito",
+"pos": [
+"n"
+]
+},
+{
+"word": "message",
+"pos": [
+"n"
+]
+},
+{
+"word": "most",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "messy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "mostly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "metal",
+"pos": [
+"n"
+]
+},
+{
+"word": "mother",
+"pos": [
+"n"
+]
+},
+{
+"word": "method",
+"pos": [
+"n"
+]
+},
+{
+"word": "motorbike",
+"pos": [
+"n"
+]
+},
+{
+"word": "motor-racing",
+"pos": [
+"n"
+]
+},
+{
+"word": "microphone",
+"pos": [
+"n"
+]
+},
+{
+"word": "motorway",
+"pos": [
+"n"
+]
+},
+{
+"word": "microwave",
+"pos": [
+"n"
+]
+},
+{
+"word": "mountain",
+"pos": [
+"n"
+]
+},
+{
+"word": "midday",
+"pos": [
+"n"
+]
+},
+{
+"word": "moustache",
+"pos": [
+"n"
+]
+},
+{
+"word": "middle",
+"pos": [
+"n"
+]
+},
+{
+"word": "mouth",
+"pos": [
+"n"
+]
+},
+{
+"word": "middle-aged",
+"pos": [
+"adj"
+]
+},
+{
+"word": "move",
+"pos": [
+"v"
+]
+},
+{
+"word": "midnight",
+"pos": [
+"n"
+]
+},
+{
+"word": "might",
+"pos": [
+"mv"
+]
+},
+{
+"word": "mild",
+"pos": [
+"adj"
+]
+},
+{
+"word": "mile",
+"pos": [
+"n"
+]
+},
+{
+"word": "Mr",
+"pos": [
+"n"
+]
+},
+{
+"word": "milk",
+"pos": [
+"n"
+]
+},
+{
+"word": "Mrs",
+"pos": [
+"n"
+]
+},
+{
+"word": "Ms",
+"pos": [
+"n"
+]
+},
+{
+"word": "much",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "million",
+"pos": [
+"n"
+]
+},
+{
+"word": "mug",
+"pos": [
+"n"
+]
+},
+{
+"word": "mind",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "mum",
+"pos": [
+"n"
+]
+},
+{
+"word": "music",
+"pos": [
+"n"
+]
+},
+{
+"word": "musician",
+"pos": [
+"n"
+]
+},
+{
+"word": "must",
+"pos": [
+"mv"
+]
+},
+{
+"word": "mine",
+"pos": [
+"pron"
+]
+},
+{
+"word": "my",
+"pos": [
+"det"
+]
+},
+{
+"word": "normal",
+"pos": [
+"adj"
+]
+},
+{
+"word": "myself",
+"pos": [
+"pron"
+]
+},
+{
+"word": "normally",
+"pos": [
+"adv"
+]
+},
+{
+"word": "mystery",
+"pos": [
+"n"
+]
+},
+{
+"word": "north",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "northeast",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "northern",
+"pos": [
+"adj"
+]
+},
+{
+"word": "northwest",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "name",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "nose",
+"pos": [
+"n"
+]
+},
+{
+"word": "narrow",
+"pos": [
+"adj"
+]
+},
+{
+"word": "not",
+"pos": [
+"adv"
+]
+},
+{
+"word": "nasty",
+"pos": [
+"adj"
+]
+},
+{
+"word": "note",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "national",
+"pos": [
+"adj"
+]
+},
+{
+"word": "nationality",
+"pos": [
+"n"
+]
+},
+{
+"word": "natural",
+"pos": [
+"adj"
+]
+},
+{
+"word": "nature",
+"pos": [
+"n"
+]
+},
+{
+"word": "notebook",
+"pos": [
+"n"
+]
+},
+{
+"word": "navy blue",
+"pos": [
+"adj"
+]
+},
+{
+"word": "nothing",
+"pos": [
+"pron"
+]
+},
+{
+"word": "near",
+"pos": [
+"adj",
+"adv",
+"prep"
+]
+},
+{
+"word": "notice",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "nearby",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "nearly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "neat",
+"pos": [
+"adj"
+]
+},
+{
+"word": "necessary",
+"pos": [
+"adj"
+]
+},
+{
+"word": "noticeboard",
+"pos": [
+"n"
+]
+},
+{
+"word": "neck",
+"pos": [
+"n"
+]
+},
+{
+"word": "novel",
+"pos": [
+"n"
+]
+},
+{
+"word": "necklace",
+"pos": [
+"n"
+]
+},
+{
+"word": "novelist",
+"pos": [
+"n"
+]
+},
+{
+"word": "need",
+"pos": [
+"v"
+]
+},
+{
+"word": "negative",
+"pos": [
+"adj"
+]
+},
+{
+"word": "now",
+"pos": [
+"adv"
+]
+},
+{
+"word": "neighbour",
+"pos": [
+"n"
+]
+},
+{
+"word": "nowadays",
+"pos": [
+"adv"
+]
+},
+{
+"word": "neighbourhood",
+"pos": [
+"n"
+]
+},
+{
+"word": "nowhere",
+"pos": [
+"adv"
+]
+},
+{
+"word": "neither",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "number",
+"pos": [
+"n"
+]
+},
+{
+"word": "nurse",
+"pos": [
+"n"
+]
+},
+{
+"word": "nephew",
+"pos": [
+"n"
+]
+},
+{
+"word": "nervous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "nest",
+"pos": [
+"n"
+]
+},
+{
+"word": "object",
+"pos": [
+"n"
+]
+},
+{
+"word": "net",
+"pos": [
+"n"
+]
+},
+{
+"word": "obvious",
+"pos": [
+"adj"
+]
+},
+{
+"word": "network",
+"pos": [
+"n"
+]
+},
+{
+"word": "obviously",
+"pos": [
+"adv"
+]
+},
+{
+"word": "never",
+"pos": [
+"adv"
+]
+},
+{
+"word": "occasion",
+"pos": [
+"n"
+]
+},
+{
+"word": "new",
+"pos": [
+"adj"
+]
+},
+{
+"word": "occasionally",
+"pos": [
+"adv"
+]
+},
+{
+"word": "news",
+"pos": [
+"n"
+]
+},
+{
+"word": "occupation",
+"pos": [
+"n"
+]
+},
+{
+"word": "newspaper",
+"pos": [
+"n"
+]
+},
+{
+"word": "ocean",
+"pos": [
+"n"
+]
+},
+{
+"word": "next",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "o'clock",
+"pos": [
+"adv"
+]
+},
+{
+"word": "next to",
+"pos": [
+"prep"
+]
+},
+{
+"word": "of",
+"pos": [
+"prep"
+]
+},
+{
+"word": "nice",
+"pos": [
+"adj"
+]
+},
+{
+"word": "of course",
+"pos": [
+"adv"
+]
+},
+{
+"word": "niece",
+"pos": [
+"n"
+]
+},
+{
+"word": "off",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "night",
+"pos": [
+"n"
+]
+},
+{
+"word": "nightclub",
+"pos": [
+"n"
+]
+},
+{
+"word": "nightlife",
+"pos": [
+"n"
+]
+},
+{
+"word": "nightmare",
+"pos": [
+"n"
+]
+},
+{
+"word": "offer",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "no",
+"pos": [
+"adv",
+"det",
+"pron"
+]
+},
+{
+"word": "office",
+"pos": [
+"n"
+]
+},
+{
+"word": "nobody",
+"pos": [
+"pron"
+]
+},
+{
+"word": "officer",
+"pos": [
+"n"
+]
+},
+{
+"word": "noise",
+"pos": [
+"n"
+]
+},
+{
+"word": "often",
+"pos": [
+"adv"
+]
+},
+{
+"word": "noisy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "oh",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "none",
+"pos": [
+"pron"
+]
+},
+{
+"word": "oh dear",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "noon",
+"pos": [
+"n"
+]
+},
+{
+"word": "oil",
+"pos": [
+"n"
+]
+},
+{
+"word": "no one",
+"pos": [
+"pron"
+]
+},
+{
+"word": "OK",
+"pos": [
+"adj",
+"exclam"
+]
+},
+{
+"word": "old",
+"pos": [
+"adj"
+]
+},
+{
+"word": "out of order",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "old-fashioned",
+"pos": [
+"adj"
+]
+},
+{
+"word": "out of work",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "olive",
+"pos": [
+"n"
+]
+},
+{
+"word": "outside",
+"pos": [
+"adj",
+"adv",
+"prep"
+]
+},
+{
+"word": "omelette",
+"pos": [
+"n"
+]
+},
+{
+"word": "oven",
+"pos": [
+"n"
+]
+},
+{
+"word": "on",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "over",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "on board",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "on business",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "once",
+"pos": [
+"adv"
+]
+},
+{
+"word": "one",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "overnight",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "on fire",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "owe",
+"pos": [
+"v"
+]
+},
+{
+"word": "on foot",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "own",
+"pos": [
+"adj",
+"pron",
+"v"
+]
+},
+{
+"word": "on holiday",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "onion",
+"pos": [
+"n"
+]
+},
+{
+"word": "online",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "only",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "on purpose",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "on request",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "on sale",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "pack",
+"pos": [
+"v"
+]
+},
+{
+"word": "on time",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "onto",
+"pos": [
+"prep"
+]
+},
+{
+"word": "packet",
+"pos": [
+"n"
+]
+},
+{
+"word": "on vacation",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "page",
+"pos": [
+"n"
+]
+},
+{
+"word": "open",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "pain",
+"pos": [
+"n"
+]
+},
+{
+"word": "opening hours",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "painful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "opera",
+"pos": [
+"n"
+]
+},
+{
+"word": "paint",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "operate",
+"pos": [
+"v"
+]
+},
+{
+"word": "painter",
+"pos": [
+"n"
+]
+},
+{
+"word": "operation",
+"pos": [
+"n"
+]
+},
+{
+"word": "painting",
+"pos": [
+"n"
+]
+},
+{
+"word": "operator",
+"pos": [
+"n"
+]
+},
+{
+"word": "pair",
+"pos": [
+"n"
+]
+},
+{
+"word": "opinion",
+"pos": [
+"n"
+]
+},
+{
+"word": "palace",
+"pos": [
+"n"
+]
+},
+{
+"word": "opportunity",
+"pos": [
+"n"
+]
+},
+{
+"word": "pale",
+"pos": [
+"adj"
+]
+},
+{
+"word": "opposite",
+"pos": [
+"adj",
+"adv",
+"n",
+"prep"
+]
+},
+{
+"word": "option",
+"pos": [
+"n"
+]
+},
+{
+"word": "pan",
+"pos": [
+"n"
+]
+},
+{
+"word": "or",
+"pos": [
+"conj"
+]
+},
+{
+"word": "orange",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "paper",
+"pos": [
+"n"
+]
+},
+{
+"word": "orchestra",
+"pos": [
+"n"
+]
+},
+{
+"word": "order",
+"pos": [
+"conj",
+"n",
+"v"
+]
+},
+{
+"word": "ordinary",
+"pos": [
+"adj"
+]
+},
+{
+"word": "organisation",
+"pos": [
+"n"
+]
+},
+{
+"word": "parent",
+"pos": [
+"n"
+]
+},
+{
+"word": "organise",
+"pos": [
+"v"
+]
+},
+{
+"word": "park",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "original",
+"pos": [
+"adj"
+]
+},
+{
+"word": "other",
+"pos": [
+"adj",
+"det",
+"pron"
+]
+},
+{
+"word": "otherwise",
+"pos": [
+"adv"
+]
+},
+{
+"word": "parking",
+"pos": [
+"n"
+]
+},
+{
+"word": "ought",
+"pos": [
+"mv"
+]
+},
+{
+"word": "our",
+"pos": [
+"det"
+]
+},
+{
+"word": "parrot",
+"pos": [
+"n"
+]
+},
+{
+"word": "ours",
+"pos": [
+"pron"
+]
+},
+{
+"word": "part",
+"pos": [
+"n"
+]
+},
+{
+"word": "ourselves",
+"pos": [
+"pron"
+]
+},
+{
+"word": "out",
+"pos": [
+"adv"
+]
+},
+{
+"word": "partly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "outdoor",
+"pos": [
+"adj"
+]
+},
+{
+"word": "particular",
+"pos": [
+"adj"
+]
+},
+{
+"word": "outdoors",
+"pos": [
+"adv"
+]
+},
+{
+"word": "out of",
+"pos": [
+"prep"
+]
+},
+{
+"word": "out of date",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "particularly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "partner",
+"pos": [
+"n"
+]
+},
+{
+"word": "perform",
+"pos": [
+"v"
+]
+},
+{
+"word": "part time",
+"pos": [
+"adv"
+]
+},
+{
+"word": "performance",
+"pos": [
+"n"
+]
+},
+{
+"word": "part-time",
+"pos": [
+"adj"
+]
+},
+{
+"word": "performer",
+"pos": [
+"n"
+]
+},
+{
+"word": "party",
+"pos": [
+"n"
+]
+},
+{
+"word": "perfume",
+"pos": [
+"n"
+]
+},
+{
+"word": "pass",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "permanent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "pass on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "permitted",
+"pos": [
+"adj"
+]
+},
+{
+"word": "person",
+"pos": [
+"n"
+]
+},
+{
+"word": "personal",
+"pos": [
+"adj"
+]
+},
+{
+"word": "passenger",
+"pos": [
+"n"
+]
+},
+{
+"word": "personally",
+"pos": [
+"adv"
+]
+},
+{
+"word": "passport",
+"pos": [
+"n"
+]
+},
+{
+"word": "persuade",
+"pos": [
+"v"
+]
+},
+{
+"word": "password",
+"pos": [
+"n"
+]
+},
+{
+"word": "pet",
+"pos": [
+"n"
+]
+},
+{
+"word": "pharmacy",
+"pos": [
+"n"
+]
+},
+{
+"word": "past",
+"pos": [
+"adj",
+"n",
+"prep"
+]
+},
+{
+"word": "phone",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "pasta",
+"pos": [
+"n"
+]
+},
+{
+"word": "photographer",
+"pos": [
+"n"
+]
+},
+{
+"word": "path",
+"pos": [
+"n"
+]
+},
+{
+"word": "photography",
+"pos": [
+"n"
+]
+},
+{
+"word": "patient",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "phrase",
+"pos": [
+"n"
+]
+},
+{
+"word": "pattern",
+"pos": [
+"n"
+]
+},
+{
+"word": "pick",
+"pos": [
+"v"
+]
+},
+{
+"word": "pause",
+"pos": [
+"v"
+]
+},
+{
+"word": "pick up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "pavement",
+"pos": [
+"n"
+]
+},
+{
+"word": "pay",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "picnic",
+"pos": [
+"n"
+]
+},
+{
+"word": "pea",
+"pos": [
+"n"
+]
+},
+{
+"word": "picture",
+"pos": [
+"n"
+]
+},
+{
+"word": "peace",
+"pos": [
+"n"
+]
+},
+{
+"word": "pie",
+"pos": [
+"n"
+]
+},
+{
+"word": "peaceful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "piece",
+"pos": [
+"n"
+]
+},
+{
+"word": "peach",
+"pos": [
+"n"
+]
+},
+{
+"word": "peak",
+"pos": [
+"n"
+]
+},
+{
+"word": "peanut",
+"pos": [
+"n"
+]
+},
+{
+"word": "pear",
+"pos": [
+"n"
+]
+},
+{
+"word": "pig",
+"pos": [
+"n"
+]
+},
+{
+"word": "pedestrian",
+"pos": [
+"n"
+]
+},
+{
+"word": "pile",
+"pos": [
+"n"
+]
+},
+{
+"word": "peel",
+"pos": [
+"v"
+]
+},
+{
+"word": "pill",
+"pos": [
+"n"
+]
+},
+{
+"word": "pen",
+"pos": [
+"n"
+]
+},
+{
+"word": "pillow",
+"pos": [
+"n"
+]
+},
+{
+"word": "pence",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "pencil",
+"pos": [
+"n"
+]
+},
+{
+"word": "pilot",
+"pos": [
+"n"
+]
+},
+{
+"word": "pin",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "pencil case",
+"pos": [
+"n"
+]
+},
+{
+"word": "penfriend",
+"pos": [
+"n"
+]
+},
+{
+"word": "pineapple",
+"pos": [
+"n"
+]
+},
+{
+"word": "pink",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "penguin",
+"pos": [
+"n"
+]
+},
+{
+"word": "pipe",
+"pos": [
+"n"
+]
+},
+{
+"word": "penny",
+"pos": [
+"n"
+]
+},
+{
+"word": "pirate",
+"pos": [
+"n"
+]
+},
+{
+"word": "people",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "pitch",
+"pos": [
+"n"
+]
+},
+{
+"word": "pepper",
+"pos": [
+"n"
+]
+},
+{
+"word": "pity",
+"pos": [
+"n"
+]
+},
+{
+"word": "per",
+"pos": [
+"prep"
+]
+},
+{
+"word": "percent",
+"pos": [
+"adv"
+]
+},
+{
+"word": "perfect",
+"pos": [
+"adj"
+]
+},
+{
+"word": "pizza",
+"pos": [
+"n"
+]
+},
+{
+"word": "place",
+"pos": [
+"n"
+]
+},
+{
+"word": "perfectly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "plain",
+"pos": [
+"adj"
+]
+},
+{
+"word": "pool",
+"pos": [
+"n"
+]
+},
+{
+"word": "poor",
+"pos": [
+"adj"
+]
+},
+{
+"word": "plan",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "pop",
+"pos": [
+"n"
+]
+},
+{
+"word": "plane",
+"pos": [
+"n"
+]
+},
+{
+"word": "population",
+"pos": [
+"n"
+]
+},
+{
+"word": "planet",
+"pos": [
+"n"
+]
+},
+{
+"word": "port",
+"pos": [
+"n"
+]
+},
+{
+"word": "plant",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "position",
+"pos": [
+"n"
+]
+},
+{
+"word": "plastic",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "positive",
+"pos": [
+"adj"
+]
+},
+{
+"word": "plate",
+"pos": [
+"n"
+]
+},
+{
+"word": "possibility",
+"pos": [
+"n"
+]
+},
+{
+"word": "platform",
+"pos": [
+"n"
+]
+},
+{
+"word": "possible",
+"pos": [
+"adj"
+]
+},
+{
+"word": "play",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "possibly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "player",
+"pos": [
+"n"
+]
+},
+{
+"word": "postman",
+"pos": [
+"n"
+]
+},
+{
+"word": "playground",
+"pos": [
+"n"
+]
+},
+{
+"word": "post office",
+"pos": [
+"n"
+]
+},
+{
+"word": "pleasant",
+"pos": [
+"adj"
+]
+},
+{
+"word": "postpone",
+"pos": [
+"v"
+]
+},
+{
+"word": "please",
+"pos": [
+"exclam",
+"v"
+]
+},
+{
+"word": "pot",
+"pos": [
+"n"
+]
+},
+{
+"word": "pleased",
+"pos": [
+"adj"
+]
+},
+{
+"word": "pleasure",
+"pos": [
+"n"
+]
+},
+{
+"word": "pour",
+"pos": [
+"v"
+]
+},
+{
+"word": "plenty",
+"pos": [
+"pron"
+]
+},
+{
+"word": "powder",
+"pos": [
+"n"
+]
+},
+{
+"word": "plot",
+"pos": [
+"n"
+]
+},
+{
+"word": "power",
+"pos": [
+"n"
+]
+},
+{
+"word": "plug",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "powerful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "plus",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "prayer",
+"pos": [
+"n"
+]
+},
+{
+"word": "p.m",
+"pos": [
+"adv"
+]
+},
+{
+"word": "predict",
+"pos": [
+"v"
+]
+},
+{
+"word": "pocket",
+"pos": [
+"n"
+]
+},
+{
+"word": "prefer",
+"pos": [
+"v"
+]
+},
+{
+"word": "pocket money",
+"pos": [
+"n"
+]
+},
+{
+"word": "pregnant",
+"pos": [
+"adj"
+]
+},
+{
+"word": "podcast",
+"pos": [
+"n"
+]
+},
+{
+"word": "preparation",
+"pos": [
+"n"
+]
+},
+{
+"word": "poem",
+"pos": [
+"n"
+]
+},
+{
+"word": "prepare",
+"pos": [
+"v"
+]
+},
+{
+"word": "poet",
+"pos": [
+"n"
+]
+},
+{
+"word": "prepared",
+"pos": [
+"adj"
+]
+},
+{
+"word": "poetry",
+"pos": [
+"n"
+]
+},
+{
+"word": "prescription",
+"pos": [
+"n"
+]
+},
+{
+"word": "point",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "police",
+"pos": [
+"n"
+]
+},
+{
+"word": "policeman",
+"pos": [
+"n"
+]
+},
+{
+"word": "police officer",
+"pos": [
+"n"
+]
+},
+{
+"word": "police station",
+"pos": [
+"n"
+]
+},
+{
+"word": "policewoman",
+"pos": [
+"n"
+]
+},
+{
+"word": "prizes",
+"pos": [
+"v"
+]
+},
+{
+"word": "polite",
+"pos": [
+"adj"
+]
+},
+{
+"word": "presentation",
+"pos": [
+"n"
+]
+},
+{
+"word": "prove",
+"pos": [
+"v"
+]
+},
+{
+"word": "presenter",
+"pos": [
+"n"
+]
+},
+{
+"word": "provide",
+"pos": [
+"v"
+]
+},
+{
+"word": "president",
+"pos": [
+"n"
+]
+},
+{
+"word": "press",
+"pos": [
+"v"
+]
+},
+{
+"word": "pretty",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "publish",
+"pos": [
+"v"
+]
+},
+{
+"word": "prevent",
+"pos": [
+"v"
+]
+},
+{
+"word": "publisher",
+"pos": [
+"n"
+]
+},
+{
+"word": "previous",
+"pos": [
+"adj"
+]
+},
+{
+"word": "pull",
+"pos": [
+"v"
+]
+},
+{
+"word": "previously",
+"pos": [
+"adv"
+]
+},
+{
+"word": "pullover",
+"pos": [
+"n"
+]
+},
+{
+"word": "price",
+"pos": [
+"n"
+]
+},
+{
+"word": "pump",
+"pos": [
+"n"
+]
+},
+{
+"word": "primary school",
+"pos": [
+"n"
+]
+},
+{
+"word": "prince",
+"pos": [
+"n"
+]
+},
+{
+"word": "punish",
+"pos": [
+"v"
+]
+},
+{
+"word": "princess",
+"pos": [
+"n"
+]
+},
+{
+"word": "pupil",
+"pos": [
+"n"
+]
+},
+{
+"word": "principal",
+"pos": [
+"adj"
+]
+},
+{
+"word": "puppy",
+"pos": [
+"n"
+]
+},
+{
+"word": "print",
+"pos": [
+"v"
+]
+},
+{
+"word": "pure",
+"pos": [
+"adj"
+]
+},
+{
+"word": "printer",
+"pos": [
+"n"
+]
+},
+{
+"word": "purpose",
+"pos": [
+"n"
+]
+},
+{
+"word": "prison",
+"pos": [
+"n"
+]
+},
+{
+"word": "prisoner",
+"pos": [
+"n"
+]
+},
+{
+"word": "private",
+"pos": [
+"adj"
+]
+},
+{
+"word": "purse",
+"pos": [
+"n"
+]
+},
+{
+"word": "prize",
+"pos": [
+"n"
+]
+},
+{
+"word": "push",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "probably",
+"pos": [
+"adv"
+]
+},
+{
+"word": "put",
+"pos": [
+"v"
+]
+},
+{
+"word": "problem",
+"pos": [
+"n"
+]
+},
+{
+"word": "put away",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "produce",
+"pos": [
+"v"
+]
+},
+{
+"word": "product",
+"pos": [
+"n"
+]
+},
+{
+"word": "put down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "production",
+"pos": [
+"n"
+]
+},
+{
+"word": "profession",
+"pos": [
+"n"
+]
+},
+{
+"word": "put on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "professional",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "professor",
+"pos": [
+"n"
+]
+},
+{
+"word": "programmer",
+"pos": [
+"n"
+]
+},
+{
+"word": "put through",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "progress",
+"pos": [
+"n"
+]
+},
+{
+"word": "prohibited",
+"pos": [
+"adj"
+]
+},
+{
+"word": "put up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "project",
+"pos": [
+"n"
+]
+},
+{
+"word": "promise",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "pyjamas",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "promote",
+"pos": [
+"v"
+]
+},
+{
+"word": "pronounce",
+"pos": [
+"v"
+]
+},
+{
+"word": "pronunciation",
+"pos": [
+"n"
+]
+},
+{
+"word": "qualification",
+"pos": [
+"n"
+]
+},
+{
+"word": "proper",
+"pos": [
+"adj"
+]
+},
+{
+"word": "qualified",
+"pos": [
+"adj"
+]
+},
+{
+"word": "quality",
+"pos": [
+"n"
+]
+},
+{
+"word": "quantity",
+"pos": [
+"n"
+]
+},
+{
+"word": "property",
+"pos": [
+"n"
+]
+},
+{
+"word": "queen",
+"pos": [
+"n"
+]
+},
+{
+"word": "protect",
+"pos": [
+"v"
+]
+},
+{
+"word": "question",
+"pos": [
+"n"
+]
+},
+{
+"word": "proud",
+"pos": [
+"adj"
+]
+},
+{
+"word": "questionnaire",
+"pos": [
+"n"
+]
+},
+{
+"word": "reading",
+"pos": [
+"n"
+]
+},
+{
+"word": "queue",
+"pos": [
+"n"
+]
+},
+{
+"word": "ready",
+"pos": [
+"adj"
+]
+},
+{
+"word": "quick",
+"pos": [
+"adj"
+]
+},
+{
+"word": "real",
+"pos": [
+"adj"
+]
+},
+{
+"word": "quickly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "realise",
+"pos": [
+"v"
+]
+},
+{
+"word": "quiet",
+"pos": [
+"adj"
+]
+},
+{
+"word": "quietly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "realistic",
+"pos": [
+"adj"
+]
+},
+{
+"word": "quit",
+"pos": [
+"v"
+]
+},
+{
+"word": "reality",
+"pos": [
+"n"
+]
+},
+{
+"word": "quite",
+"pos": [
+"adv"
+]
+},
+{
+"word": "really",
+"pos": [
+"adv"
+]
+},
+{
+"word": "quiz",
+"pos": [
+"n"
+]
+},
+{
+"word": "reasonably",
+"pos": [
+"adv"
+]
+},
+{
+"word": "rebuild",
+"pos": [
+"v"
+]
+},
+{
+"word": "receipt",
+"pos": [
+"n"
+]
+},
+{
+"word": "receive",
+"pos": [
+"v"
+]
+},
+{
+"word": "recent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "rabbit",
+"pos": [
+"n"
+]
+},
+{
+"word": "reception",
+"pos": [
+"n"
+]
+},
+{
+"word": "race",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "receptionist",
+"pos": [
+"n"
+]
+},
+{
+"word": "recommend",
+"pos": [
+"v"
+]
+},
+{
+"word": "racing",
+"pos": [
+"n"
+]
+},
+{
+"word": "record",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "racket",
+"pos": [
+"n"
+]
+},
+{
+"word": "radio",
+"pos": [
+"n"
+]
+},
+{
+"word": "rail",
+"pos": [
+"n"
+]
+},
+{
+"word": "recording",
+"pos": [
+"n"
+]
+},
+{
+"word": "railroad",
+"pos": [
+"n"
+]
+},
+{
+"word": "railway",
+"pos": [
+"n"
+]
+},
+{
+"word": "recycle",
+"pos": [
+"v"
+]
+},
+{
+"word": "rain",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "raincoat",
+"pos": [
+"n"
+]
+},
+{
+"word": "recycled",
+"pos": [
+"adj"
+]
+},
+{
+"word": "rainforest",
+"pos": [
+"n"
+]
+},
+{
+"word": "recycling",
+"pos": [
+"n"
+]
+},
+{
+"word": "raise",
+"pos": [
+"v"
+]
+},
+{
+"word": "red",
+"pos": [
+"adj"
+]
+},
+{
+"word": "range",
+"pos": [
+"n"
+]
+},
+{
+"word": "refreshments",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "refuse",
+"pos": [
+"v"
+]
+},
+{
+"word": "rap",
+"pos": [
+"n"
+]
+},
+{
+"word": "regarding",
+"pos": [
+"prep"
+]
+},
+{
+"word": "rare",
+"pos": [
+"adj"
+]
+},
+{
+"word": "region",
+"pos": [
+"n"
+]
+},
+{
+"word": "rarely",
+"pos": [
+"adv"
+]
+},
+{
+"word": "register",
+"pos": [
+"v"
+]
+},
+{
+"word": "rather",
+"pos": [
+"adv"
+]
+},
+{
+"word": "regular",
+"pos": [
+"adj"
+]
+},
+{
+"word": "regularly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "relation",
+"pos": [
+"n"
+]
+},
+{
+"word": "raw",
+"pos": [
+"adj"
+]
+},
+{
+"word": "relationship",
+"pos": [
+"n"
+]
+},
+{
+"word": "relative",
+"pos": [
+"n"
+]
+},
+{
+"word": "reach",
+"pos": [
+"v"
+]
+},
+{
+"word": "react",
+"pos": [
+"v"
+]
+},
+{
+"word": "relax",
+"pos": [
+"v"
+]
+},
+{
+"word": "relaxation",
+"pos": [
+"n"
+]
+},
+{
+"word": "read",
+"pos": [
+"v"
+]
+},
+{
+"word": "relaxed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "reliable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "relieved",
+"pos": [
+"adj"
+]
+},
+{
+"word": "religion",
+"pos": [
+"n"
+]
+},
+{
+"word": "right-hand",
+"pos": [
+"adj"
+]
+},
+{
+"word": "ring",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "remain",
+"pos": [
+"v"
+]
+},
+{
+"word": "remember",
+"pos": [
+"v"
+]
+},
+{
+"word": "remind",
+"pos": [
+"v"
+]
+},
+{
+"word": "remote control",
+"pos": [
+"n"
+]
+},
+{
+"word": "remove",
+"pos": [
+"v"
+]
+},
+{
+"word": "ring back",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "rent",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "ring up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "repair",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "repeat",
+"pos": [
+"v"
+]
+},
+{
+"word": "replace",
+"pos": [
+"v"
+]
+},
+{
+"word": "rise",
+"pos": [
+"v"
+]
+},
+{
+"word": "reply",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "report",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "reporter",
+"pos": [
+"n"
+]
+},
+{
+"word": "river",
+"pos": [
+"n"
+]
+},
+{
+"word": "request",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "road",
+"pos": [
+"n"
+]
+},
+{
+"word": "require",
+"pos": [
+"v"
+]
+},
+{
+"word": "roast",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "rescue",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "rob",
+"pos": [
+"v"
+]
+},
+{
+"word": "research",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "robot",
+"pos": [
+"n"
+]
+},
+{
+"word": "reservation",
+"pos": [
+"n"
+]
+},
+{
+"word": "rock",
+"pos": [
+"n"
+]
+},
+{
+"word": "reserve",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "resort",
+"pos": [
+"n"
+]
+},
+{
+"word": "respect",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "rocket",
+"pos": [
+"n"
+]
+},
+{
+"word": "responsible",
+"pos": [
+"adj"
+]
+},
+{
+"word": "role",
+"pos": [
+"n"
+]
+},
+{
+"word": "roll",
+"pos": [
+"n"
+]
+},
+{
+"word": "rest",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "restaurant",
+"pos": [
+"n"
+]
+},
+{
+"word": "room",
+"pos": [
+"n"
+]
+},
+{
+"word": "result",
+"pos": [
+"n"
+]
+},
+{
+"word": "retire",
+"pos": [
+"v"
+]
+},
+{
+"word": "retirement",
+"pos": [
+"n"
+]
+},
+{
+"word": "roommate",
+"pos": [
+"n"
+]
+},
+{
+"word": "return",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "rope",
+"pos": [
+"n"
+]
+},
+{
+"word": "review",
+"pos": [
+"n"
+]
+},
+{
+"word": "revise",
+"pos": [
+"v"
+]
+},
+{
+"word": "revision",
+"pos": [
+"n"
+]
+},
+{
+"word": "reward",
+"pos": [
+"n"
+]
+},
+{
+"word": "round",
+"pos": [
+"adj",
+"adv",
+"prep"
+]
+},
+{
+"word": "rice",
+"pos": [
+"n"
+]
+},
+{
+"word": "rich",
+"pos": [
+"adj"
+]
+},
+{
+"word": "ride",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "rider",
+"pos": [
+"n"
+]
+},
+{
+"word": "roundabout",
+"pos": [
+"n"
+]
+},
+{
+"word": "riding",
+"pos": [
+"n"
+]
+},
+{
+"word": "route",
+"pos": [
+"n"
+]
+},
+{
+"word": "right",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "routine",
+"pos": [
+"n"
+]
+},
+{
+"word": "rubber",
+"pos": [
+"n"
+]
+},
+{
+"word": "rug",
+"pos": [
+"n"
+]
+},
+{
+"word": "scared",
+"pos": [
+"adj"
+]
+},
+{
+"word": "rugby",
+"pos": [
+"n"
+]
+},
+{
+"word": "scarf",
+"pos": [
+"n"
+]
+},
+{
+"word": "ruin",
+"pos": [
+"n"
+]
+},
+{
+"word": "scary",
+"pos": [
+"adj"
+]
+},
+{
+"word": "rule",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "scene",
+"pos": [
+"n"
+]
+},
+{
+"word": "ruler",
+"pos": [
+"n"
+]
+},
+{
+"word": "schoolchild",
+"pos": [
+"n"
+]
+},
+{
+"word": "run",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "science fiction",
+"pos": [
+"n"
+]
+},
+{
+"word": "scientist",
+"pos": [
+"n"
+]
+},
+{
+"word": "scissors",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "scooter",
+"pos": [
+"n"
+]
+},
+{
+"word": "score",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "runner",
+"pos": [
+"n"
+]
+},
+{
+"word": "running",
+"pos": [
+"n"
+]
+},
+{
+"word": "run out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "scream",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "screen",
+"pos": [
+"n"
+]
+},
+{
+"word": "sculpture",
+"pos": [
+"n"
+]
+},
+{
+"word": "sea",
+"pos": [
+"n"
+]
+},
+{
+"word": "search",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "seaside",
+"pos": [
+"n"
+]
+},
+{
+"word": "sad",
+"pos": [
+"adj"
+]
+},
+{
+"word": "season",
+"pos": [
+"n"
+]
+},
+{
+"word": "safe",
+"pos": [
+"adj"
+]
+},
+{
+"word": "seat",
+"pos": [
+"n"
+]
+},
+{
+"word": "safely",
+"pos": [
+"adv"
+]
+},
+{
+"word": "second",
+"pos": [
+"adv",
+"det",
+"n"
+]
+},
+{
+"word": "sail",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "sailing",
+"pos": [
+"n"
+]
+},
+{
+"word": "sailor",
+"pos": [
+"n"
+]
+},
+{
+"word": "salad",
+"pos": [
+"n"
+]
+},
+{
+"word": "salary",
+"pos": [
+"n"
+]
+},
+{
+"word": "sale",
+"pos": [
+"n"
+]
+},
+{
+"word": "secondary",
+"pos": [
+"adj"
+]
+},
+{
+"word": "salesman",
+"pos": [
+"n"
+]
+},
+{
+"word": "salmon",
+"pos": [
+"n"
+]
+},
+{
+"word": "second-hand",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "salt",
+"pos": [
+"n"
+]
+},
+{
+"word": "secret",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "same",
+"pos": [
+"adj",
+"adv",
+"pron"
+]
+},
+{
+"word": "secretary",
+"pos": [
+"n"
+]
+},
+{
+"word": "security guard",
+"pos": [
+"n"
+]
+},
+{
+"word": "sand",
+"pos": [
+"n"
+]
+},
+{
+"word": "sandal",
+"pos": [
+"n"
+]
+},
+{
+"word": "sandwich",
+"pos": [
+"n"
+]
+},
+{
+"word": "satisfactory",
+"pos": [
+"adj"
+]
+},
+{
+"word": "seem",
+"pos": [
+"v"
+]
+},
+{
+"word": "satisfied",
+"pos": [
+"adj"
+]
+},
+{
+"word": "select",
+"pos": [
+"v"
+]
+},
+{
+"word": "sauce",
+"pos": [
+"n"
+]
+},
+{
+"word": "selfie",
+"pos": [
+"n"
+]
+},
+{
+"word": "saucepan",
+"pos": [
+"n"
+]
+},
+{
+"word": "saucer",
+"pos": [
+"n"
+]
+},
+{
+"word": "selfish",
+"pos": [
+"adj"
+]
+},
+{
+"word": "sausage",
+"pos": [
+"n"
+]
+},
+{
+"word": "self-service",
+"pos": [
+"adj"
+]
+},
+{
+"word": "save",
+"pos": [
+"v"
+]
+},
+{
+"word": "sell",
+"pos": [
+"v"
+]
+},
+{
+"word": "say",
+"pos": [
+"v"
+]
+},
+{
+"word": "sentence",
+"pos": [
+"n"
+]
+},
+{
+"word": "series",
+"pos": [
+"n"
+]
+},
+{
+"word": "shirt",
+"pos": [
+"n"
+]
+},
+{
+"word": "serious",
+"pos": [
+"adj"
+]
+},
+{
+"word": "shocking",
+"pos": [
+"adj"
+]
+},
+{
+"word": "seriously",
+"pos": [
+"adv"
+]
+},
+{
+"word": "serve",
+"pos": [
+"v"
+]
+},
+{
+"word": "shop",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "server",
+"pos": [
+"n"
+]
+},
+{
+"word": "shopper",
+"pos": [
+"n"
+]
+},
+{
+"word": "shopping",
+"pos": [
+"n"
+]
+},
+{
+"word": "service",
+"pos": [
+"n"
+]
+},
+{
+"word": "shore",
+"pos": [
+"n"
+]
+},
+{
+"word": "short",
+"pos": [
+"adj"
+]
+},
+{
+"word": "session",
+"pos": [
+"n"
+]
+},
+{
+"word": "shorts",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "set",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "should",
+"pos": [
+"mv"
+]
+},
+{
+"word": "set off",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "shoulder",
+"pos": [
+"n"
+]
+},
+{
+"word": "set out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "show",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "set up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "several",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "show up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "sew",
+"pos": [
+"v"
+]
+},
+{
+"word": "sex",
+"pos": [
+"n"
+]
+},
+{
+"word": "shower",
+"pos": [
+"n"
+]
+},
+{
+"word": "shade",
+"pos": [
+"n"
+]
+},
+{
+"word": "shadow",
+"pos": [
+"n"
+]
+},
+{
+"word": "shut",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "shake",
+"pos": [
+"v"
+]
+},
+{
+"word": "shy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "shall",
+"pos": [
+"mv"
+]
+},
+{
+"word": "sick",
+"pos": [
+"adj"
+]
+},
+{
+"word": "shame",
+"pos": [
+"n"
+]
+},
+{
+"word": "side",
+"pos": [
+"n"
+]
+},
+{
+"word": "shampoo",
+"pos": [
+"n"
+]
+},
+{
+"word": "sight",
+"pos": [
+"n"
+]
+},
+{
+"word": "shape",
+"pos": [
+"n"
+]
+},
+{
+"word": "share",
+"pos": [
+"v"
+]
+},
+{
+"word": "shark",
+"pos": [
+"n"
+]
+},
+{
+"word": "sharp",
+"pos": [
+"adj"
+]
+},
+{
+"word": "shave",
+"pos": [
+"v"
+]
+},
+{
+"word": "signature",
+"pos": [
+"n"
+]
+},
+{
+"word": "she",
+"pos": [
+"pron"
+]
+},
+{
+"word": "signpost",
+"pos": [
+"n"
+]
+},
+{
+"word": "sheep",
+"pos": [
+"n"
+]
+},
+{
+"word": "sheet",
+"pos": [
+"n"
+]
+},
+{
+"word": "sign up",
+"pos": [
+"v"
+]
+},
+{
+"word": "silent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "silk",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "shelf",
+"pos": [
+"n"
+]
+},
+{
+"word": "shine",
+"pos": [
+"v"
+]
+},
+{
+"word": "silly",
+"pos": [
+"adj"
+]
+},
+{
+"word": "silver",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "shiny",
+"pos": [
+"adj"
+]
+},
+{
+"word": "similar",
+"pos": [
+"adj"
+]
+},
+{
+"word": "ship",
+"pos": [
+"n"
+]
+},
+{
+"word": "simple",
+"pos": [
+"adj"
+]
+},
+{
+"word": "smooth",
+"pos": [
+"adj"
+]
+},
+{
+"word": "since",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "sincerely",
+"pos": [
+"adv"
+]
+},
+{
+"word": "sing",
+"pos": [
+"v"
+]
+},
+{
+"word": "snack",
+"pos": [
+"n"
+]
+},
+{
+"word": "singer",
+"pos": [
+"n"
+]
+},
+{
+"word": "snake",
+"pos": [
+"n"
+]
+},
+{
+"word": "singing",
+"pos": [
+"n"
+]
+},
+{
+"word": "snow",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "single",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "snowboard",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "sink",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "soap",
+"pos": [
+"n"
+]
+},
+{
+"word": "sir",
+"pos": [
+"n"
+]
+},
+{
+"word": "sociable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "social",
+"pos": [
+"adj"
+]
+},
+{
+"word": "sister",
+"pos": [
+"n"
+]
+},
+{
+"word": "social media",
+"pos": [
+"n"
+]
+},
+{
+"word": "society",
+"pos": [
+"n"
+]
+},
+{
+"word": "sit",
+"pos": [
+"v"
+]
+},
+{
+"word": "sock",
+"pos": [
+"n"
+]
+},
+{
+"word": "sit down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "sofa",
+"pos": [
+"n"
+]
+},
+{
+"word": "site",
+"pos": [
+"n"
+]
+},
+{
+"word": "soft",
+"pos": [
+"adj"
+]
+},
+{
+"word": "sitting room",
+"pos": [
+"n"
+]
+},
+{
+"word": "situated",
+"pos": [
+"adj"
+]
+},
+{
+"word": "situation",
+"pos": [
+"n"
+]
+},
+{
+"word": "size",
+"pos": [
+"n"
+]
+},
+{
+"word": "software",
+"pos": [
+"n"
+]
+},
+{
+"word": "skate",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "soldier",
+"pos": [
+"n"
+]
+},
+{
+"word": "skateboard",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "solution",
+"pos": [
+"n"
+]
+},
+{
+"word": "skateboarding",
+"pos": [
+"n"
+]
+},
+{
+"word": "solve",
+"pos": [
+"n"
+]
+},
+{
+"word": "skating",
+"pos": [
+"n"
+]
+},
+{
+"word": "some",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "ski",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "somebody",
+"pos": [
+"pron"
+]
+},
+{
+"word": "skiing",
+"pos": [
+"n"
+]
+},
+{
+"word": "somehow",
+"pos": [
+"adv"
+]
+},
+{
+"word": "skill",
+"pos": [
+"n"
+]
+},
+{
+"word": "someone",
+"pos": [
+"pron"
+]
+},
+{
+"word": "skin",
+"pos": [
+"n"
+]
+},
+{
+"word": "skirt",
+"pos": [
+"n"
+]
+},
+{
+"word": "sky",
+"pos": [
+"n"
+]
+},
+{
+"word": "sometimes",
+"pos": [
+"adv"
+]
+},
+{
+"word": "sleep",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "somewhere",
+"pos": [
+"adv"
+]
+},
+{
+"word": "sleepy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "song",
+"pos": [
+"n"
+]
+},
+{
+"word": "sleeve",
+"pos": [
+"n"
+]
+},
+{
+"word": "sleeveless",
+"pos": [
+"adj"
+]
+},
+{
+"word": "soon",
+"pos": [
+"adv"
+]
+},
+{
+"word": "slice",
+"pos": [
+"n"
+]
+},
+{
+"word": "slide",
+"pos": [
+"n"
+]
+},
+{
+"word": "slightly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "sore",
+"pos": [
+"adj"
+]
+},
+{
+"word": "slim",
+"pos": [
+"adj"
+]
+},
+{
+"word": "sorry",
+"pos": [
+"adj"
+]
+},
+{
+"word": "sort",
+"pos": [
+"n"
+]
+},
+{
+"word": "slip",
+"pos": [
+"v"
+]
+},
+{
+"word": "slow",
+"pos": [
+"adj"
+]
+},
+{
+"word": "soul",
+"pos": [
+"n"
+]
+},
+{
+"word": "slowly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "sound",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "small",
+"pos": [
+"adj"
+]
+},
+{
+"word": "smart",
+"pos": [
+"adj"
+]
+},
+{
+"word": "smartphone",
+"pos": [
+"n"
+]
+},
+{
+"word": "smell",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "soup",
+"pos": [
+"n"
+]
+},
+{
+"word": "smile",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "sour",
+"pos": [
+"adj"
+]
+},
+{
+"word": "smoke",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "smoking",
+"pos": [
+"n"
+]
+},
+{
+"word": "south",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "southeast",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "southern",
+"pos": [
+"adj"
+]
+},
+{
+"word": "southwest",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "start",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "souvenir",
+"pos": [
+"n"
+]
+},
+{
+"word": "space",
+"pos": [
+"n"
+]
+},
+{
+"word": "spaceship",
+"pos": [
+"n"
+]
+},
+{
+"word": "spare",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "sparkling",
+"pos": [
+"adj"
+]
+},
+{
+"word": "stay behind",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "speak",
+"pos": [
+"v"
+]
+},
+{
+"word": "speaker",
+"pos": [
+"n"
+]
+},
+{
+"word": "steak",
+"pos": [
+"n"
+]
+},
+{
+"word": "special",
+"pos": [
+"adj"
+]
+},
+{
+"word": "steal",
+"pos": [
+"v"
+]
+},
+{
+"word": "specially",
+"pos": [
+"adv"
+]
+},
+{
+"word": "steep",
+"pos": [
+"adj"
+]
+},
+{
+"word": "species",
+"pos": [
+"n"
+]
+},
+{
+"word": "step",
+"pos": [
+"n"
+]
+},
+{
+"word": "spectacular",
+"pos": [
+"adj"
+]
+},
+{
+"word": "speech",
+"pos": [
+"n"
+]
+},
+{
+"word": "speed",
+"pos": [
+"n"
+]
+},
+{
+"word": "spell",
+"pos": [
+"v"
+]
+},
+{
+"word": "spelling",
+"pos": [
+"n"
+]
+},
+{
+"word": "spend",
+"pos": [
+"v"
+]
+},
+{
+"word": "stick",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "spice",
+"pos": [
+"n"
+]
+},
+{
+"word": "spicy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "sticky",
+"pos": [
+"adj"
+]
+},
+{
+"word": "spill",
+"pos": [
+"v"
+]
+},
+{
+"word": "still",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "spinach",
+"pos": [
+"n"
+]
+},
+{
+"word": "spite",
+"pos": [
+"n"
+]
+},
+{
+"word": "split up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "spoil",
+"pos": [
+"v"
+]
+},
+{
+"word": "stomach",
+"pos": [
+"n"
+]
+},
+{
+"word": "spoon",
+"pos": [
+"n"
+]
+},
+{
+"word": "stomach ache",
+"pos": [
+"n"
+]
+},
+{
+"word": "sport",
+"pos": [
+"n"
+]
+},
+{
+"word": "stone",
+"pos": [
+"n"
+]
+},
+{
+"word": "sports centre",
+"pos": [
+"n"
+]
+},
+{
+"word": "spot",
+"pos": [
+"n"
+]
+},
+{
+"word": "spy",
+"pos": [
+"n"
+]
+},
+{
+"word": "stop",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "square",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "squash",
+"pos": [
+"n"
+]
+},
+{
+"word": "stadium",
+"pos": [
+"n"
+]
+},
+{
+"word": "store",
+"pos": [
+"n"
+]
+},
+{
+"word": "staff",
+"pos": [
+"n"
+]
+},
+{
+"word": "stage",
+"pos": [
+"n"
+]
+},
+{
+"word": "storm",
+"pos": [
+"n"
+]
+},
+{
+"word": "stairs",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "straight",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "stall",
+"pos": [
+"n"
+]
+},
+{
+"word": "stamp",
+"pos": [
+"n"
+]
+},
+{
+"word": "strange",
+"pos": [
+"adj"
+]
+},
+{
+"word": "stand",
+"pos": [
+"v"
+]
+},
+{
+"word": "strawberry",
+"pos": [
+"n"
+]
+},
+{
+"word": "star",
+"pos": [
+"n"
+]
+},
+{
+"word": "stream",
+"pos": [
+"n"
+]
+},
+{
+"word": "street",
+"pos": [
+"n"
+]
+},
+{
+"word": "stress",
+"pos": [
+"n"
+]
+},
+{
+"word": "stressed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "support",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "stressful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "strict",
+"pos": [
+"adj"
+]
+},
+{
+"word": "exams",
+"pos": [
+"n"
+]
+},
+{
+"word": "strike",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "stripe",
+"pos": [
+"n"
+]
+},
+{
+"word": "suppose",
+"pos": [
+"v"
+]
+},
+{
+"word": "strong",
+"pos": [
+"adj"
+]
+},
+{
+"word": "student",
+"pos": [
+"n"
+]
+},
+{
+"word": "studio",
+"pos": [
+"n"
+]
+},
+{
+"word": "studies",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "study",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "sure",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "stuff",
+"pos": [
+"n"
+]
+},
+{
+"word": "surfboard",
+"pos": [
+"n"
+]
+},
+{
+"word": "stupid",
+"pos": [
+"adj"
+]
+},
+{
+"word": "surfing",
+"pos": [
+"n"
+]
+},
+{
+"word": "style",
+"pos": [
+"n"
+]
+},
+{
+"word": "surname",
+"pos": [
+"n"
+]
+},
+{
+"word": "stylish",
+"pos": [
+"adj"
+]
+},
+{
+"word": "surprise",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "subject",
+"pos": [
+"n"
+]
+},
+{
+"word": "surprised",
+"pos": [
+"adj"
+]
+},
+{
+"word": "subtract",
+"pos": [
+"v"
+]
+},
+{
+"word": "sweater",
+"pos": [
+"n"
+]
+},
+{
+"word": "succeed",
+"pos": [
+"v"
+]
+},
+{
+"word": "sweatshirt",
+"pos": [
+"n"
+]
+},
+{
+"word": "success",
+"pos": [
+"n"
+]
+},
+{
+"word": "sweet",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "successful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "such",
+"pos": [
+"det"
+]
+},
+{
+"word": "sudden",
+"pos": [
+"adj"
+]
+},
+{
+"word": "suddenly",
+"pos": [
+"adv"
+]
+},
+{
+"word": "suffer",
+"pos": [
+"v"
+]
+},
+{
+"word": "swim",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "sugar",
+"pos": [
+"n"
+]
+},
+{
+"word": "swimmer",
+"pos": [
+"n"
+]
+},
+{
+"word": "suggest",
+"pos": [
+"v"
+]
+},
+{
+"word": "swimming",
+"pos": [
+"n"
+]
+},
+{
+"word": "suggestion",
+"pos": [
+"n"
+]
+},
+{
+"word": "suit",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "suitable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "suitcase",
+"pos": [
+"n"
+]
+},
+{
+"word": "sum",
+"pos": [
+"n"
+]
+},
+{
+"word": "system",
+"pos": [
+"n"
+]
+},
+{
+"word": "sun",
+"pos": [
+"n"
+]
+},
+{
+"word": "sunbathe",
+"pos": [
+"v"
+]
+},
+{
+"word": "sunglasses",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "sunny",
+"pos": [
+"adj"
+]
+},
+{
+"word": "table",
+"pos": [
+"n"
+]
+},
+{
+"word": "sunrise",
+"pos": [
+"n"
+]
+},
+{
+"word": "table-cloth",
+"pos": [
+"n"
+]
+},
+{
+"word": "sunset",
+"pos": [
+"n"
+]
+},
+{
+"word": "tablet",
+"pos": [
+"n"
+]
+},
+{
+"word": "sunshine",
+"pos": [
+"n"
+]
+},
+{
+"word": "table tennis",
+"pos": [
+"n"
+]
+},
+{
+"word": "superhero",
+"pos": [
+"n"
+]
+},
+{
+"word": "take",
+"pos": [
+"v"
+]
+},
+{
+"word": "supermarket",
+"pos": [
+"n"
+]
+},
+{
+"word": "supper",
+"pos": [
+"n"
+]
+},
+{
+"word": "supply",
+"pos": [
+"v"
+]
+},
+{
+"word": "tent",
+"pos": [
+"n"
+]
+},
+{
+"word": "takeaway",
+"pos": [
+"n"
+]
+},
+{
+"word": "terrific",
+"pos": [
+"adj"
+]
+},
+{
+"word": "take away",
+"pos": [
+"v"
+]
+},
+{
+"word": "terrified",
+"pos": [
+"adj"
+]
+},
+{
+"word": "take care of",
+"pos": [
+"v"
+]
+},
+{
+"word": "text",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "textbook",
+"pos": [
+"n"
+]
+},
+{
+"word": "text message",
+"pos": [
+"n"
+]
+},
+{
+"word": "take off",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "than",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "thank",
+"pos": [
+"v"
+]
+},
+{
+"word": "thank you",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "take place",
+"pos": [
+"v"
+]
+},
+{
+"word": "the",
+"pos": [
+"det"
+]
+},
+{
+"word": "take up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "their",
+"pos": [
+"det"
+]
+},
+{
+"word": "talent",
+"pos": [
+"n"
+]
+},
+{
+"word": "them",
+"pos": [
+"pron"
+]
+},
+{
+"word": "talented",
+"pos": [
+"adj"
+]
+},
+{
+"word": "themselves",
+"pos": [
+"pron"
+]
+},
+{
+"word": "talk",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "then",
+"pos": [
+"adv"
+]
+},
+{
+"word": "there",
+"pos": [
+"adv"
+]
+},
+{
+"word": "tall",
+"pos": [
+"adj"
+]
+},
+{
+"word": "therefore",
+"pos": [
+"adv"
+]
+},
+{
+"word": "tap",
+"pos": [
+"n"
+]
+},
+{
+"word": "these",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "taste",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "thick",
+"pos": [
+"adj"
+]
+},
+{
+"word": "tasty",
+"pos": [
+"adj"
+]
+},
+{
+"word": "think",
+"pos": [
+"v"
+]
+},
+{
+"word": "tax",
+"pos": [
+"n"
+]
+},
+{
+"word": "taxi",
+"pos": [
+"n"
+]
+},
+{
+"word": "tea",
+"pos": [
+"n"
+]
+},
+{
+"word": "teach",
+"pos": [
+"v"
+]
+},
+{
+"word": "teacher",
+"pos": [
+"n"
+]
+},
+{
+"word": "teaching",
+"pos": [
+"n"
+]
+},
+{
+"word": "thirsty",
+"pos": [
+"adj"
+]
+},
+{
+"word": "team",
+"pos": [
+"n"
+]
+},
+{
+"word": "this",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "tear",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "those",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "technique",
+"pos": [
+"n"
+]
+},
+{
+"word": "technology",
+"pos": [
+"n"
+]
+},
+{
+"word": "teenager",
+"pos": [
+"n"
+]
+},
+{
+"word": "thriller",
+"pos": [
+"n"
+]
+},
+{
+"word": "telephone",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "throat",
+"pos": [
+"n"
+]
+},
+{
+"word": "tell",
+"pos": [
+"v"
+]
+},
+{
+"word": "temperature",
+"pos": [
+"n"
+]
+},
+{
+"word": "thunder",
+"pos": [
+"n"
+]
+},
+{
+"word": "temporary",
+"pos": [
+"adj"
+]
+},
+{
+"word": "ticket",
+"pos": [
+"n"
+]
+},
+{
+"word": "tennis",
+"pos": [
+"n"
+]
+},
+{
+"word": "tidy",
+"pos": [
+"adj",
+"v"
+]
+},
+{
+"word": "tense",
+"pos": [
+"n"
+]
+},
+{
+"word": "tidy up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "tie",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "touch",
+"pos": [
+"v"
+]
+},
+{
+"word": "tiger",
+"pos": [
+"n"
+]
+},
+{
+"word": "tourism",
+"pos": [
+"n"
+]
+},
+{
+"word": "tight",
+"pos": [
+"adj"
+]
+},
+{
+"word": "tourist",
+"pos": [
+"n"
+]
+},
+{
+"word": "tights",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "tournament",
+"pos": [
+"n"
+]
+},
+{
+"word": "towel",
+"pos": [
+"n"
+]
+},
+{
+"word": "till",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "tower",
+"pos": [
+"n"
+]
+},
+{
+"word": "town",
+"pos": [
+"n"
+]
+},
+{
+"word": "time",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "track",
+"pos": [
+"n"
+]
+},
+{
+"word": "timetable",
+"pos": [
+"n"
+]
+},
+{
+"word": "traffic jam",
+"pos": [
+"n"
+]
+},
+{
+"word": "tin",
+"pos": [
+"n"
+]
+},
+{
+"word": "tiny",
+"pos": [
+"adj"
+]
+},
+{
+"word": "tip",
+"pos": [
+"n"
+]
+},
+{
+"word": "trainer",
+"pos": [
+"n"
+]
+},
+{
+"word": "training",
+"pos": [
+"n"
+]
+},
+{
+"word": "tired",
+"pos": [
+"adj"
+]
+},
+{
+"word": "tram",
+"pos": [
+"n"
+]
+},
+{
+"word": "tiring",
+"pos": [
+"adj"
+]
+},
+{
+"word": "transfer",
+"pos": [
+"v"
+]
+},
+{
+"word": "tissue",
+"pos": [
+"n"
+]
+},
+{
+"word": "translate",
+"pos": [
+"v"
+]
+},
+{
+"word": "title",
+"pos": [
+"n"
+]
+},
+{
+"word": "translation",
+"pos": [
+"n"
+]
+},
+{
+"word": "to",
+"pos": [
+"prep"
+]
+},
+{
+"word": "transport",
+"pos": [
+"n"
+]
+},
+{
+"word": "toast",
+"pos": [
+"n"
+]
+},
+{
+"word": "today",
+"pos": [
+"adv",
+"n"
+]
+},
+{
+"word": "travel agent",
+"pos": [
+"n"
+]
+},
+{
+"word": "toe",
+"pos": [
+"n"
+]
+},
+{
+"word": "tree",
+"pos": [
+"n"
+]
+},
+{
+"word": "together",
+"pos": [
+"adv"
+]
+},
+{
+"word": "trend",
+"pos": [
+"n"
+]
+},
+{
+"word": "toilet",
+"pos": [
+"n"
+]
+},
+{
+"word": "trick",
+"pos": [
+"n"
+]
+},
+{
+"word": "tomato",
+"pos": [
+"n"
+]
+},
+{
+"word": "trip",
+"pos": [
+"n"
+]
+},
+{
+"word": "tomorrow",
+"pos": [
+"adv",
+"n"
+]
+},
+{
+"word": "tongue",
+"pos": [
+"n"
+]
+},
+{
+"word": "trouble",
+"pos": [
+"n"
+]
+},
+{
+"word": "tonight",
+"pos": [
+"adv",
+"n"
+]
+},
+{
+"word": "trousers",
+"pos": [
+"n pl"
+]
+},
+{
+"word": "too",
+"pos": [
+"adv"
+]
+},
+{
+"word": "tooth",
+"pos": [
+"n"
+]
+},
+{
+"word": "toothache",
+"pos": [
+"n"
+]
+},
+{
+"word": "true",
+"pos": [
+"adj"
+]
+},
+{
+"word": "toothbrush",
+"pos": [
+"n"
+]
+},
+{
+"word": "toothpaste",
+"pos": [
+"n"
+]
+},
+{
+"word": "trumpet",
+"pos": [
+"n"
+]
+},
+{
+"word": "top",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "trust",
+"pos": [
+"v"
+]
+},
+{
+"word": "topic",
+"pos": [
+"n"
+]
+},
+{
+"word": "try",
+"pos": [
+"v"
+]
+},
+{
+"word": "torch",
+"pos": [
+"n"
+]
+},
+{
+"word": "total",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "try on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "undress",
+"pos": [
+"v"
+]
+},
+{
+"word": "T-shirt",
+"pos": [
+"n"
+]
+},
+{
+"word": "unemployment",
+"pos": [
+"n"
+]
+},
+{
+"word": "tube",
+"pos": [
+"n"
+]
+},
+{
+"word": "unexpected",
+"pos": [
+"adj"
+]
+},
+{
+"word": "tuna",
+"pos": [
+"n"
+]
+},
+{
+"word": "unfit",
+"pos": [
+"adj"
+]
+},
+{
+"word": "tune",
+"pos": [
+"n"
+]
+},
+{
+"word": "unforgettable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "tunnel",
+"pos": [
+"n"
+]
+},
+{
+"word": "unfortunately",
+"pos": [
+"adv"
+]
+},
+{
+"word": "turkey",
+"pos": [
+"n"
+]
+},
+{
+"word": "unfriendly",
+"pos": [
+"adj"
+]
+},
+{
+"word": "turn",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "unhappy",
+"pos": [
+"n"
+]
+},
+{
+"word": "union",
+"pos": [
+"n"
+]
+},
+{
+"word": "unit",
+"pos": [
+"n"
+]
+},
+{
+"word": "unkind",
+"pos": [
+"adj"
+]
+},
+{
+"word": "turn down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "unknown",
+"pos": [
+"adj"
+]
+},
+{
+"word": "turning",
+"pos": [
+"n"
+]
+},
+{
+"word": "uninterested",
+"pos": [
+"adj"
+]
+},
+{
+"word": "turn into",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "universe",
+"pos": [
+"n"
+]
+},
+{
+"word": "turn off",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "unless",
+"pos": [
+"conj"
+]
+},
+{
+"word": "turn on",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "unlucky",
+"pos": [
+"adj"
+]
+},
+{
+"word": "turn up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "unpack",
+"pos": [
+"v"
+]
+},
+{
+"word": "twice",
+"pos": [
+"adv"
+]
+},
+{
+"word": "unsure",
+"pos": [
+"adj"
+]
+},
+{
+"word": "twin",
+"pos": [
+"n"
+]
+},
+{
+"word": "untidy",
+"pos": [
+"adj"
+]
+},
+{
+"word": "type",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "until",
+"pos": [
+"conj",
+"prep"
+]
+},
+{
+"word": "typical",
+"pos": [
+"adj"
+]
+},
+{
+"word": "typically",
+"pos": [
+"adv"
+]
+},
+{
+"word": "up",
+"pos": [
+"adv",
+"prep"
+]
+},
+{
+"word": "ugly",
+"pos": [
+"adj"
+]
+},
+{
+"word": "umbrella",
+"pos": [
+"n"
+]
+},
+{
+"word": "unable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "unbelievable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "uncle",
+"pos": [
+"n"
+]
+},
+{
+"word": "update",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "uncomfortable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "upload",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "under",
+"pos": [
+"prep"
+]
+},
+{
+"word": "upon",
+"pos": [
+"prep"
+]
+},
+{
+"word": "underground",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "upper",
+"pos": [
+"adj"
+]
+},
+{
+"word": "underline",
+"pos": [
+"v"
+]
+},
+{
+"word": "up to",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "underneath",
+"pos": [
+"prep"
+]
+},
+{
+"word": "underpants",
+"pos": [
+"n"
+]
+},
+{
+"word": "up to date",
+"pos": [
+"prep phr"
+]
+},
+{
+"word": "understand",
+"pos": [
+"v"
+]
+},
+{
+"word": "urgent",
+"pos": [
+"adj"
+]
+},
+{
+"word": "underwater",
+"pos": [
+"adj"
+]
+},
+{
+"word": "urgently",
+"pos": [
+"adv"
+]
+},
+{
+"word": "underwear",
+"pos": [
+"n"
+]
+},
+{
+"word": "us",
+"pos": [
+"pron"
+]
+},
+{
+"word": "use",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "used to",
+"pos": [
+"v"
+]
+},
+{
+"word": "waitress",
+"pos": [
+"n"
+]
+},
+{
+"word": "wake up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "walk",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "walking",
+"pos": [
+"n"
+]
+},
+{
+"word": "useful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wall",
+"pos": [
+"n"
+]
+},
+{
+"word": "user",
+"pos": [
+"n"
+]
+},
+{
+"word": "wallet",
+"pos": [
+"n"
+]
+},
+{
+"word": "usual",
+"pos": [
+"adj"
+]
+},
+{
+"word": "want",
+"pos": [
+"v"
+]
+},
+{
+"word": "usually",
+"pos": [
+"adv"
+]
+},
+{
+"word": "war",
+"pos": [
+"n"
+]
+},
+{
+"word": "wardrobe",
+"pos": [
+"n"
+]
+},
+{
+"word": "warm",
+"pos": [
+"adj"
+]
+},
+{
+"word": "warn",
+"pos": [
+"v"
+]
+},
+{
+"word": "v",
+"pos": [
+"prep"
+]
+},
+{
+"word": "warning",
+"pos": [
+"n"
+]
+},
+{
+"word": "valley",
+"pos": [
+"n"
+]
+},
+{
+"word": "wash up",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "valuable",
+"pos": [
+"adj"
+]
+},
+{
+"word": "washing machine",
+"pos": [
+"n"
+]
+},
+{
+"word": "value",
+"pos": [
+"n"
+]
+},
+{
+"word": "washing-up",
+"pos": [
+"n"
+]
+},
+{
+"word": "van",
+"pos": [
+"n"
+]
+},
+{
+"word": "vanilla",
+"pos": [
+"n"
+]
+},
+{
+"word": "waste",
+"pos": [
+"adj",
+"n",
+"v"
+]
+},
+{
+"word": "variety",
+"pos": [
+"n"
+]
+},
+{
+"word": "various",
+"pos": [
+"adj"
+]
+},
+{
+"word": "vase",
+"pos": [
+"n"
+]
+},
+{
+"word": "watch",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "vegetable",
+"pos": [
+"n"
+]
+},
+{
+"word": "vegetarian",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "vehicle",
+"pos": [
+"n"
+]
+},
+{
+"word": "water",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "version",
+"pos": [
+"n"
+]
+},
+{
+"word": "waterfall",
+"pos": [
+"n"
+]
+},
+{
+"word": "very",
+"pos": [
+"adv"
+]
+},
+{
+"word": "vet",
+"pos": [
+"n"
+]
+},
+{
+"word": "via",
+"pos": [
+"prep"
+]
+},
+{
+"word": "way",
+"pos": [
+"n"
+]
+},
+{
+"word": "video",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "video clip",
+"pos": [
+"n"
+]
+},
+{
+"word": "video game",
+"pos": [
+"n"
+]
+},
+{
+"word": "view",
+"pos": [
+"n"
+]
+},
+{
+"word": "village",
+"pos": [
+"n"
+]
+},
+{
+"word": "violin",
+"pos": [
+"n"
+]
+},
+{
+"word": "virus",
+"pos": [
+"n"
+]
+},
+{
+"word": "we",
+"pos": [
+"pron"
+]
+},
+{
+"word": "weak",
+"pos": [
+"adj"
+]
+},
+{
+"word": "visa",
+"pos": [
+"n"
+]
+},
+{
+"word": "visit",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "visitor",
+"pos": [
+"n"
+]
+},
+{
+"word": "vocabulary",
+"pos": [
+"n"
+]
+},
+{
+"word": "wear",
+"pos": [
+"v"
+]
+},
+{
+"word": "voice",
+"pos": [
+"n"
+]
+},
+{
+"word": "volleyball",
+"pos": [
+"n"
+]
+},
+{
+"word": "wear out",
+"pos": [
+"adj",
+"phr v"
+]
+},
+{
+"word": "volume",
+"pos": [
+"n"
+]
+},
+{
+"word": "volunteer",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "vote",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "weather",
+"pos": [
+"n"
+]
+},
+{
+"word": "vowel",
+"pos": [
+"n"
+]
+},
+{
+"word": "weather forecast",
+"pos": [
+"n"
+]
+},
+{
+"word": "web",
+"pos": [
+"n"
+]
+},
+{
+"word": "webcam",
+"pos": [
+"n"
+]
+},
+{
+"word": "web page",
+"pos": [
+"n"
+]
+},
+{
+"word": "website",
+"pos": [
+"n"
+]
+},
+{
+"word": "wedding",
+"pos": [
+"n"
+]
+},
+{
+"word": "wind",
+"pos": [
+"n"
+]
+},
+{
+"word": "week",
+"pos": [
+"n"
+]
+},
+{
+"word": "weekday",
+"pos": [
+"n"
+]
+},
+{
+"word": "window",
+"pos": [
+"n"
+]
+},
+{
+"word": "weekend",
+"pos": [
+"n"
+]
+},
+{
+"word": "windscreen",
+"pos": [
+"n"
+]
+},
+{
+"word": "weekly",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "windsurfing",
+"pos": [
+"n"
+]
+},
+{
+"word": "weigh",
+"pos": [
+"v"
+]
+},
+{
+"word": "weight",
+"pos": [
+"n"
+]
+},
+{
+"word": "welcome",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "winner",
+"pos": [
+"n"
+]
+},
+{
+"word": "well",
+"pos": [
+"adj",
+"adv",
+"exclam"
+]
+},
+{
+"word": "well done",
+"pos": [
+"adv"
+]
+},
+{
+"word": "without",
+"pos": [
+"prep"
+]
+},
+{
+"word": "well-dressed",
+"pos": [
+"adj"
+]
+},
+{
+"word": "woman",
+"pos": [
+"n"
+]
+},
+{
+"word": "well-known",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wonder",
+"pos": [
+"v"
+]
+},
+{
+"word": "well made",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "west",
+"pos": [
+"adj",
+"adv",
+"n"
+]
+},
+{
+"word": "wonderful",
+"pos": [
+"adj"
+]
+},
+{
+"word": "western",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wood",
+"pos": [
+"n"
+]
+},
+{
+"word": "wet",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wooden",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wetsuit",
+"pos": [
+"n"
+]
+},
+{
+"word": "whale",
+"pos": [
+"n"
+]
+},
+{
+"word": "work",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "what",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "whatever",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "wheel",
+"pos": [
+"n"
+]
+},
+{
+"word": "wheelchair",
+"pos": [
+"n"
+]
+},
+{
+"word": "when",
+"pos": [
+"adv"
+]
+},
+{
+"word": "whenever",
+"pos": [
+"conj"
+]
+},
+{
+"word": "worker",
+"pos": [
+"n"
+]
+},
+{
+"word": "where",
+"pos": [
+"adv",
+"conj"
+]
+},
+{
+"word": "working",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wherever",
+"pos": [
+"conj"
+]
+},
+{
+"word": "workout",
+"pos": [
+"n"
+]
+},
+{
+"word": "whether",
+"pos": [
+"conj"
+]
+},
+{
+"word": "which",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "work out",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "while",
+"pos": [
+"n"
+]
+},
+{
+"word": "world",
+"pos": [
+"n"
+]
+},
+{
+"word": "worried",
+"pos": [
+"adj"
+]
+},
+{
+"word": "white",
+"pos": [
+"adj"
+]
+},
+{
+"word": "worry",
+"pos": [
+"n",
+"v"
+]
+},
+{
+"word": "who",
+"pos": [
+"pron"
+]
+},
+{
+"word": "worse",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "whole",
+"pos": [
+"adj",
+"n"
+]
+},
+{
+"word": "worst",
+"pos": [
+"adj",
+"adv"
+]
+},
+{
+"word": "whose",
+"pos": [
+"det",
+"pron"
+]
+},
+{
+"word": "worth",
+"pos": [
+"adj"
+]
+},
+{
+"word": "why",
+"pos": [
+"adv"
+]
+},
+{
+"word": "would",
+"pos": [
+"mv"
+]
+},
+{
+"word": "wide",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wow",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "wife",
+"pos": [
+"n"
+]
+},
+{
+"word": "wild",
+"pos": [
+"adj"
+]
+},
+{
+"word": "write",
+"pos": [
+"v"
+]
+},
+{
+"word": "wildlife",
+"pos": [
+"n"
+]
+},
+{
+"word": "write down",
+"pos": [
+"phr v"
+]
+},
+{
+"word": "will",
+"pos": [
+"mv"
+]
+},
+{
+"word": "willing",
+"pos": [
+"adj"
+]
+},
+{
+"word": "win",
+"pos": [
+"v"
+]
+},
+{
+"word": "writer",
+"pos": [
+"n"
+]
+},
+{
+"word": "writing",
+"pos": [
+"n"
+]
+},
+{
+"word": "written",
+"pos": [
+"adj"
+]
+},
+{
+"word": "wrong",
+"pos": [
+"adj"
+]
+},
+{
+"word": "yard",
+"pos": [
+"n"
+]
+},
+{
+"word": "yeah",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "year",
+"pos": [
+"n"
+]
+},
+{
+"word": "yellow",
+"pos": [
+"adj"
+]
+},
+{
+"word": "yes",
+"pos": [
+"adv"
+]
+},
+{
+"word": "yesterday",
+"pos": [
+"adv"
+]
+},
+{
+"word": "yet",
+"pos": [
+"adv"
+]
+},
+{
+"word": "yoga",
+"pos": [
+"n"
+]
+},
+{
+"word": "you",
+"pos": [
+"pron"
+]
+},
+{
+"word": "you know",
+"pos": [
+"exclam"
+]
+},
+{
+"word": "young",
+"pos": [
+"adj"
+]
+},
+{
+"word": "your",
+"pos": [
+"det"
+]
+},
+{
+"word": "yours",
+"pos": [
+"pron"
+]
+},
+{
+"word": "yourself",
+"pos": [
+"pron"
+]
+},
+{
+"word": "youth",
+"pos": [
+"n"
+]
+},
+{
+"word": "zebra",
+"pos": [
+"n"
+]
+},
+{
+"word": "zero",
+"pos": [
+"n"
+]
+},
+{
+"word": "zone",
+"pos": [
+"n"
+]
+},
+{
+"word": "zoo",
+"pos": [
+"n"
+]
+}
+]

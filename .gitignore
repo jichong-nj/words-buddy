@@ -1,0 +1,26 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.npm-cache/
+
+# 运行期数据（SQLite、上传的原始文件、备份）
+data/
+
+# 生成的导入文件（可用 npm run bank:pet 重新生成）
+server/seed/pet-bank-import.csv
+
+# 第三方语料原始下载（Tatoeba / SQuAD，下载命令见 README）
+cmn_sentences.tsv.bz2
+eng_sentences.tsv.bz2
+squad-*.json
+
+# 本地环境与日志
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# 编辑器与系统
+.DS_Store
+.idea/
+.vscode/

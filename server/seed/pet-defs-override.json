@@ -1,0 +1,761 @@
+{
+ "_comment": "人工补充的英文释义：WordNet 查不到的词（多为短语、功能词）。格式 word -> { def, example }。build-pet-bank.js 会优先使用这里的释义。",
+ "high heels": {
+  "def": "women's shoes with tall narrow heels",
+  "example": "She wore black high heels to the party."
+ },
+ "social media": {
+  "def": "websites and apps where people share information and ideas",
+  "example": "Teenagers spend hours a day on social media."
+ },
+ "primary school": {
+  "def": "a school for children between about five and eleven years old",
+  "example": "My sister is still at primary school."
+ },
+ "secondary school": {
+  "def": "a school for children between about eleven and eighteen years old",
+  "example": "He started at a new secondary school last September."
+ },
+ "head teacher": {
+  "def": "the teacher who is in charge of a school",
+  "example": "The head teacher spoke to all the parents."
+ },
+ "ice cream": {
+  "def": "a sweet frozen food made from milk and sugar",
+  "example": "We had ice cream on the beach."
+ },
+ "living room": {
+  "def": "the room in a house where people sit together and relax",
+  "example": "The family watched TV in the living room."
+ },
+ "dining room": {
+  "def": "a room in which meals are eaten",
+  "example": "Dinner is ready in the dining room."
+ },
+ "mother tongue": {
+  "def": "the first language that you learn as a child",
+  "example": "Her mother tongue is Spanish."
+ },
+ "police station": {
+  "def": "the local office of the police",
+  "example": "He reported the theft at the police station."
+ },
+ "fire station": {
+  "def": "a building where fire engines are kept",
+  "example": "The fire station is next to the park."
+ },
+ "shopping centre": {
+  "def": "a large building with many shops inside",
+  "example": "They spent the afternoon at the shopping centre."
+ },
+ "traffic lights": {
+  "def": "a set of red and green lights that control traffic",
+  "example": "Turn left at the traffic lights."
+ },
+ "bus stop": {
+  "def": "a place where a bus regularly stops to pick up passengers",
+  "example": "I waited for twenty minutes at the bus stop."
+ },
+ "petrol station": {
+  "def": "a place where you can buy fuel for a car",
+  "example": "We stopped at a petrol station to fill up."
+ },
+ "check in": {
+  "def": "to register when you arrive at a hotel or an airport",
+  "example": "Please check in two hours before your flight."
+ },
+ "check out": {
+  "def": "to pay your bill and leave a hotel",
+  "example": "We have to check out before eleven."
+ },
+ "post office": {
+  "def": "a place where you can buy stamps and send letters or parcels",
+  "example": "I posted the letter at the post office."
+ },
+ "bank account": {
+  "def": "an arrangement with a bank in which it keeps your money",
+  "example": "She opened a bank account when she started work."
+ },
+ "credit card": {
+  "def": "a small plastic card used to buy things and pay later",
+  "example": "Can I pay by credit card?"
+ },
+ "debit card": {
+  "def": "a plastic card that takes money directly from your bank account",
+  "example": "He paid for the shopping with his debit card."
+ },
+ "try on": {
+  "def": "to put on a piece of clothing to see if it fits",
+  "example": "Can I try on these trousers, please?"
+ },
+ "break the record": {
+  "def": "to do something faster or better than anyone before",
+  "example": "She broke the world record for the 100 metres."
+ },
+ "give up": {
+  "def": "to stop doing something, especially because it is difficult",
+  "example": "Never give up learning a language."
+ },
+ "keep up": {
+  "def": "to move at the same speed as someone or something",
+  "example": "I could not keep up with the rest of the group."
+ },
+ "wild animal": {
+  "def": "an animal that lives in nature and is not kept by people",
+  "example": "Lions are wild animals, not pets."
+ },
+ "on time": {
+  "def": "at the correct or arranged time, not late",
+  "example": "The train arrived exactly on time."
+ },
+ "in time": {
+  "def": "early enough, before it is too late",
+  "example": "We got to the cinema just in time."
+ },
+ "during": {
+  "def": "through the whole of a period of time, or at some point in it",
+  "example": "Please do not talk during the film."
+ },
+ "until": {
+  "def": "up to the time that something happens",
+  "example": "We waited until the rain stopped."
+ },
+ "since": {
+  "def": "from a time in the past until now",
+  "example": "I have lived here since 2019."
+ },
+ "as soon as": {
+  "def": "immediately after something happens",
+  "example": "Call me as soon as you arrive."
+ },
+ "by the time": {
+  "def": "before or when a particular moment arrives",
+  "example": "By the time we arrived, the match had ended."
+ },
+ "safety belt": {
+  "def": "a strap in a car that keeps you in your seat",
+  "example": "Always fasten your safety belt."
+ },
+ "speed limit": {
+  "def": "the fastest speed that is allowed on a road",
+  "example": "The speed limit here is 50 kilometres an hour."
+ },
+ "traffic jam": {
+  "def": "a long line of cars that cannot move",
+  "example": "We were stuck in a traffic jam for an hour."
+ },
+ "turn left": {
+  "def": "to change direction and go towards the left",
+  "example": "Turn left after the bridge."
+ },
+ "turn right": {
+  "def": "to change direction and go towards the right",
+  "example": "Turn right at the corner."
+ },
+ "go straight on": {
+  "def": "to continue in the same direction",
+  "example": "Go straight on for about 200 metres."
+ },
+ "next to": {
+  "def": "beside; very close to someone or something",
+  "example": "The bank is next to the supermarket."
+ },
+ "among": {
+  "def": "in the middle of a group of people or things",
+  "example": "She was among the first to arrive."
+ },
+ "satnav": {
+  "def": "a device in a car that shows you the way to a place",
+  "example": "The satnav told us to take the next exit."
+ },
+ "electric car": {
+  "def": "a car that is powered by electricity instead of petrol",
+  "example": "Electric cars are quiet and clean."
+ },
+ "résumé": {
+  "def": "a short written account of your education and experience",
+  "example": "Send your résumé with your application."
+ },
+ "office worker": {
+  "def": "a person who works in an office",
+  "example": "Most office workers start at nine o'clock."
+ },
+ "sales assistant": {
+  "def": "a person whose job is to sell things in a shop",
+  "example": "The sales assistant helped me find a jacket."
+ },
+ "raise money": {
+  "def": "to collect money for a particular purpose, often by asking people",
+  "example": "The students raised money for a local charity."
+ },
+ "a.m": {
+  "def": "between midnight and midday; in the morning",
+  "example": "The train leaves at 9 a.m."
+ },
+ "according to": {
+  "def": "as stated by someone or something",
+  "example": "According to the weather forecast, it will rain."
+ },
+ "against": {
+  "def": "in opposition to; touching or hitting something",
+  "example": "She played against her best friend."
+ },
+ "although": {
+  "def": "despite the fact that; even though",
+  "example": "Although it was late, we kept walking."
+ },
+ "and": {
+  "def": "used to join two words, phrases or clauses",
+  "example": "We bought bread and milk."
+ },
+ "answerphone": {
+  "def": "a machine that records telephone messages",
+  "example": "Nobody answered, so I left a message on the answerphone."
+ },
+ "anybody": {
+  "def": "any person, no matter who",
+  "example": "Did anybody see my keys?"
+ },
+ "anyone": {
+  "def": "any person, no matter who",
+  "example": "Anyone can join the club."
+ },
+ "anything": {
+  "def": "any thing at all, no matter what",
+  "example": "Is there anything else you need?"
+ },
+ "apart from": {
+  "def": "except for; besides",
+  "example": "Apart from the rain, the trip was great."
+ },
+ "app": {
+  "def": "a program you download and use on a phone",
+  "example": "This app helps you learn new words."
+ },
+ "at first": {
+  "def": "in the beginning, before anything else happens",
+  "example": "At first I did not like the film."
+ },
+ "at the same time": {
+  "def": "during the same moment or period",
+  "example": "They both spoke at the same time."
+ },
+ "base on": {
+  "def": "to use something as the starting point or source",
+  "example": "The film is based on a true story."
+ },
+ "be over": {
+  "def": "to have finished or come to an end",
+  "example": "The match will be over at five."
+ },
+ "because": {
+  "def": "for the reason that",
+  "example": "I stayed at home because I was ill."
+ },
+ "because of": {
+  "def": "as a result of; due to",
+  "example": "The game was cancelled because of the rain."
+ },
+ "beside": {
+  "def": "next to; at the side of someone or something",
+  "example": "She sat beside her mother."
+ },
+ "booking office": {
+  "def": "a place where you can buy tickets",
+  "example": "Tickets are sold at the booking office."
+ },
+ "by accident": {
+  "def": "unintentionally; without planning to",
+  "example": "I broke the glass by accident."
+ },
+ "by mistake": {
+  "def": "by accident, without intending to",
+  "example": "I took your umbrella by mistake."
+ },
+ "cashpoint": {
+  "def": "a machine outside a bank that gives you money",
+  "example": "I need to get some cash at the cashpoint."
+ },
+ "could": {
+  "def": "was able to; used for polite requests or possibilities",
+  "example": "Could you help me with this bag?"
+ },
+ "dr": {
+  "def": "a short way of writing Doctor before a name",
+  "example": "Dr King is our new teacher."
+ },
+ "due to": {
+  "def": "because of; caused by",
+  "example": "The delay was due to bad weather."
+ },
+ "dvd player": {
+  "def": "a machine that plays DVDs",
+  "example": "We watched the film on the DVD player."
+ },
+ "else": {
+  "def": "other than what is mentioned; different",
+  "example": "Would you like something else?"
+ },
+ "even though": {
+  "def": "although; despite the fact that",
+  "example": "Even though he was tired, he finished the work."
+ },
+ "everybody": {
+  "def": "all the people in a group",
+  "example": "Everybody enjoyed the party."
+ },
+ "everyone": {
+  "def": "all the people in a group",
+  "example": "Everyone must bring a pen."
+ },
+ "everything": {
+  "def": "all things in a group or situation",
+  "example": "Everything in the shop is half price."
+ },
+ "extreme sport": {
+  "def": "a sport that is very dangerous and exciting",
+  "example": "Snowboarding is an extreme sport."
+ },
+ "for": {
+  "def": "intended to be given to or used by someone",
+  "example": "This present is for you."
+ },
+ "from": {
+  "def": "starting at a particular place or time",
+  "example": "She comes from Spain."
+ },
+ "get fit": {
+  "def": "to become healthy and strong through exercise",
+  "example": "I go running to get fit."
+ },
+ "good evening": {
+  "def": "a polite greeting used in the evening",
+  "example": "Good evening, everyone. Please sit down."
+ },
+ "hairdryer": {
+  "def": "a machine that blows hot air to dry your hair",
+  "example": "The hotel room has a hairdryer."
+ },
+ "hand in": {
+  "def": "to give something to a person in charge",
+  "example": "Hand in your homework by Friday."
+ },
+ "have to": {
+  "def": "must; used to say something is necessary",
+  "example": "I have to get up early tomorrow."
+ },
+ "headteacher": {
+  "def": "the teacher in charge of a school",
+  "example": "The headteacher talked to the students."
+ },
+ "herself": {
+  "def": "used when a woman or girl does something to her own person",
+  "example": "She cut herself while cooking."
+ },
+ "hey": {
+  "def": "a word used to greet someone or get attention",
+  "example": "Hey, wait for me!"
+ },
+ "him": {
+  "def": "used as the object form of he",
+  "example": "Please tell him the news."
+ },
+ "himself": {
+  "def": "used when a man or boy does something to his own person",
+  "example": "He looked at himself in the mirror."
+ },
+ "hoodie": {
+  "def": "a sweatshirt with a hood",
+  "example": "He wore a black hoodie and jeans."
+ },
+ "horse-riding": {
+  "def": "the activity of riding a horse",
+  "example": "Horse-riding is her favourite hobby."
+ },
+ "how": {
+  "def": "in what way; to what degree",
+  "example": "How do you make pancakes?"
+ },
+ "how much": {
+  "def": "used to ask about the price or the amount of something",
+  "example": "How much does this shirt cost?"
+ },
+ "id card": {
+  "def": "a card that shows who you are",
+  "example": "You need an ID card to take the exam."
+ },
+ "if": {
+  "def": "used to talk about a condition or a possibility",
+  "example": "If it rains, we will stay at home."
+ },
+ "in front of": {
+  "def": "in a position before or facing something",
+  "example": "The bus stopped in front of the school."
+ },
+ "in half": {
+  "def": "into two equal pieces",
+  "example": "Please cut the cake in half."
+ },
+ "in ink": {
+  "def": "written with a pen and ink",
+  "example": "Fill in the form in ink, not pencil."
+ },
+ "in order to": {
+  "def": "for the purpose of; so that you can",
+  "example": "She got up early in order to catch the train."
+ },
+ "in pencil": {
+  "def": "written with a pencil",
+  "example": "Do the exercises in pencil."
+ },
+ "in two": {
+  "def": "into two pieces or parts",
+  "example": "The plate broke in two."
+ },
+ "into": {
+  "def": "moving to a position inside something",
+  "example": "She went into the kitchen."
+ },
+ "itself": {
+  "def": "used to show that a thing does something to its own self",
+  "example": "The door opened by itself."
+ },
+ "look forward to": {
+  "def": "to feel happy and excited about something that will happen",
+  "example": "I look forward to seeing you again."
+ },
+ "made of": {
+  "def": "produced or built from a particular material",
+  "example": "The table is made of wood."
+ },
+ "motor-racing": {
+  "def": "the sport of racing fast cars or motorbikes",
+  "example": "Motor-racing is popular on television."
+ },
+ "my": {
+  "def": "belonging to me",
+  "example": "This is my new bike."
+ },
+ "myself": {
+  "def": "used when you do something to your own person",
+  "example": "I hurt myself in the kitchen."
+ },
+ "no one": {
+  "def": "not a single person; nobody",
+  "example": "No one was at home when I called."
+ },
+ "noticeboard": {
+  "def": "a board on a wall where notices are put",
+  "example": "The exam timetable is on the noticeboard."
+ },
+ "of": {
+  "def": "belonging to or connected with something",
+  "example": "She is a friend of mine."
+ },
+ "oh dear": {
+  "def": "a phrase used to show sadness or sympathy",
+  "example": "Oh dear, I forgot my keys."
+ },
+ "on business": {
+  "def": "because of your work; for a work purpose",
+  "example": "My father is in Berlin on business."
+ },
+ "on foot": {
+  "def": "walking, not travelling by car or bus",
+  "example": "We went to the market on foot."
+ },
+ "on holiday": {
+  "def": "away from home or work, having a rest",
+  "example": "They are on holiday in Italy."
+ },
+ "on sale": {
+  "def": "offered for sale, often at a lower price",
+  "example": "These shoes are on sale this week."
+ },
+ "on vacation": {
+  "def": "away from work or school, having a holiday",
+  "example": "She is on vacation in Spain."
+ },
+ "onto": {
+  "def": "moving to a position on the surface of something",
+  "example": "The cat jumped onto the table."
+ },
+ "opening hours": {
+  "def": "the times when a shop or business is open",
+  "example": "The library's opening hours are 9 to 6."
+ },
+ "ought": {
+  "def": "should; used to say what is right or necessary",
+  "example": "You ought to see a doctor."
+ },
+ "ours": {
+  "def": "the one or ones belonging to us",
+  "example": "That car is ours."
+ },
+ "ourselves": {
+  "def": "used when we do something to our own persons",
+  "example": "We enjoyed ourselves at the beach."
+ },
+ "out of order": {
+  "def": "not working correctly; broken",
+  "example": "The lift is out of order today."
+ },
+ "p.m": {
+  "def": "between midday and midnight; in the afternoon or evening",
+  "example": "The meeting starts at 3 p.m."
+ },
+ "pence": {
+  "def": "a small unit of British money, plural of penny",
+  "example": "The book costs fifty pence."
+ },
+ "penfriend": {
+  "def": "someone you write to but may never meet",
+  "example": "She has a penfriend in Canada."
+ },
+ "ring back": {
+  "def": "to telephone someone again later",
+  "example": "I'll ring you back in ten minutes."
+ },
+ "selfie": {
+  "def": "a photo you take of yourself",
+  "example": "We took a selfie in front of the castle."
+ },
+ "shall": {
+  "def": "used with I and we to talk about the future or make offers",
+  "example": "Shall we go for a walk?"
+ },
+ "she": {
+  "def": "the female person or animal already mentioned",
+  "example": "She lives next door."
+ },
+ "should": {
+  "def": "used to say what is right, advisable or expected",
+  "example": "You should drink more water."
+ },
+ "smartphone": {
+  "def": "a mobile phone that can run apps and use the internet",
+  "example": "He checks his email on his smartphone."
+ },
+ "something": {
+  "def": "a thing that is not named or known",
+  "example": "I have something to tell you."
+ },
+ "sports centre": {
+  "def": "a building with places for doing different sports",
+  "example": "The new sports centre has a pool and a gym."
+ },
+ "stay behind": {
+  "def": "to remain in a place after other people leave",
+  "example": "She stayed behind to help the teacher."
+ },
+ "superhero": {
+  "def": "a fictional character with special powers",
+  "example": "Superman is a famous superhero."
+ },
+ "take care of": {
+  "def": "to look after someone or something",
+  "example": "Can you take care of my cat this weekend?"
+ },
+ "text message": {
+  "def": "a short written message sent by mobile phone",
+  "example": "I sent her a text message this morning."
+ },
+ "than": {
+  "def": "used to compare two things or people",
+  "example": "This film is better than the last one."
+ },
+ "the": {
+  "def": "used before a noun that is already known or has been mentioned",
+  "example": "Please close the door."
+ },
+ "their": {
+  "def": "belonging to them",
+  "example": "The children lost their bags."
+ },
+ "them": {
+  "def": "used as the object form of they",
+  "example": "I saw them at the station."
+ },
+ "themselves": {
+  "def": "used when people do something to their own persons",
+  "example": "They taught themselves to play the guitar."
+ },
+ "these": {
+  "def": "the plural of this; the things near you",
+  "example": "These apples are very sweet."
+ },
+ "this": {
+  "def": "the thing or person near you that is being talked about",
+  "example": "This is my brother."
+ },
+ "those": {
+  "def": "the plural of that; the things further away",
+  "example": "Those shoes are too big for me."
+ },
+ "to": {
+  "def": "in the direction of; used before the basic form of a verb",
+  "example": "I want to learn to swim."
+ },
+ "turn into": {
+  "def": "to become something different; to change into",
+  "example": "The caterpillar turns into a butterfly."
+ },
+ "unless": {
+  "def": "except if; if not",
+  "example": "We will play tennis unless it rains."
+ },
+ "upon": {
+  "def": "on; a more formal word for on",
+  "example": "The story is based upon a real event."
+ },
+ "via": {
+  "def": "by way of; through a particular place or method",
+  "example": "We flew to Rome via Paris."
+ },
+ "video clip": {
+  "def": "a short piece of video",
+  "example": "Watch the video clip and answer the questions."
+ },
+ "we": {
+  "def": "the speaker together with other people",
+  "example": "We live in a small town."
+ },
+ "wetsuit": {
+  "def": "a tight suit worn for swimming or diving in cold water",
+  "example": "He put on his wetsuit before surfing."
+ },
+ "what": {
+  "def": "used to ask about a thing or an action",
+  "example": "What are you doing tonight?"
+ },
+ "when": {
+  "def": "at what time; at the time that",
+  "example": "When did you arrive?"
+ },
+ "whenever": {
+  "def": "every time that; at any time that",
+  "example": "Come and see me whenever you like."
+ },
+ "where": {
+  "def": "in or to what place",
+  "example": "Where do you live?"
+ },
+ "whether": {
+  "def": "used to talk about a choice between two possibilities",
+  "example": "I don't know whether to go or stay."
+ },
+ "which": {
+  "def": "used to ask or talk about one or more things from a group",
+  "example": "Which colour do you prefer?"
+ },
+ "whose": {
+  "def": "belonging to whom; used to ask about the owner",
+  "example": "Whose jacket is this?"
+ },
+ "without": {
+  "def": "not having or not using something",
+  "example": "He left without saying goodbye."
+ },
+ "would": {
+  "def": "used for polite requests or imagined situations",
+  "example": "Would you like a cup of tea?"
+ },
+ "you": {
+  "def": "the person or people being spoken to",
+  "example": "You are very kind."
+ },
+ "you know": {
+  "def": "a phrase used in speech when you are thinking what to say",
+  "example": "It was, you know, a bit strange."
+ },
+ "your": {
+  "def": "belonging to the person or people spoken to",
+  "example": "Is this your umbrella?"
+ },
+ "yours": {
+  "def": "the one or ones belonging to you",
+  "example": "That bag over there is yours."
+ },
+ "yourself": {
+  "def": "used when you do something to your own person",
+  "example": "Be careful not to hurt yourself."
+ },
+ "as long as": {
+  "def": "only if; on condition that",
+  "example": "You can go out as long as you are home by nine."
+ },
+ "his": {
+  "def": "belonging to him"
+ },
+ "her": {
+  "def": "used as the object form of she; belonging to her"
+ },
+ "its": {
+  "def": "belonging to a thing or an animal"
+ },
+ "per": {
+  "def": "for each; in every"
+ },
+ "by name": {
+  "def": "using the name of someone or something"
+ },
+ "regarding": {
+  "def": "about; concerning"
+ },
+ "including": {
+  "def": "having something as part of a group"
+ },
+ "permitted": {
+  "def": "allowed; officially agreed"
+ },
+ "freezing": {
+  "def": "extremely cold; at or below the temperature of ice",
+  "example": "It is freezing outside."
+ },
+ "cheers": {
+  "def": "said when drinking together, or as a way of saying thank you"
+ },
+ "prizes": {
+  "def": "things given to the winner of a competition"
+ },
+ "studies": {
+  "def": "the work of learning at school or university"
+ },
+ "ages": {
+  "def": "a very long time"
+ },
+ "facilities": {
+  "def": "buildings, rooms or equipment for a particular purpose"
+ },
+ "headphones": {
+  "def": "a pair of small speakers worn over the ears"
+ },
+ "boots": {
+  "def": "strong shoes that cover the foot and the lower leg"
+ },
+ "gloves": {
+  "def": "coverings for the hands with separate parts for each finger"
+ },
+ "sweets": {
+  "def": "small pieces of sweet food made with sugar"
+ },
+ "tins": {
+  "def": "metal containers used for keeping food"
+ },
+ "recycled": {
+  "def": "treated so that it can be used again"
+ },
+ "well done": {
+  "def": "used to praise someone for doing something well"
+ },
+ "out of date": {
+  "def": "no longer useful or fashionable"
+ },
+ "windsurfing": {
+  "def": "the sport of riding on water on a board with a sail"
+ },
+ "second-hand": {
+  "def": "used by someone else before; not new",
+  "example": "I bought a second-hand bike."
+ }
+}
