@@ -109,7 +109,10 @@
             <span v-for="i in 28" :key="i"
                   :style="{ animationDelay: (i * 0.055).toFixed(3) + 's', animationDuration: (0.65 + (i % 5) * 0.11).toFixed(2) + 's' }"></span>
           </div>
-          <span class="audio-hint">{{ playing ? '正在播放…' : '点击播放或重播' }}</span>
+          <span class="audio-hint">{{ audioHint }}</span>
+          <button class="loop-btn" :class="{ on: loopOn }" type="button"
+                  :title="loopOn ? '自动循环播放中，点击关闭' : '自动循环已关闭，点击开启（间隔 2 秒）'"
+                  @click="toggleLoop">🔁 循环{{ loopOn ? '开' : '关' }}</button>
         </div>
         <div v-if="autoplayBlocked" class="autoplay-tip">
           浏览器阻止了自动播放，请点击上方 ▶ 按钮听音频
@@ -289,10 +292,15 @@ const soundOn = ref(isSoundEnabled());
 const elapsed = ref(0);
 const playing = ref(false);
 const autoplayBlocked = ref(false);
+const loopOn = ref(localStorage.getItem('wb.dictation.loop') !== '0');   // 自动循环播放，默认开
+const loopPending = ref(false);                                          // 是否已排好下一次重播
 const audioEl = ref(null);
 const inputEl = ref(null);
 
+const LOOP_GAP_MS = 2000;   // 播完隔 2 秒自动重播
+
 let timer = null;
+let loopTimer = null;
 let shownAt = 0;
 let busy = false; // 弹确认框时阻止 Enter 快捷键
 
@@ -301,6 +309,11 @@ const current = computed(() => questions.value[idx.value] || null);
 const currentState = computed(() => (current.value && states[current.value.seq]) || { given: '', result: null });
 const curResult = computed(() => currentState.value.result || null);
 const lockedCorrect = computed(() => !!(curResult.value && curResult.value.correct));
+const audioHint = computed(() => {
+  if (playing.value) return '正在播放…';
+  if (loopPending.value) return `${LOOP_GAP_MS / 1000} 秒后自动重播…`;
+  return '点击播放或重播';
+});
 const given = computed({
   get: () => currentState.value.given || '',
   set: (v) => {
@@ -415,36 +428,56 @@ function focusInput() {
   nextTick(() => { if (inputEl.value) inputEl.value.focus(); });
 }
 
-/* ── 音频 ── */
+/* ── 音频：进入每题自动播放，播完隔 2 秒循环重播（答对后停止） ── */
 function resetAudio() {
   if (!audioEl.value) return;
   try { audioEl.value.currentTime = 0; } catch { /* ignore */ }
 }
-function attemptAutoplay() {
-  if (!audioEl.value || !current.value) return;
-  resetAudio();
-  autoplayBlocked.value = false;
-  let p = null;
-  try { p = audioEl.value.play(); } catch { autoplayBlocked.value = true; }
-  if (p && typeof p.catch === 'function') p.catch(() => { autoplayBlocked.value = true; });
+function clearLoop() {
+  if (loopTimer) { clearTimeout(loopTimer); loopTimer = null; }
+  loopPending.value = false;
+}
+/** 是否还需要循环：答题阶段 + 本题未答对 + 开关打开 */
+function loopWanted() {
+  return loopOn.value && phase.value === 'quiz' && !!current.value
+    && !(curResult.value && curResult.value.correct);
+}
+function scheduleLoop() {
+  clearLoop();
+  if (!loopWanted()) return;
+  loopPending.value = true;
+  loopTimer = setTimeout(() => { loopTimer = null; loopPending.value = false; playCurrent(); }, LOOP_GAP_MS);
+}
+function toggleLoop() {
+  loopOn.value = !loopOn.value;
+  localStorage.setItem('wb.dictation.loop', loopOn.value ? '1' : '0');
+  if (loopOn.value) scheduleLoop(); else clearLoop();
 }
 function playCurrent() {
   if (!audioEl.value || !current.value) return;
+  clearLoop();
   resetAudio();
   autoplayBlocked.value = false;
   let p = null;
   try { p = audioEl.value.play(); } catch { autoplayBlocked.value = true; }
   if (p && typeof p.catch === 'function') p.catch(() => { autoplayBlocked.value = true; });
 }
+function attemptAutoplay() { playCurrent(); }
 function stopAudio() {
+  clearLoop();
   if (!audioEl.value) return;
   try { audioEl.value.pause(); } catch { /* ignore */ }
   playing.value = false;
 }
 function onAudioPlay() { playing.value = true; autoplayBlocked.value = false; }
-function onAudioEnd() { playing.value = false; }
-function onAudioPause() { playing.value = false; }
-function onAudioError() { playing.value = false; }
+function onAudioEnd() { playing.value = false; scheduleLoop(); }
+function onAudioPause() {
+  playing.value = false;
+  // ended 之后浏览器会紧跟一次 pause，此时循环已由 onAudioEnd 排好，不能清掉
+  if (audioEl.value && audioEl.value.ended) return;
+  clearLoop();
+}
+function onAudioError() { playing.value = false; clearLoop(); }
 
 function toggleSound() {
   soundOn.value = !soundOn.value;
@@ -468,7 +501,7 @@ async function submit() {
     if (!states[current.value.seq]) states[current.value.seq] = { given: text, result: null };
     states[current.value.seq].result = d;
     // 只在判定瞬间触发一次音效/动效（不放在渲染/watch 里）
-    if (d.correct) celebrate();
+    if (d.correct) { clearLoop(); celebrate(); }
     else oops();
     focusInput();
   } catch { /* 已提示 */ } finally {
@@ -786,6 +819,19 @@ function viewRecord() {
   50% { transform: scaleY(1); }
 }
 .audio-hint { font-size: 13px; color: #8b98a9; min-width: 96px; text-align: left; }
+.loop-btn {
+  flex: none;
+  border: 1px solid rgba(125, 211, 252, 0.3);
+  background: rgba(15, 32, 51, 0.6);
+  color: #8b98a9;
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.loop-btn.on { color: #7dd3fc; border-color: rgba(125, 211, 252, 0.6); background: rgba(64, 158, 255, 0.14); }
+.loop-btn:hover { color: #bae6fd; }
 .autoplay-tip {
   display: inline-block;
   margin-top: 4px;

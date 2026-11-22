@@ -226,7 +226,7 @@
 | POST | `/api/dictation/sessions` | `{count=10,levels?[],topics?[],excludeRecentDays?}` → `{sessionId,mode,total,analysisAttempts,questions:[{seq,prompt(中文),wordCount,level,topic,audio}]}`；**不含英文原句**，音频走 `audio` URL |
 | POST | `/api/dictation/sessions/:id/submit` | `{seq,given,latencyMs?}` → `{seq,correct,diff:[{status,expected,got}],attempts,firstCorrect,unlockedAnswer,reveal}` |
 | POST | `/api/dictation/sessions/:id/finish` | `{}` → `{sessionId,total,correct(首次答对题数),score,durationMs}` |
-| GET | `/api/dictation/audio/:itemId` | 服务端 espeak-ng 合成的 `audio/wav`（缓存），需登录 |
+| GET | `/api/dictation/audio/:itemId` | 听写参考音频：优先返回外部引擎（MOSS-TTS-Nano）离线预生成的 `audio/mp4`，缺失时回落 espeak-ng `audio/wav`；响应头 `X-TTS-Provider` 标明 `moss`/`espeak`，需登录 |
 
 判分规则：
 - 归一化：转小写、去标点、合并空白，按词切分

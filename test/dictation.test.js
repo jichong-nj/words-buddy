@@ -9,6 +9,7 @@ import path from 'node:path';
 
 import { buildApp } from '../server/app.js';
 import { words, diffWords } from '../server/services/dictation.js';
+import { dictRefPathFor, audioMime } from '../server/services/tts.js';
 
 // ── 纯函数 ──
 test('words：小写、去标点、合并空白，保留词内撇号', () => {
@@ -172,4 +173,56 @@ test('接口：听写句库 → 抽题 → 首次判分 → 重试 → 记录', 
   assert.equal(res.statusCode, 200);
   assert.match(res.headers['content-type'], /audio\/wav/);
   assert.ok(res.rawPayload.length > 1000);
+});
+
+// ── 外部引擎（MOSS-TTS-Nano）预生成音频优先 ──
+test('缓存键与 scripts/gen-dictation-audio-moss.py 逐字节一致（改一处必须同步另一处）', () => {
+  const p = dictRefPathFor('We arrived at the airport two hours early.');
+  assert.ok(p.endsWith('9fac540115bd6bd6ef694b7f976a8069.m4a'), p);
+  assert.equal(dictRefPathFor('We  arrived   at\tthe airport two hours early.'), p);   // 空白折叠同键
+  assert.notEqual(dictRefPathFor('We arrived at the airport two hours early'), p);     // 句子不同则不同键
+  assert.equal(audioMime('a.m4a'), 'audio/mp4');
+  assert.equal(audioMime('a.wav'), 'audio/wav');
+});
+
+test('接口：外部引擎缓存命中优先返回 m4a，缺失时回落 espeak wav', async t => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'wb-dict-audio-'));
+  const app = await buildApp({ logger: false, dbFile: path.join(dir, 'd.db') });
+  t.after(async () => { await app.close(); fs.rmSync(dir, { recursive: true, force: true }); });
+
+  const call = async (method, url, { payload, cookie } = {}) => app.inject({
+    method, url,
+    headers: { ...(cookie ? { cookie } : {}), ...(payload !== undefined ? { 'content-type': 'application/json' } : {}) },
+    ...(payload !== undefined ? { payload: JSON.stringify(payload) } : {}),
+  });
+  const cookieOf = res => { const c = (res.cookies || []).find(x => x.name === 'wb_session'); return c ? `wb_session=${c.value}` : null; };
+  let res = await call('POST', '/api/auth/setup', { payload: { username: 'admin', password: 'Admin123!' } });
+  const admin = cookieOf(res);
+  res = await call('POST', '/api/dictation/items', {
+    cookie: admin,
+    payload: { sentenceEn: 'She has a nice camera.', sentenceCn: '她有一台好看的相机。', level: 'PET', topic: 'Hobbies and Leisure', tokens: [] },
+  });
+  assert.equal(res.statusCode, 200, res.body);
+  const itemId = JSON.parse(res.body).id;
+  const url = `/api/dictation/audio/${itemId}`;
+
+  // 无外部缓存 → 回落 espeak-ng（wav）
+  res = await call('GET', url, { cookie: admin });
+  assert.equal(res.statusCode, 200);
+  assert.match(res.headers['content-type'], /audio\/wav/);
+  assert.equal(res.headers['x-tts-provider'], 'espeak');
+
+  // 放入外部引擎缓存 → 优先返回 m4a，不再走 espeak
+  const file = dictRefPathFor('She has a nice camera.');
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, Buffer.concat([Buffer.from('FAKE-AAC'), Buffer.alloc(600, 7)]));
+  try {
+    res = await call('GET', url, { cookie: admin });
+    assert.equal(res.statusCode, 200);
+    assert.match(res.headers['content-type'], /audio\/mp4/);
+    assert.equal(res.headers['x-tts-provider'], 'moss');
+    assert.equal(res.rawPayload.subarray(0, 8).toString(), 'FAKE-AAC');
+  } finally {
+    fs.rmSync(file, { force: true });
+  }
 });

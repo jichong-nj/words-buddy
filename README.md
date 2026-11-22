@@ -197,16 +197,45 @@ npm run seed:demo          # 首次启动自动写入（17 + 1200 篇）
 - 计分：**首次提交定对错**（写入统计口径）；之后允许重试改错、累计尝试次数，不再改统计
 - 展示：答对后展示英文/中文/逐词解析（词性、音标、释义）/语法标签/解析；连续尝试 3 次自动解锁解析
 - 反馈：答对放全屏彩带/花瓣粒子 + 上行双音；答错屏幕左右抖动 + 低频蜂鸣；尊重系统「减少动态效果」，可一键静音
-- 音频：服务端 `espeak-ng`（WASM）合成 WAV 并按句缓存（`data/audio/shadow/`），浏览器 `<audio>` 播放，可重播；
-  已预生成全部 8865 句（约 1GB），日常播放/判分不再现场合成；新增句子后可执行 `npm run dictation:audio` 补生成
+- 音频：优先播放 **MOSS-TTS-Nano**（0.1B 本地 ONNX 神经网络 TTS，纯 CPU 合成、不联网、无需密钥）离线预生成的
+  AAC（`data/audio/dictation/`，44.1kHz 单声道、约 −16 LUFS），比 espeak-ng 的机械音清晰得多；
+  句库里没有预生成音频的新句子自动**回落 espeak-ng 现场合成 WAV**，保证一定有声音；
+  浏览器 `<audio>` 播放：进入每题自动播放，播完隔 2 秒循环重播，答对即停，可点「🔁 循环」关闭（选择会被记住）
 
 ```bash
 npm run dictation:generate   # 从词库例句/变形题句子生成听写句库 CSV
 npm run dictation:expand     # 用 Tatoeba/TED/QED 英中句对扩充（含 PET 词汇的句子）
 npm run dictation:export     # 把数据库里的句库导出为种子 CSV
-npm run dictation:audio      # 预生成全部听写参考音频（espeak-ng → WAV，并发 4）
+npm run dictation:audio:moss # 用 MOSS-TTS-Nano 预生成听写音频（需 python3 + onnxruntime + ffmpeg）
+npm run dictation:audio      # 兜底方案：espeak-ng 预生成 WAV（并发 4）
 npm run seed:demo            # 空库首次写入（含听写句库）
 ```
+
+### 听写音频引擎（MOSS-TTS-Nano）
+
+听写音频全部**离线预生成**，运行时不调用引擎、不联网、不需要任何密钥：
+
+| 环境变量 | 默认 | 说明 |
+| --- | --- | --- |
+| `DICT_TTS_PROVIDER` | `moss` | `moss`=优先用预生成缓存；`espeak`=只用 espeak-ng（一键回滚） |
+| `DICT_TTS_VOICE` | `adam` | 预生成音色（`adam`/`ava`/`bella`/`nathan`），同时是缓存键的一部分 |
+| `DICT_TTS_SPEED` | `1.0` | 语速倍率，缓存键的一部分 |
+| `DICT_TTS_FMT` | `m4a` | 预生成文件扩展名，缓存键的一部分 |
+
+```bash
+python3 scripts/gen-dictation-audio-moss.py --check      # 先看还缺多少句
+python3 scripts/gen-dictation-audio-moss.py              # 单进程（约 1.5 小时）
+# 3 分片并行（约 40 分钟，每片 5 线程，按 CPU 余量调整）
+for k in 0 1 2; do python3 scripts/gen-dictation-audio-moss.py --shard $k/3 --threads 5 & done; wait
+```
+
+缓存键 = `sha256("provider|voice|speed|fmt|句子")` 前 32 位 → `data/audio/dictation/<key>.m4a`，
+与 `server/services/tts.js` 的 `dictRefPathFor()` 逐字节一致（`test/dictation.test.js` 有单测把守）。
+换音色/语速等于换一批缓存键，旧文件不会被覆盖；回滚只需设 `DICT_TTS_PROVIDER=espeak`。
+脚本已存在即跳过（可断点续跑），失败句子记在 `data/audio/dictation/gen-failures.jsonl`。
+
+> 跟读练习**不用** MOSS：它的参考音是评分的节奏/音高模板，必须确定性可复现，所以继续用 espeak-ng。
+
 
 句库导入模板（管理端「听写题库」可下载）：`句子`(必填)、`中文`(必填)、`等级`、`主题`、`标签`、`来源`、`语法`、`解析`、`逐词`(JSON，可选)。
 

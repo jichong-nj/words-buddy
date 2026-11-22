@@ -71,3 +71,42 @@ export async function prewarm(sentences, limit = 50) {
   }
   return { made, hit };
 }
+
+/* ─────────────────────────────────────────────────────────────
+ * 听写专用音频：优先用外部引擎（默认 MOSS-TTS-Nano）离线预生成的文件，
+ * 缺失时回落到上面的 espeak-ng 现合成，保证任何新句子都一定有声音。
+ * 跟读评分基准不受影响（仍走 synthesizeRef），历史分数可比。
+ * ───────────────────────────────────────────────────────────── */
+export const DICT_PROVIDER = process.env.DICT_TTS_PROVIDER || 'moss';   // moss | espeak
+export const DICT_VOICE = (process.env.DICT_TTS_VOICE || 'adam').toLowerCase();
+export const DICT_SPEED = process.env.DICT_TTS_SPEED || '1.0';
+export const DICT_FMT = process.env.DICT_TTS_FMT || 'm4a';
+
+const MIME_BY_EXT = { wav: 'audio/wav', m4a: 'audio/mp4', mp4: 'audio/mp4', mp3: 'audio/mpeg', ogg: 'audio/ogg', opus: 'audio/ogg', webm: 'audio/webm' };
+export function audioMime(file) {
+  return MIME_BY_EXT[String(file).split('.').pop().toLowerCase()] || 'application/octet-stream';
+}
+
+/** 与 scripts/gen-dictation-audio-moss.py 的 cache_key() 必须逐字节一致 */
+export function dictRefPathFor(text, opts = {}) {
+  const provider = opts.provider || DICT_PROVIDER;
+  const voice = opts.voice || DICT_VOICE;
+  const speed = opts.speed || DICT_SPEED;
+  const fmt = opts.fmt || DICT_FMT;
+  const key = crypto.createHash('sha256')
+    .update(`${provider}|${voice}|${speed}|${fmt}|${normalizeSentence(text)}`).digest('hex').slice(0, 32);
+  return path.join(config.audioDir, 'dictation', `${key}.${fmt}`);
+}
+
+/**
+ * 取听写音频：外部引擎缓存优先，未命中回落 espeak-ng。
+ * @returns {Promise<{file:string, provider:string, cached:boolean}>}
+ */
+export async function dictationAudio(text) {
+  if (DICT_PROVIDER !== 'espeak') {
+    const file = dictRefPathFor(text);
+    if (fs.existsSync(file) && fs.statSync(file).size > 512) return { file, provider: DICT_PROVIDER, cached: true };
+  }
+  const r = await synthesizeRef(text);
+  return { file: r.file, provider: 'espeak', cached: r.cached };
+}

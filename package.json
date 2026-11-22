@@ -24,7 +24,8 @@
     "dictation:generate": "node scripts/build-dictation-bank.js",
     "dictation:expand": "node scripts/build-dictation-tatoeba.js",
     "dictation:export": "node scripts/export-dictation-seed.js",
-    "dictation:audio": "node scripts/prewarm-dictation-audio.js"
+    "dictation:audio": "node scripts/prewarm-dictation-audio.js",
+    "dictation:audio:moss": "python3 scripts/gen-dictation-audio-moss.py"
   },
   "dependencies": {
     "@fastify/cookie": "^11.1.5",

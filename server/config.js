@@ -56,7 +56,8 @@ export const config = {
 
 export function ensureDirs() {
   for (const d of [config.dataDir, config.uploadDir, config.backupDir,
-                   path.join(config.audioDir, 'shadow'), path.join(config.audioDir, 'student')]) {
+                   path.join(config.audioDir, 'shadow'), path.join(config.audioDir, 'student'),
+                   path.join(config.audioDir, 'dictation')]) {
     fs.mkdirSync(d, { recursive: true });
   }
 }

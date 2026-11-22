@@ -1,11 +1,12 @@
 /**
  * 听写练习：练习接口（全部登录用户）+ 音频 + 句库维护（管理员）。
- * 音频由服务端 espeak-ng 合成并缓存，客户端只拿 URL，避免提前泄露英文原句。
+ * 音频优先取外部引擎（MOSS-TTS-Nano）离线预生成的缓存，缺失时回落 espeak-ng；
+ * 客户端只拿 URL，避免提前泄露英文原句。
  */
 import fs from 'node:fs';
 import { replyXlsx } from './banks.js';
 import { readUpload, parseJsonField } from './import.js';
-import { synthesizeRef } from '../services/tts.js';
+import { dictationAudio, audioMime } from '../services/tts.js';
 import { finishSession } from '../services/practice.js';
 import { dictationPools, createDictationSession, submitDictation } from '../services/dictation.js';
 import {
@@ -34,13 +35,14 @@ export async function dictationRoutes(app) {
   app.post('/api/dictation/sessions/:id/finish', async req =>
     finishSession(db, req.user, Number(req.params.id)));
 
-  // ── 参考音频 ──
+  // ── 参考音频：外部引擎（MOSS-TTS-Nano）预生成优先，缺失回落 espeak-ng ──
   app.get('/api/dictation/audio/:itemId', async (req, reply) => {
     const row = db.prepare(`SELECT sentence_en FROM dictation_item WHERE id=?`).get(Number(req.params.itemId));
     if (!row) return reply.code(404).send({ code: 'not_found', message: '题目不存在' });
-    const { file } = await synthesizeRef(row.sentence_en);
-    reply.header('Content-Type', 'audio/wav');
+    const { file, provider } = await dictationAudio(row.sentence_en);
+    reply.header('Content-Type', audioMime(file));
     reply.header('Cache-Control', 'private, max-age=86400');
+    reply.header('X-TTS-Provider', provider);
     return reply.send(fs.createReadStream(file));
   });
 

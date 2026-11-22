@@ -12,7 +12,7 @@
 - 启动：`npm start`（默认 0.0.0.0:5178）；演示账号 `admin/admin123`、`student/student123`
 - 数据目录 `data/`（words.db、uploads、backups、audio）；schema_version = **6**
 
-## 2. 当前状态（截至 2026-10-31）
+## 2. 当前状态（截至 2026-11-22）
 
 | 项 | 数量 / 状态 |
 |---|---|
@@ -21,7 +21,7 @@
 | 变形填空 | **4118 题**（83 手工 + 36 时政 + 4000 双语语料生成），全部带「句子翻译 + 词义」 |
 | 阅读理解 | **1217 篇 / 4248 题**（17 篇人工整理 + 1200 篇 SQuAD 生成） |
 | 跟读练习 | 词库例句抽句 + 浏览器录音 + ffmpeg 解码 + 音高/节奏/流利度/完整度打分（0–100，无对错，不进统计正确率） |
-| 听写练习 | 音频听写 + 逐词判分（绿对/红错/空槽漏词）+ 首次定分/可重试 + 彩带烟花/抖动音效；句库 8865 句（词库例句 + Tatoeba 英中句对），参考音频已全部预生成（data/audio/shadow，约 1.1GB） |
+| 听写练习 | 音频听写 + 逐词判分（绿对/红错/空槽漏词）+ 首次定分/可重试 + 彩带烟花/抖动音效；句库 8865 句（词库例句 + Tatoeba 英中句对）；**音频改用 MOSS-TTS-Nano 离线预生成**（`data/audio/dictation/*.m4a`，约 220MB），缺文件自动回落 espeak-ng |
 | 练习记录 / 错题 | 服务端判分；错题自动入集，可人工移除/恢复；分题型正确率 |
 | 测试 | `npm test` **41/41** 通过（unit / api / form / reading / shadow / dictation） |
 | 前端 | 18 个页面（含 /shadow、/dictation），`npm run build` 通过（index chunk >500kB 为既有警告） |
@@ -32,15 +32,18 @@
 ```
 server/
   index.js / app.js / config.js
-  db/          连接 + migrations（001_init, 002_transform_fill, 003_reading_mistakes, 004_form_meaning）
-  lib/         auth、password、session、excel（词库模板）、formexcel、readingexcel、parse、wordnet
+  db/          连接 + migrations（001_init, 002_transform_fill, 003_reading_mistakes, 004_form_meaning, 005_shadow, 006_dictation）
+  lib/         auth、password、session、excel（词库模板）、formexcel、readingexcel、dictationexcel、parse、wordnet
   services/    importer、practice（释义填空）、formbank（变形题库）、formpractice、readingbank、readingpractice、
-               mistakes、mastery、stats、shadowscore（跟读评分）、shadowpractice（跟读会话）、tts（espeak-ng 参考音）
-  routes/      auth、banks、import、practice/stats、form、reading、mistakes、shadow
-  seed/        demo-words.csv、pet-words.csv、pet-defs-override.json、form-items*.csv、form-items-cn.json、reading-*.csv、b1-official-words.json
-web/           Vue 前端（views/ 16 个页面；api.js 统一请求；router.js 路由与 admin 守卫）
+                mistakes、mastery、stats、shadowscore（跟读评分）、shadowpractice（跟读会话）、
+                dictation（逐词判分）、dictationbank（听写句库）、tts（espeak-ng 参考音 + 听写外部音频缓存 dictationAudio）
+  routes/      auth、banks、import、practice/stats、form、reading、mistakes、shadow、dictation
+  seed/        demo-words.csv、pet-words.csv、pet-defs-override.json、form-items*.csv、form-items-cn.json、reading-*.csv、dictation-items.csv、b1-official-words.json
+web/           Vue 前端（views/ 18 个页面；api.js 统一请求；router.js 路由与 admin 守卫）
 shared/        topic-taxonomy.js（KET 24 / PET 22 主题、词性枚举）
-scripts/       db-init、seed-demo、build-pet-bank、fill-defs、check-pet-coverage、build-form-items、build-reading-bank
+scripts/       db-init、seed-demo、build-pet-bank、fill-defs、check-pet-coverage、build-form-items、build-reading-bank、
+                build-dictation-bank、build-dictation-tatoeba、export-dictation-seed、prewarm-dictation-audio、
+                gen-dictation-audio-moss.py（MOSS-TTS-Nano 批量生成听写音频）
 test/          unit.test.js、api.test.js、form.test.js、reading.test.js
 docs/          api-contract.md（唯一契约）、roles-and-permissions.md、wordbank-requirements.md、cambridge-topics.md、roadmap.md
 ```
@@ -56,7 +59,9 @@ npm run form:generate    # 用双语语料重建 4000 道变形题（参数见 R
 npm run reading:generate # 用 SQuAD 重建 1200 篇阅读
 npm run defs:fill        # 给缺英文释义的义项回填 WordNet
 npm run shadow:probe     # 跟读评分自检（12 条断言，无需录音设备）
-npm test                 # 36 项测试
+npm run dictation:audio:moss -- --check   # 看听写音频还缺多少句（MOSS-TTS-Nano）
+npm run dictation:audio  # 兜底：espeak-ng 预生成听写 WAV
+npm test                 # 43 项测试
 npm run build            # 前端构建
 npm start                # 启动（0.0.0.0:5178）
 ```
@@ -82,9 +87,19 @@ pgrep -f "node server/index.js" > /tmp/wb.pid
 9. WordNet 解析注意：`data.*` 词数是十六进制、offset 各 POS 文件独立、形容词有 `(p)` 标记（均已处理，见 `server/lib/wordnet.js`）。
 10. `npm test` 与 curl 登录：**不要用 curl 登录做判断**（工具会遮蔽密码导致 401 假象），用 `buildApp({logger:false,dbFile:tmp}) + app.inject`。
 11. 前端只用 `web/api.js`，不新增依赖、不装图标包；`el-radio` 用 `:value`。
-12. 数据库 schema 版本断言在 `test/api.test.js`，迁移新增后要同步（当前 5）。
+12. 数据库 schema 版本断言在 `test/api.test.js`，迁移新增后要同步（当前 6）。
 13. 跟读评分依赖系统 **ffmpeg/ffprobe**（解码与重采样），参考音由 npm 包 `espeak-ng`（WASM）合成，不依赖系统 TTS；
     学生录音与参考音缓存在 `data/audio/`，`shadow.keepAudioDays` 控制保留天数。
+14. **听写音频与跟读评分基准是两套缓存，别混**：跟读 `data/audio/shadow/`（espeak-ng WAV，确定性，是评分的
+    音高/节奏模板，**不能换成神经网络 TTS**，否则历史分数不可比）；听写 `data/audio/dictation/`
+    （MOSS-TTS-Nano AAC，只用于播放，怎么换都行）。
+15. 听写音频缓存键 `sha256("provider|voice|speed|fmt|归一化句子")[:32]` 在
+    `server/services/tts.js` 的 `dictRefPathFor()` 与 `scripts/gen-dictation-audio-moss.py` 的 `cache_key()`
+    **两处各写了一遍**，改任意一处必须同步另一处（`test/dictation.test.js` 有逐字节断言会报警）。
+    生成脚本「文件已存在即跳过」，可反复重跑续传；失败句子记 `data/audio/dictation/gen-failures.jsonl`。
+16. MOSS-TTS-Nano 调用注意：必须传 `enable_wetext=False`（否则缺 `tn` 模块报错）、
+    `--onnx-model-dir` 指向仓库内 `models/MOSS-TTS-Nano-100M-ONNX`（默认路径无写权限）；
+    `--text-file` 会把整个文件当**一句**合成，批量必须逐句调 `OnnxTtsRuntime.synthesize()`。
 
 ## 6. 已知缺口 / 可继续做
 
