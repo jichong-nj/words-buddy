@@ -26,7 +26,8 @@
           <template #default="{ row }">
             {{ row.bankName || (row.mode === 'form_fill' ? '变形题库'
               : row.mode === 'reading' ? '阅读理解题库'
-              : row.mode === 'shadowing' ? '跟读题库' : '—') }}
+              : row.mode === 'shadowing' ? '跟读题库'
+              : row.mode === 'dictation' ? '听写句库' : '—') }}
           </template>
         </el-table-column>
         <el-table-column v-if="auth.isAdmin" prop="username" label="用户" width="110" />

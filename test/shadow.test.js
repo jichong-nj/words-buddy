@@ -157,7 +157,7 @@ async function main() {
 
   // 迁移与表结构
   const ver = db.prepare(`SELECT value FROM app_meta WHERE key='schema_version'`).get().value;
-  assert.equal(Number(ver), 5, `schema_version 应为 5，实际 ${ver}`);
+  assert.equal(Number(ver), 6, `schema_version 应为 6，实际 ${ver}`);
   const cols = db.prepare(`SELECT name FROM pragma_table_info('practice_item')`).all().map(r => r.name);
   for (const c of ['shadow_score', 'shadow_pitch', 'shadow_rhythm', 'shadow_fluency',
     'shadow_completeness', 'shadow_audio_path', 'shadow_off_target', 'shadow_reason']) {

@@ -20,7 +20,11 @@
     "bank:check": "node scripts/check-pet-coverage.js",
     "form:generate": "node scripts/build-form-items.js",
     "reading:generate": "node scripts/build-reading-bank.js",
-    "shadow:probe": "node scripts/probe-shadow-score.js"
+    "shadow:probe": "node scripts/probe-shadow-score.js",
+    "dictation:generate": "node scripts/build-dictation-bank.js",
+    "dictation:expand": "node scripts/build-dictation-tatoeba.js",
+    "dictation:export": "node scripts/export-dictation-seed.js",
+    "dictation:audio": "node scripts/prewarm-dictation-audio.js"
   },
   "dependencies": {
     "@fastify/cookie": "^11.1.5",

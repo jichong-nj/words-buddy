@@ -121,7 +121,8 @@ export function statsByType(db, userId) {
     GROUP BY pi.question_type`).all(userId).map(r => {
     const label = r.type === 'form_fill' ? '变形填空'
       : r.type === 'reading' ? '阅读理解'
-        : r.type === 'definition_fill' ? '释义填空' : r.type;
+        : r.type === 'dictation' ? '听写'
+          : r.type === 'definition_fill' ? '释义填空' : r.type;
     return {
       type: r.type, label, sessions: r.sessions, items: r.items, correct: r.correct,
       accuracy: r.items ? Math.round((r.correct / r.items) * 100) : 0, lastAt: r.lastAt, mistakes: 0,
@@ -131,7 +132,7 @@ export function statsByType(db, userId) {
   const keyMap = { definition_fill: 'definition', form_fill: 'form', reading: 'reading' };
   for (const r of rows) r.mistakes = sum.byType.find(b => b.qtype === keyMap[r.type])?.count || 0;
   // 三种题型固定顺序展示，没做过的补 0
-  const order = [['definition_fill', '释义填空'], ['form_fill', '变形填空'], ['reading', '阅读理解']];
+  const order = [['definition_fill', '释义填空'], ['form_fill', '变形填空'], ['reading', '阅读理解'], ['dictation', '听写']];
   const items = order.map(([type, label]) => rows.find(r => r.type === type)
     || { type, label, sessions: 0, items: 0, correct: 0, accuracy: 0, lastAt: null, mistakes: sum.byType.find(b => b.qtype === keyMap[type])?.count || 0 });
   const totalItems = items.reduce((n, x) => n + x.items, 0);

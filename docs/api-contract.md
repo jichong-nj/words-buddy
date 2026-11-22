@@ -214,7 +214,48 @@
 `{seq,sentence,target,word,sentenceCn,score,pitch,rhythm,fluency,completeness,offTarget,reason,refMs,stuMs,audioPath,answeredAt}`，
 未打分题 `score=null` 且带 `reason`。学生录音保留 `shadow.keepAudioDays` 天，过期由 `pruneShadowAudio` 清理并置空 `audioPath`。
 
-## 10 错题集
+## 10 听写练习（dictation）
+
+学生听一句英文音频，凭「中文意思 + 听音」默写整句；逐词判分、可重试，首次提交定对错。
+
+### 10.1 练习（全部登录用户）
+
+| 方法 | 路径 | 说明 |
+|---|---|---|
+| GET | `/api/dictation/pools` | `{total,mode:"dictation",analysisAttempts:3,byLevel:[{level,count}],byTopic:[{topic,count}]}` |
+| POST | `/api/dictation/sessions` | `{count=10,levels?[],topics?[],excludeRecentDays?}` → `{sessionId,mode,total,analysisAttempts,questions:[{seq,prompt(中文),wordCount,level,topic,audio}]}`；**不含英文原句**，音频走 `audio` URL |
+| POST | `/api/dictation/sessions/:id/submit` | `{seq,given,latencyMs?}` → `{seq,correct,diff:[{status,expected,got}],attempts,firstCorrect,unlockedAnswer,reveal}` |
+| POST | `/api/dictation/sessions/:id/finish` | `{}` → `{sessionId,total,correct(首次答对题数),score,durationMs}` |
+| GET | `/api/dictation/audio/:itemId` | 服务端 espeak-ng 合成的 `audio/wav`（缓存），需登录 |
+
+判分规则：
+- 归一化：转小写、去标点、合并空白，按词切分
+- `diff.status`：`correct` 对 / `wrong` 写错 / `missing` 漏词 / `extra` 多词；`wrong` 只回显学生写的词（`got`），不泄露正确答案
+- **首次提交**写 `is_correct`/`first_correct`（统计口径）；之后重试只累加 `attempts`，不改统计
+- `correct=true` 或 `attempts>=analysisAttempts(3)` 时 `reveal` 才有值：`{sentence,sentenceCn,tokens:[{w,pos,ipa,cn}],grammarLabel,analysis}`
+
+### 10.2 句库维护（仅管理员）
+
+| 方法 | 路径 | 说明 |
+|---|---|---|
+| GET | `/api/dictation/items?q=&level=&topic=&needs=0\|1&page=&size=` | `{total,page,size,items:[{id,sentenceEn,sentenceCn,level,topic,tags,source,grammarLabel,analysis,needsReview,...}]}` |
+| GET | `/api/dictation/items/:id` | 单条（含 `tokens`） |
+| POST | `/api/dictation/items` | `{sentenceEn,sentenceCn,level?,topic?,tags?,source?,grammarLabel?,analysis?,tokens?:[{w,pos,ipa,cn}]}` |
+| PUT | `/api/dictation/items/:id` | 同上（可部分） |
+| DELETE | `/api/dictation/items/:id` | `{ok:true}` |
+| POST | `/api/dictation/items/batch-delete` | `{ids:[]}` → `{deleted}` |
+| GET | `/api/dictation/template` / `/api/dictation/export.xlsx` | 模板下载 / 题库导出 |
+| POST | `/api/dictation/import` | multipart：`file`,`dryRun`(1/0),`onDuplicate`(skip\|overwrite),`sheet?`,`headerRow?` → `{stats,errors,rows,headers,map}` |
+
+导入列：`句子`(必填)、`中文`(必填)、`等级`、`主题`、`标签`、`来源`、`语法`、`解析`、`逐词`(JSON，可选)。
+
+### 10.3 记录
+
+`GET /api/practice/sessions/:id` 在 `mode==='dictation'` 时 `items` 为：
+`{seq,sentenceCn,sentence,given,isCorrect,firstCorrect,diff[],attempts,latencyMs,answeredAt,itemId}`。
+听写场次在记录列表里 `correct` = 首次答对题数，`score` = 首次正确率。
+
+## 11 错题集
 
 答错自动入集；答对只累加 `right_count`（不会把没错过的题加进来）；人工可移出/恢复。
 
@@ -232,7 +273,7 @@
 - form：`{prompt,base,answer,point,explain,sentenceCn,wordCn}`
 - reading：`{passageTitle,passageText,stem,options,answerIndex,answerText,explain}`
 
-## 11 统计与掌握度
+## 12 统计与掌握度
 
 | 方法 | 路径 | 角色 | 说明 |
 |---|---|---|---|
@@ -243,7 +284,7 @@
 | GET | `/api/stats/daily?days=30` | 全部 | `{items:[{day,answered,correct,accuracy}]}`，补零到连续 N 天 |
 | GET | `/api/stats/words/:wordId` | 全部 | `{word:{id,word,bankId,bankName,topic,tags,phoneticUk,phoneticUs},senses:[...],mastery:{attempts,correct,score,band,streak,lastAt}\|null,items:[{seq,given,isCorrect,stem,answeredAt,sessionId,latencyMs}]}` |
 | POST | `/api/stats/recompute` | admin | 全量重算掌握度 → `{updated}` |
-| GET | `/api/stats/by-type` | 全部 | 分题型统计 `{items:[{type,label,sessions,items,correct,accuracy,lastAt,mistakes}],total:{items,correct,accuracy,mistakes}}`；type 为 definition_fill / form_fill / reading |
+| GET | `/api/stats/by-type` | 全部 | 分题型统计 `{items:[{type,label,sessions,items,correct,accuracy,lastAt,mistakes}],total:{items,correct,accuracy,mistakes}}`；type 为 definition_fill / form_fill / reading / dictation |
 
 `GET /api/practice/sessions` 支持 `?mode=`（definition_fill / form_fill / reading / shadowing）过滤，返回项含 `mode`。
 跟读场次在列表里 `correct` 表示已录音题数、`score` 表示平均分。
@@ -251,10 +292,10 @@
 查询参数统一叫 `bank`（词库 id），不是 `bankId`。
 掌握度档位：`new`(未接触) < `weak` < `fuzzy` < `known` < `mastered`；分值 0–100，指数加权。
 
-## 12 前端路由
+## 13 前端路由
 
 `/login` `/setup` `/banks` `/banks/:id` `/banks/:id/import` `/batches`
-`/practice` `/transform` `/reading` `/shadow` `/records` `/records/:id` `/stats` `/mistakes` `/users`
-`/transform/bank` `/reading/bank`（仅管理员：变形题库 / 阅读理解题库维护）
+`/practice` `/transform` `/reading` `/shadow` `/dictation` `/records` `/records/:id` `/stats` `/mistakes` `/users`
+`/transform/bank` `/reading/bank` `/dictation/bank`（仅管理员：对应题库维护）
 
 未登录只能进 `/login` `/setup`。侧边栏按角色裁剪。

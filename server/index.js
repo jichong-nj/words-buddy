@@ -5,7 +5,7 @@ import { buildApp } from './app.js';
 import { config, ensureDirs } from './config.js';
 import { hashPassword } from './lib/password.js';
 import { cleanupSessions } from './lib/session.js';
-import { seedDemoData, seedDemoUsers, seedFormData, seedReadingData } from '../scripts/seed-demo.js';
+import { seedDemoData, seedDemoUsers, seedFormData, seedReadingData, seedDictationData } from '../scripts/seed-demo.js';
 import { pruneShadowAudio } from './services/shadowpractice.js';
 
 async function main() {
@@ -39,6 +39,11 @@ async function main() {
     if (readingCount === 0) {
       const r = await seedReadingData(app.db);
       app.log.info(r, '已导入阅读理解内置题库');
+    }
+    const dictationCount = app.db.prepare(`SELECT COUNT(*) AS c FROM dictation_item`).get().c;
+    if (dictationCount === 0) {
+      const r = await seedDictationData(app.db);
+      app.log.info(r, '已导入听写句库');
     }
   }
 

@@ -28,6 +28,7 @@ export const MODE_LABELS = {
   form_fill: '变形填空',
   reading: '阅读理解',
   shadowing: '跟读练习',
+  dictation: '听写',
 };
 
 export const MODE_TAGS = {
@@ -35,6 +36,7 @@ export const MODE_TAGS = {
   form_fill: 'warning',
   reading: 'success',
   shadowing: 'info',
+  dictation: 'danger',
 };
 
 export function modeLabel(m) {

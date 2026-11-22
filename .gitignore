@@ -14,6 +14,9 @@ cmn_sentences.tsv.bz2
 eng_sentences.tsv.bz2
 squad-*.json
 
+# 本地私有素材（个人录音的转写结果，与题库无关，不入库）
+trans_out/
+
 # 本地环境与日志
 .env
 .env.*

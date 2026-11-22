@@ -16,6 +16,7 @@ import { practiceRoutes, statsRoutes } from './routes/practice.js';
 import { formRoutes } from './routes/form.js';
 import { readingRoutes } from './routes/reading.js';
 import { shadowRoutes } from './routes/shadow.js';
+import { dictationRoutes } from './routes/dictation.js';
 import { mistakeRoutes } from './routes/mistakes.js';
 
 export async function buildApp(opts = {}) {
@@ -68,6 +69,7 @@ export async function buildApp(opts = {}) {
   await app.register(formRoutes);
   await app.register(readingRoutes);
   await app.register(shadowRoutes);
+  await app.register(dictationRoutes);
   await app.register(mistakeRoutes);
 
   // 前端产物：存在则托管并做 SPA fallback，不存在时给出构建提示

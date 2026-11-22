@@ -214,7 +214,7 @@ test('接口：阅读理解导入 → 练习判分 → 错题集与分题型统�
   assert.equal(reading.items, sess.total);
   assert.equal(reading.sessions, 1);
   assert.ok(reading.accuracy >= 0 && reading.accuracy <= 100);
-  assert.equal(byType.items.length, 3);
+  assert.equal(byType.items.length, 4);
 
   // 学生权限：不能维护题库，但能练习和看自己的错题集
   res = await call('POST', '/api/users', { cookie: admin, payload: { username: 'stu', password: 'Student123!', role: 'student' } });

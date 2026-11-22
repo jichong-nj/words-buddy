@@ -6,10 +6,12 @@
         <div class="meta" v-if="session">
           {{ session.bankName || (session.mode === 'form_fill' ? '变形题库'
             : session.mode === 'reading' ? '阅读理解题库'
-            : session.mode === 'shadowing' ? '跟读题库' : '') }}
+            : session.mode === 'shadowing' ? '跟读题库'
+            : session.mode === 'dictation' ? '听写句库' : '') }}
           <template v-if="session.mode === 'form_fill'">[变形填空] </template>
           <template v-else-if="session.mode === 'reading'">[阅读理解] </template>
           <template v-else-if="session.mode === 'shadowing'">[跟读练习] </template>
+          <template v-else-if="session.mode === 'dictation'">[听写练习] </template>
           <template v-if="session.mode === 'shadowing'">· 平均分 <b>{{ session.score }}</b>（已录音 {{ session.correct }}/{{ session.total }} 句）</template>
           <template v-else>· 得分 <b>{{ session.score }}</b>（{{ session.correct }}/{{ session.total }}）</template>
           · {{ session.startedAt }}
@@ -56,6 +58,37 @@
           </el-table>
         </div>
       </div>
+      <el-table v-else-if="session && session.mode === 'dictation'" :data="items" :row-class-name="rowClass"
+                empty-text="本次练习没有作答记录">
+        <el-table-column prop="seq" label="#" width="55" />
+        <el-table-column label="中文提示" min-width="170" show-overflow-tooltip>
+          <template #default="{ row }">{{ row.sentenceCn || '—' }}</template>
+        </el-table-column>
+        <el-table-column label="你的输入" min-width="220" show-overflow-tooltip>
+          <template #default="{ row }">
+            <span :class="row.isCorrect === 0 ? 'bad' : ''">{{ row.given || '（未作答）' }}</span>
+          </template>
+        </el-table-column>
+        <el-table-column label="正确句子" min-width="240" show-overflow-tooltip>
+          <template #default="{ row }">{{ row.sentence || '—' }}</template>
+        </el-table-column>
+        <el-table-column label="尝试次数" width="90">
+          <template #default="{ row }">{{ row.attempts || '—' }}</template>
+        </el-table-column>
+        <el-table-column label="逐词对比" min-width="250">
+          <template #default="{ row }">
+            <DiffWords v-if="row.diff && row.diff.length" :diff="row.diff" />
+            <span v-else class="muted">—</span>
+          </template>
+        </el-table-column>
+        <el-table-column label="结果" width="90">
+          <template #default="{ row }">
+            <el-tag v-if="row.isCorrect === 1 || row.isCorrect === true" type="success" size="small">对</el-tag>
+            <el-tag v-else-if="row.isCorrect === 0 || row.isCorrect === false" type="danger" size="small">错</el-tag>
+            <span v-else class="muted">未作答</span>
+          </template>
+        </el-table-column>
+      </el-table>
       <el-table v-else-if="session && session.mode === 'form_fill'" :data="items" :row-class-name="rowClass"
                 empty-text="本次练习没有作答记录">
         <el-table-column prop="seq" label="#" width="55" />
@@ -163,6 +196,7 @@ import { ref, computed, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { api } from '../api.js';
 import { fmtSec, shadowFailText } from '../utils.js';
+import DiffWords from '../components/DiffWords.vue';
 
 const route = useRoute();
 const id = route.params.id;
@@ -209,6 +243,11 @@ function audioUrl(seq) {
 
 function rowClass({ row }) {
   if (session.value?.mode === 'shadowing') return row.score === null ? 'row-bad' : '';
+  if (session.value?.mode === 'dictation') {
+    if (row.isCorrect === 1 || row.isCorrect === true) return '';
+    if (row.isCorrect === 0 || row.isCorrect === false) return 'row-bad';
+    return '';
+  }
   return row.isCorrect ? '' : 'row-bad';
 }
 

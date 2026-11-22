@@ -12,6 +12,7 @@ import { hashPassword } from '../server/lib/password.js';
 import { previewImport, commitImport } from '../server/services/importer.js';
 import { seedFormItems, importFormItems } from '../server/services/formbank.js';
 import { seedReading, importReading } from '../server/services/readingbank.js';
+import { importDictation } from '../server/services/dictationbank.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const DEMO_CSV = path.join(__dirname, '..', 'server', 'seed', 'demo-words.csv');
@@ -19,6 +20,8 @@ export const FORM_CSV = path.join(__dirname, '..', 'server', 'seed', 'form-items
 export const FORM_NEWS_CSV = path.join(__dirname, '..', 'server', 'seed', 'form-items-news.csv');
 export const FORM_PET_CSV = path.join(__dirname, '..', 'server', 'seed', 'form-items-pet.csv');
 export const READING_CSV = path.join(__dirname, '..', 'server', 'seed', 'reading-passages.csv');
+export const DICTATION_CSV = path.join(__dirname, '..', 'server', 'seed', 'dictation-items.csv');
+export const DICTATION_TATOEBA_CSV = path.join(__dirname, '..', 'server', 'seed', 'dictation-tatoeba.csv');
 export const READING_SQUAD_CSV = path.join(__dirname, '..', 'server', 'seed', 'reading-squad.csv');
 export const DEMO_BANK_NAME = '示例词库 · KET 60 词';
 
@@ -85,6 +88,15 @@ export async function seedReadingData(db) {
   return result;
 }
 
+/** 听写句库（表为空才写，幂等） */
+export async function seedDictationData(db) {
+  const count = db.prepare(`SELECT COUNT(*) AS c FROM dictation_item`).get().c;
+  if (count > 0) return { skipped: true, count };
+  if (!fs.existsSync(DICTATION_CSV)) return { skipped: true, count: 0 };
+  const r = await importDictation(db, { buffer: fs.readFileSync(DICTATION_CSV), filename: 'dictation-items.csv', onDuplicate: 'skip' });
+  return { skipped: false, inserted: r.stats.inserted, skipped2: r.stats.skipped, errorRows: r.stats.errorRows };
+}
+
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   ensureDirs();
   const db = openDb(config.dbFile);
@@ -93,9 +105,11 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const bank = await seedDemoData(db);
   const form = await seedFormData(db);
   const reading = await seedReadingData(db);
+  const dictation = await seedDictationData(db);
   console.log('演示账号：', users.length ? users.map(u => `${u.username}/${u.password}`).join('  ') : '（已存在，未重复创建）');
   console.log('示例词库：', bank.skipped ? '（已存在，未重复导入）' : JSON.stringify(bank));
   console.log('变形填空题库：', form.skipped ? `（已存在 ${form.count} 题，未重复导入）` : JSON.stringify(form));
   console.log('阅读理解题库：', reading.skipped ? `（已存在 ${reading.passages} 篇，未重复导入）` : JSON.stringify(reading));
+  console.log('听写句库：', dictation.skipped ? `（已存在 ${dictation.count} 句，未重复导入）` : JSON.stringify(dictation));
   db.close();
 }
