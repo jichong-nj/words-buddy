@@ -100,6 +100,11 @@ pgrep -f "node server/index.js" > /tmp/wb.pid
 16. MOSS-TTS-Nano 调用注意：必须传 `enable_wetext=False`（否则缺 `tn` 模块报错）、
     `--onnx-model-dir` 指向仓库内 `models/MOSS-TTS-Nano-100M-ONNX`（默认路径无写权限）；
     `--text-file` 会把整个文件当**一句**合成，批量必须逐句调 `OnnxTtsRuntime.synthesize()`。
+17. **听写音频已入库分发**（`data/audio/dictation/` 8865 个 m4a / 约 212 MB），`.gitignore` 对 `data/`
+    是精确白名单：`data/*` → `!data/audio/` → `data/audio/*` → `!data/audio/dictation/`。
+    `words.db`、`data/audio/student/`（学生录音）、`data/audio/shadow/` 必须保持排除；
+    改这段规则先跑 `git check-ignore -v data/words.db data/audio/student data/audio/shadow` 验证，
+    再 `git add`，最后核对 `git diff --cached --name-only | grep -v '^data/audio/dictation/'` 只剩预期文件。
 
 ## 6. 已知缺口 / 可继续做
 

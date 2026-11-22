@@ -213,7 +213,9 @@ npm run seed:demo            # 空库首次写入（含听写句库）
 
 ### 听写音频引擎（MOSS-TTS-Nano）
 
-听写音频全部**离线预生成**，运行时不调用引擎、不联网、不需要任何密钥：
+听写音频全部**离线预生成**，运行时不调用引擎、不联网、不需要任何密钥。
+**成品已随仓库分发**（`data/audio/dictation/` 8865 个 m4a / 约 212 MB），clone 下来就能直接播放，
+不必先跑生成脚本；只有新增句子或换音色时才需要重跑。
 
 | 环境变量 | 默认 | 说明 |
 | --- | --- | --- |
@@ -233,6 +235,10 @@ for k in 0 1 2; do python3 scripts/gen-dictation-audio-moss.py --shard $k/3 --th
 与 `server/services/tts.js` 的 `dictRefPathFor()` 逐字节一致（`test/dictation.test.js` 有单测把守）。
 换音色/语速等于换一批缓存键，旧文件不会被覆盖；回滚只需设 `DICT_TTS_PROVIDER=espeak`。
 脚本已存在即跳过（可断点续跑），失败句子记在 `data/audio/dictation/gen-failures.jsonl`。
+
+> ⚠️ `.gitignore` 对 `data/` 用的是**精确白名单**：`data/*` 全忽略，只放行 `data/audio/dictation/`。
+> `data/words.db`（账号密码哈希）、`data/audio/student/`（学生录音）、`data/audio/shadow/`（跟读参考音）
+> 必须保持排除。改这段规则后务必先 `git check-ignore -v data/words.db data/audio/student` 验证再提交。
 
 > 跟读练习**不用** MOSS：它的参考音是评分的节奏/音高模板，必须确定性可复现，所以继续用 espeak-ng。
 
