@@ -3,8 +3,16 @@ node_modules/
 dist/
 .npm-cache/
 
-# 运行期数据（SQLite、上传的原始文件、备份）
-data/
+# 运行期数据：SQLite、上传原始文件、备份、学生录音、跟读参考音——一律不入库。
+# 唯一例外是听写音频 data/audio/dictation/（已预生成，随仓库分发，clone 即用）。
+# 注意：negation 依赖父目录未被排除，改这里务必用 git check-ignore 验证，
+# 误放行会把 words.db（账号密码哈希）和 data/audio/student/（学生录音）推到公开仓库。
+data/*
+!data/audio/
+data/audio/*
+!data/audio/dictation/
+data/audio/dictation/gen-failures.jsonl
+data/audio/dictation/.tmp/
 
 # 生成的导入文件（可用 npm run bank:pet 重新生成）
 server/seed/pet-bank-import.csv
